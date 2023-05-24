@@ -28,6 +28,7 @@ void Main()
 
         if (adc_finished)
         {
+            Adc.read();
             advanced_measure.init(Adc).filter(FIR);
             advanced_measure.read();
             advanced_measure.apply_windows().fft();
