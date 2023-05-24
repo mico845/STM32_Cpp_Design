@@ -3,120 +3,39 @@
 //
 #include "common_inc.h"
 
+My_Adc Adc(&hadc1 , &htim2);
+My_Dac Dac(&hdac, Dac_Channel_1, &htim8);
+My_Dac Dac2(&hdac, Dac_Channel_2, &htim8);
+My_Pwm Pwm(&htim3, TIM_CHANNEL_1);
+AdvancedMeasure advanced_measure;
+PwmMeasure pm(&htim9, TIM_CHANNEL_1);
+
 void Main()
 {
-    //------------- 初始化
     Init();
-    //------------- show
-    gui_frame(CYAN);
-    gui_clear_frame(LGRAY);
 
-    //------------- DAC
-    pwm_out(&htim3, TIM_CHANNEL_1, 1050);
-    dac_set(WAVEFORM_SINE, 0, 3300, CHANNEL_2);
-    dac_set(WAVEFORM_TRIANGLE, 0, 3300, CHANNEL_1);
-    dac_out(10000);
+    Pwm.init(1000, 72000000);
+    Pwm.start();
+    WaveformProperties wave (Waveform_Sine, 3300, 0);
+    Dac.init(2000, 144000000, wave).start();
+    wave.set_type(Waveform_Triangle);
+    Dac2.init(1000, 144000000, wave).start();
+    pm.init(1000000, 144000000);
+    Adc.init(102400, 72000000).start();
+    for (;;) {
+        //pm.start();
 
-    //--------------Delay
-    delay_ms(1000);
-
-    //-------------- ADC
-    adc_start_auto(&hadc1, auto_samplerate);
-
-    //-------------- PWM input
-    char text[] = "[ Running ]";
-    lcd_show_string_config((LCD_WIDTH - 80) - 25+7,  2 + 10, 8 * sizeof (text), 16, LCD_FONTSIZE_1206, text, GREEN, LCD_MODE_BACKFILLED);
-
-
-    u8 pause = 0;
-
-    u8 key_value;
-    KEY_MODE key_state = KEY_MODE_NO_CONTINUE;
-
-    for (;;)
-    {
-        //-----------PWM检测
-        pwm_input(&htim9, TIM_CHANNEL_1, 1000000, .fclk = 144000000);
-
-        //-----------按钮调制
-        key_value = key_scan(key_state);
-
-        switch (key_value) {
-            case KEY0_PRES : {
-                delay_ms(20);
-                key_state = KEY_MODE_CONTINUE;
-                if (auto_samplerate <= (40000))
-                {
-                    auto_samplerate += 1000;
-                }
-
-                else if (auto_samplerate <= (2400000 - 10000))
-                {
-                    auto_samplerate += 10000;
-                }
-
-                adc_stop(&hadc1);
-                adc_start_auto(&hadc1, auto_samplerate);
-                delay_ms(20);
-            }break;
-            case KEY1_PRES :
-            {
-                delay_ms(20);
-                key_state = KEY_MODE_CONTINUE;
-                if (auto_samplerate >= 20000)
-                {
-                    auto_samplerate -= 10000;
-                }
-
-                else if (auto_samplerate > 1000)
-                {
-                    auto_samplerate -= 1000;
-
-                }
-
-                adc_stop(&hadc1);
-                adc_start_auto(&hadc1, auto_samplerate);
-                delay_ms(20);
-            }break;
-            case KEY_UP_PRES:
-            {
-                key_state = KEY_MODE_NO_CONTINUE;
-                delay_ms(20);
-                if (pause)
-                {
-                    pause = 0;
-
-                    sprintf(text, "[ Running ]");
-
-                    lcd_show_string_config((LCD_WIDTH - 80) - 25+7,  2 + 10, 8 * sizeof (text), 16, LCD_FONTSIZE_1206, text, GREEN, LCD_MODE_BACKFILLED);
-
-                    adc_start_auto(&hadc1, auto_samplerate);
-                }
-                else
-                {
-                    pause = 1;
-
-                    sprintf(text, "[ STOP ]   ");
-
-                    lcd_show_string_config((LCD_WIDTH - 80) - 25+7,  2 + 10, 8 * sizeof (text), 16, LCD_FONTSIZE_1206, text, RED, LCD_MODE_BACKFILLED);
-
-                }
-                delay_ms(20);
-            }break;
-        }
-
-
-        //-----------ADC 捕获处理
-#if 1
-        if (adc_dma_finished)
+        if (adc_finished)
         {
-            adc_dma_finished = false;
-            adc_process();
-            if (!pause)
-                adc_start_auto(&hadc1, auto_samplerate);
+            advanced_measure.init(Adc).filter(FIR);
+            advanced_measure.read();
+            advanced_measure.apply_windows().fft();
+            printf("freq: %f\n", advanced_measure.get_freq());
+            adc_finished = false;
+           // Adc.start();
         }
 
-#endif
     }
+
 }
 

@@ -1,3 +1,3 @@
-C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir
-C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/cmake-build-default/CMakeFiles/edit_cache.dir
-C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/cmake-build-default/CMakeFiles/rebuild_cache.dir
+C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir
+C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/cmake-build-default/CMakeFiles/edit_cache.dir
+C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/cmake-build-default/CMakeFiles/rebuild_cache.dir

@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope
+# Install script for directory: C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/cmake-build-default/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/cmake-build-default/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

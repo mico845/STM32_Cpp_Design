@@ -1,5 +1,5 @@
-"C:\Program Files\JetBrains\CLion 2020.3.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_MAKE_PROGRAM=C:/MinGW/bin/mingw32-make.exe -DCMAKE_C_COMPILER=C:/MinGW/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe -DCMAKE_CXX_COMPILER=C:/MinGW/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-g++.exe -G "CodeBlocks - MinGW Makefiles" C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope
+"C:\Program Files\JetBrains\CLion 2020.3.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_MAKE_PROGRAM=C:/MinGW/bin/mingw32-make.exe -DCMAKE_C_COMPILER=C:/MinGW/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe -DCMAKE_CXX_COMPILER=C:/MinGW/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-g++.exe -G "CodeBlocks - MinGW Makefiles" C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main
 -- Minimal optimization, debug info included
 -- Configuring done
 -- Generating done
--- Build files have been written to: C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/cmake-build-default
+-- Build files have been written to: C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/cmake-build-default

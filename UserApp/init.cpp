@@ -11,7 +11,7 @@ void Init()
     lcd_init();
     painter.size = LCD_FONTSIZE_1608;
     lcd_clear();
-    start_demos();
+    //start_demos();
     painter.back_color= GRAY;
     painter.color = BROWN;
     painter.mode = LCD_MODE_NO_BACKFILLED;

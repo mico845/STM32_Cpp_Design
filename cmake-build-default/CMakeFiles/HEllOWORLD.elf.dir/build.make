@@ -62,10 +62,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.3.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope
+CMAKE_SOURCE_DIR = C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\cmake-build-default
+CMAKE_BINARY_DIR = C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default
 
 # Include any dependencies generated for this target.
 include CMakeFiles/HEllOWORLD.elf.dir/depend.make
@@ -78,931 +78,970 @@ include CMakeFiles/HEllOWORLD.elf.dir/flags.make
 
 CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/BasicMathFunctions/BasicMathFunctions.c.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
 CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/BasicMathFunctions/BasicMathFunctions.c.obj: ../ARM_DSP/Source/BasicMathFunctions/BasicMathFunctions.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/BasicMathFunctions/BasicMathFunctions.c.obj"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\BasicMathFunctions\BasicMathFunctions.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\ARM_DSP\Source\BasicMathFunctions\BasicMathFunctions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/BasicMathFunctions/BasicMathFunctions.c.obj"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\BasicMathFunctions\BasicMathFunctions.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\ARM_DSP\Source\BasicMathFunctions\BasicMathFunctions.c
 
 CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/BasicMathFunctions/BasicMathFunctions.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/BasicMathFunctions/BasicMathFunctions.c.i"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\ARM_DSP\Source\BasicMathFunctions\BasicMathFunctions.c > CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\BasicMathFunctions\BasicMathFunctions.c.i
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\ARM_DSP\Source\BasicMathFunctions\BasicMathFunctions.c > CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\BasicMathFunctions\BasicMathFunctions.c.i
 
 CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/BasicMathFunctions/BasicMathFunctions.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/BasicMathFunctions/BasicMathFunctions.c.s"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\ARM_DSP\Source\BasicMathFunctions\BasicMathFunctions.c -o CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\BasicMathFunctions\BasicMathFunctions.c.s
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\ARM_DSP\Source\BasicMathFunctions\BasicMathFunctions.c -o CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\BasicMathFunctions\BasicMathFunctions.c.s
 
 CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/BayesFunctions/BayesFunctions.c.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
 CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/BayesFunctions/BayesFunctions.c.obj: ../ARM_DSP/Source/BayesFunctions/BayesFunctions.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/BayesFunctions/BayesFunctions.c.obj"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\BayesFunctions\BayesFunctions.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\ARM_DSP\Source\BayesFunctions\BayesFunctions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/BayesFunctions/BayesFunctions.c.obj"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\BayesFunctions\BayesFunctions.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\ARM_DSP\Source\BayesFunctions\BayesFunctions.c
 
 CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/BayesFunctions/BayesFunctions.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/BayesFunctions/BayesFunctions.c.i"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\ARM_DSP\Source\BayesFunctions\BayesFunctions.c > CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\BayesFunctions\BayesFunctions.c.i
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\ARM_DSP\Source\BayesFunctions\BayesFunctions.c > CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\BayesFunctions\BayesFunctions.c.i
 
 CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/BayesFunctions/BayesFunctions.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/BayesFunctions/BayesFunctions.c.s"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\ARM_DSP\Source\BayesFunctions\BayesFunctions.c -o CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\BayesFunctions\BayesFunctions.c.s
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\ARM_DSP\Source\BayesFunctions\BayesFunctions.c -o CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\BayesFunctions\BayesFunctions.c.s
 
 CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/CommonTables/CommonTables.c.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
 CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/CommonTables/CommonTables.c.obj: ../ARM_DSP/Source/CommonTables/CommonTables.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/CommonTables/CommonTables.c.obj"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\CommonTables\CommonTables.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\ARM_DSP\Source\CommonTables\CommonTables.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/CommonTables/CommonTables.c.obj"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\CommonTables\CommonTables.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\ARM_DSP\Source\CommonTables\CommonTables.c
 
 CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/CommonTables/CommonTables.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/CommonTables/CommonTables.c.i"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\ARM_DSP\Source\CommonTables\CommonTables.c > CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\CommonTables\CommonTables.c.i
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\ARM_DSP\Source\CommonTables\CommonTables.c > CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\CommonTables\CommonTables.c.i
 
 CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/CommonTables/CommonTables.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/CommonTables/CommonTables.c.s"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\ARM_DSP\Source\CommonTables\CommonTables.c -o CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\CommonTables\CommonTables.c.s
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\ARM_DSP\Source\CommonTables\CommonTables.c -o CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\CommonTables\CommonTables.c.s
 
 CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/ComplexMathFunctions/ComplexMathFunctions.c.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
 CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/ComplexMathFunctions/ComplexMathFunctions.c.obj: ../ARM_DSP/Source/ComplexMathFunctions/ComplexMathFunctions.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/ComplexMathFunctions/ComplexMathFunctions.c.obj"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\ComplexMathFunctions\ComplexMathFunctions.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\ARM_DSP\Source\ComplexMathFunctions\ComplexMathFunctions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/ComplexMathFunctions/ComplexMathFunctions.c.obj"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\ComplexMathFunctions\ComplexMathFunctions.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\ARM_DSP\Source\ComplexMathFunctions\ComplexMathFunctions.c
 
 CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/ComplexMathFunctions/ComplexMathFunctions.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/ComplexMathFunctions/ComplexMathFunctions.c.i"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\ARM_DSP\Source\ComplexMathFunctions\ComplexMathFunctions.c > CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\ComplexMathFunctions\ComplexMathFunctions.c.i
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\ARM_DSP\Source\ComplexMathFunctions\ComplexMathFunctions.c > CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\ComplexMathFunctions\ComplexMathFunctions.c.i
 
 CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/ComplexMathFunctions/ComplexMathFunctions.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/ComplexMathFunctions/ComplexMathFunctions.c.s"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\ARM_DSP\Source\ComplexMathFunctions\ComplexMathFunctions.c -o CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\ComplexMathFunctions\ComplexMathFunctions.c.s
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\ARM_DSP\Source\ComplexMathFunctions\ComplexMathFunctions.c -o CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\ComplexMathFunctions\ComplexMathFunctions.c.s
 
 CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/ControllerFunctions/ControllerFunctions.c.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
 CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/ControllerFunctions/ControllerFunctions.c.obj: ../ARM_DSP/Source/ControllerFunctions/ControllerFunctions.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/ControllerFunctions/ControllerFunctions.c.obj"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\ControllerFunctions\ControllerFunctions.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\ARM_DSP\Source\ControllerFunctions\ControllerFunctions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/ControllerFunctions/ControllerFunctions.c.obj"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\ControllerFunctions\ControllerFunctions.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\ARM_DSP\Source\ControllerFunctions\ControllerFunctions.c
 
 CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/ControllerFunctions/ControllerFunctions.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/ControllerFunctions/ControllerFunctions.c.i"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\ARM_DSP\Source\ControllerFunctions\ControllerFunctions.c > CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\ControllerFunctions\ControllerFunctions.c.i
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\ARM_DSP\Source\ControllerFunctions\ControllerFunctions.c > CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\ControllerFunctions\ControllerFunctions.c.i
 
 CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/ControllerFunctions/ControllerFunctions.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/ControllerFunctions/ControllerFunctions.c.s"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\ARM_DSP\Source\ControllerFunctions\ControllerFunctions.c -o CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\ControllerFunctions\ControllerFunctions.c.s
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\ARM_DSP\Source\ControllerFunctions\ControllerFunctions.c -o CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\ControllerFunctions\ControllerFunctions.c.s
 
 CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/DistanceFunctions/DistanceFunctions.c.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
 CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/DistanceFunctions/DistanceFunctions.c.obj: ../ARM_DSP/Source/DistanceFunctions/DistanceFunctions.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/DistanceFunctions/DistanceFunctions.c.obj"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\DistanceFunctions\DistanceFunctions.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\ARM_DSP\Source\DistanceFunctions\DistanceFunctions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/DistanceFunctions/DistanceFunctions.c.obj"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\DistanceFunctions\DistanceFunctions.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\ARM_DSP\Source\DistanceFunctions\DistanceFunctions.c
 
 CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/DistanceFunctions/DistanceFunctions.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/DistanceFunctions/DistanceFunctions.c.i"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\ARM_DSP\Source\DistanceFunctions\DistanceFunctions.c > CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\DistanceFunctions\DistanceFunctions.c.i
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\ARM_DSP\Source\DistanceFunctions\DistanceFunctions.c > CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\DistanceFunctions\DistanceFunctions.c.i
 
 CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/DistanceFunctions/DistanceFunctions.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/DistanceFunctions/DistanceFunctions.c.s"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\ARM_DSP\Source\DistanceFunctions\DistanceFunctions.c -o CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\DistanceFunctions\DistanceFunctions.c.s
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\ARM_DSP\Source\DistanceFunctions\DistanceFunctions.c -o CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\DistanceFunctions\DistanceFunctions.c.s
 
 CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/FastMathFunctions/FastMathFunctions.c.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
 CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/FastMathFunctions/FastMathFunctions.c.obj: ../ARM_DSP/Source/FastMathFunctions/FastMathFunctions.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/FastMathFunctions/FastMathFunctions.c.obj"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\FastMathFunctions\FastMathFunctions.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\ARM_DSP\Source\FastMathFunctions\FastMathFunctions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/FastMathFunctions/FastMathFunctions.c.obj"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\FastMathFunctions\FastMathFunctions.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\ARM_DSP\Source\FastMathFunctions\FastMathFunctions.c
 
 CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/FastMathFunctions/FastMathFunctions.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/FastMathFunctions/FastMathFunctions.c.i"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\ARM_DSP\Source\FastMathFunctions\FastMathFunctions.c > CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\FastMathFunctions\FastMathFunctions.c.i
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\ARM_DSP\Source\FastMathFunctions\FastMathFunctions.c > CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\FastMathFunctions\FastMathFunctions.c.i
 
 CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/FastMathFunctions/FastMathFunctions.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/FastMathFunctions/FastMathFunctions.c.s"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\ARM_DSP\Source\FastMathFunctions\FastMathFunctions.c -o CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\FastMathFunctions\FastMathFunctions.c.s
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\ARM_DSP\Source\FastMathFunctions\FastMathFunctions.c -o CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\FastMathFunctions\FastMathFunctions.c.s
 
 CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/FilteringFunctions/FilteringFunctions.c.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
 CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/FilteringFunctions/FilteringFunctions.c.obj: ../ARM_DSP/Source/FilteringFunctions/FilteringFunctions.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/FilteringFunctions/FilteringFunctions.c.obj"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\FilteringFunctions\FilteringFunctions.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\ARM_DSP\Source\FilteringFunctions\FilteringFunctions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/FilteringFunctions/FilteringFunctions.c.obj"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\FilteringFunctions\FilteringFunctions.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\ARM_DSP\Source\FilteringFunctions\FilteringFunctions.c
 
 CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/FilteringFunctions/FilteringFunctions.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/FilteringFunctions/FilteringFunctions.c.i"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\ARM_DSP\Source\FilteringFunctions\FilteringFunctions.c > CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\FilteringFunctions\FilteringFunctions.c.i
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\ARM_DSP\Source\FilteringFunctions\FilteringFunctions.c > CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\FilteringFunctions\FilteringFunctions.c.i
 
 CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/FilteringFunctions/FilteringFunctions.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/FilteringFunctions/FilteringFunctions.c.s"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\ARM_DSP\Source\FilteringFunctions\FilteringFunctions.c -o CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\FilteringFunctions\FilteringFunctions.c.s
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\ARM_DSP\Source\FilteringFunctions\FilteringFunctions.c -o CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\FilteringFunctions\FilteringFunctions.c.s
 
 CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/InterpolationFunctions/InterpolationFunctions.c.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
 CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/InterpolationFunctions/InterpolationFunctions.c.obj: ../ARM_DSP/Source/InterpolationFunctions/InterpolationFunctions.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/InterpolationFunctions/InterpolationFunctions.c.obj"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\InterpolationFunctions\InterpolationFunctions.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\ARM_DSP\Source\InterpolationFunctions\InterpolationFunctions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/InterpolationFunctions/InterpolationFunctions.c.obj"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\InterpolationFunctions\InterpolationFunctions.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\ARM_DSP\Source\InterpolationFunctions\InterpolationFunctions.c
 
 CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/InterpolationFunctions/InterpolationFunctions.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/InterpolationFunctions/InterpolationFunctions.c.i"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\ARM_DSP\Source\InterpolationFunctions\InterpolationFunctions.c > CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\InterpolationFunctions\InterpolationFunctions.c.i
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\ARM_DSP\Source\InterpolationFunctions\InterpolationFunctions.c > CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\InterpolationFunctions\InterpolationFunctions.c.i
 
 CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/InterpolationFunctions/InterpolationFunctions.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/InterpolationFunctions/InterpolationFunctions.c.s"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\ARM_DSP\Source\InterpolationFunctions\InterpolationFunctions.c -o CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\InterpolationFunctions\InterpolationFunctions.c.s
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\ARM_DSP\Source\InterpolationFunctions\InterpolationFunctions.c -o CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\InterpolationFunctions\InterpolationFunctions.c.s
 
 CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/MatrixFunctions/MatrixFunctions.c.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
 CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/MatrixFunctions/MatrixFunctions.c.obj: ../ARM_DSP/Source/MatrixFunctions/MatrixFunctions.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/MatrixFunctions/MatrixFunctions.c.obj"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\MatrixFunctions\MatrixFunctions.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\ARM_DSP\Source\MatrixFunctions\MatrixFunctions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/MatrixFunctions/MatrixFunctions.c.obj"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\MatrixFunctions\MatrixFunctions.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\ARM_DSP\Source\MatrixFunctions\MatrixFunctions.c
 
 CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/MatrixFunctions/MatrixFunctions.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/MatrixFunctions/MatrixFunctions.c.i"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\ARM_DSP\Source\MatrixFunctions\MatrixFunctions.c > CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\MatrixFunctions\MatrixFunctions.c.i
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\ARM_DSP\Source\MatrixFunctions\MatrixFunctions.c > CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\MatrixFunctions\MatrixFunctions.c.i
 
 CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/MatrixFunctions/MatrixFunctions.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/MatrixFunctions/MatrixFunctions.c.s"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\ARM_DSP\Source\MatrixFunctions\MatrixFunctions.c -o CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\MatrixFunctions\MatrixFunctions.c.s
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\ARM_DSP\Source\MatrixFunctions\MatrixFunctions.c -o CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\MatrixFunctions\MatrixFunctions.c.s
 
 CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/QuaternionMathFunctions/QuaternionMathFunctions.c.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
 CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/QuaternionMathFunctions/QuaternionMathFunctions.c.obj: ../ARM_DSP/Source/QuaternionMathFunctions/QuaternionMathFunctions.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/QuaternionMathFunctions/QuaternionMathFunctions.c.obj"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\QuaternionMathFunctions\QuaternionMathFunctions.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\ARM_DSP\Source\QuaternionMathFunctions\QuaternionMathFunctions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/QuaternionMathFunctions/QuaternionMathFunctions.c.obj"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\QuaternionMathFunctions\QuaternionMathFunctions.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\ARM_DSP\Source\QuaternionMathFunctions\QuaternionMathFunctions.c
 
 CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/QuaternionMathFunctions/QuaternionMathFunctions.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/QuaternionMathFunctions/QuaternionMathFunctions.c.i"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\ARM_DSP\Source\QuaternionMathFunctions\QuaternionMathFunctions.c > CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\QuaternionMathFunctions\QuaternionMathFunctions.c.i
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\ARM_DSP\Source\QuaternionMathFunctions\QuaternionMathFunctions.c > CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\QuaternionMathFunctions\QuaternionMathFunctions.c.i
 
 CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/QuaternionMathFunctions/QuaternionMathFunctions.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/QuaternionMathFunctions/QuaternionMathFunctions.c.s"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\ARM_DSP\Source\QuaternionMathFunctions\QuaternionMathFunctions.c -o CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\QuaternionMathFunctions\QuaternionMathFunctions.c.s
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\ARM_DSP\Source\QuaternionMathFunctions\QuaternionMathFunctions.c -o CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\QuaternionMathFunctions\QuaternionMathFunctions.c.s
 
 CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/SVMFunctions/SVMFunctions.c.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
 CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/SVMFunctions/SVMFunctions.c.obj: ../ARM_DSP/Source/SVMFunctions/SVMFunctions.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/SVMFunctions/SVMFunctions.c.obj"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\SVMFunctions\SVMFunctions.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\ARM_DSP\Source\SVMFunctions\SVMFunctions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/SVMFunctions/SVMFunctions.c.obj"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\SVMFunctions\SVMFunctions.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\ARM_DSP\Source\SVMFunctions\SVMFunctions.c
 
 CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/SVMFunctions/SVMFunctions.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/SVMFunctions/SVMFunctions.c.i"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\ARM_DSP\Source\SVMFunctions\SVMFunctions.c > CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\SVMFunctions\SVMFunctions.c.i
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\ARM_DSP\Source\SVMFunctions\SVMFunctions.c > CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\SVMFunctions\SVMFunctions.c.i
 
 CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/SVMFunctions/SVMFunctions.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/SVMFunctions/SVMFunctions.c.s"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\ARM_DSP\Source\SVMFunctions\SVMFunctions.c -o CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\SVMFunctions\SVMFunctions.c.s
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\ARM_DSP\Source\SVMFunctions\SVMFunctions.c -o CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\SVMFunctions\SVMFunctions.c.s
 
 CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/StatisticsFunctions/StatisticsFunctions.c.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
 CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/StatisticsFunctions/StatisticsFunctions.c.obj: ../ARM_DSP/Source/StatisticsFunctions/StatisticsFunctions.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/StatisticsFunctions/StatisticsFunctions.c.obj"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\StatisticsFunctions\StatisticsFunctions.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\ARM_DSP\Source\StatisticsFunctions\StatisticsFunctions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/StatisticsFunctions/StatisticsFunctions.c.obj"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\StatisticsFunctions\StatisticsFunctions.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\ARM_DSP\Source\StatisticsFunctions\StatisticsFunctions.c
 
 CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/StatisticsFunctions/StatisticsFunctions.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/StatisticsFunctions/StatisticsFunctions.c.i"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\ARM_DSP\Source\StatisticsFunctions\StatisticsFunctions.c > CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\StatisticsFunctions\StatisticsFunctions.c.i
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\ARM_DSP\Source\StatisticsFunctions\StatisticsFunctions.c > CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\StatisticsFunctions\StatisticsFunctions.c.i
 
 CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/StatisticsFunctions/StatisticsFunctions.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/StatisticsFunctions/StatisticsFunctions.c.s"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\ARM_DSP\Source\StatisticsFunctions\StatisticsFunctions.c -o CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\StatisticsFunctions\StatisticsFunctions.c.s
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\ARM_DSP\Source\StatisticsFunctions\StatisticsFunctions.c -o CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\StatisticsFunctions\StatisticsFunctions.c.s
 
 CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/SupportFunctions/SupportFunctions.c.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
 CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/SupportFunctions/SupportFunctions.c.obj: ../ARM_DSP/Source/SupportFunctions/SupportFunctions.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/SupportFunctions/SupportFunctions.c.obj"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\SupportFunctions\SupportFunctions.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\ARM_DSP\Source\SupportFunctions\SupportFunctions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/SupportFunctions/SupportFunctions.c.obj"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\SupportFunctions\SupportFunctions.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\ARM_DSP\Source\SupportFunctions\SupportFunctions.c
 
 CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/SupportFunctions/SupportFunctions.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/SupportFunctions/SupportFunctions.c.i"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\ARM_DSP\Source\SupportFunctions\SupportFunctions.c > CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\SupportFunctions\SupportFunctions.c.i
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\ARM_DSP\Source\SupportFunctions\SupportFunctions.c > CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\SupportFunctions\SupportFunctions.c.i
 
 CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/SupportFunctions/SupportFunctions.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/SupportFunctions/SupportFunctions.c.s"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\ARM_DSP\Source\SupportFunctions\SupportFunctions.c -o CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\SupportFunctions\SupportFunctions.c.s
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\ARM_DSP\Source\SupportFunctions\SupportFunctions.c -o CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\SupportFunctions\SupportFunctions.c.s
 
 CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/TransformFunctions/TransformFunctions.c.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
 CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/TransformFunctions/TransformFunctions.c.obj: ../ARM_DSP/Source/TransformFunctions/TransformFunctions.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/TransformFunctions/TransformFunctions.c.obj"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\TransformFunctions\TransformFunctions.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\ARM_DSP\Source\TransformFunctions\TransformFunctions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/TransformFunctions/TransformFunctions.c.obj"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\TransformFunctions\TransformFunctions.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\ARM_DSP\Source\TransformFunctions\TransformFunctions.c
 
 CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/TransformFunctions/TransformFunctions.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/TransformFunctions/TransformFunctions.c.i"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\ARM_DSP\Source\TransformFunctions\TransformFunctions.c > CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\TransformFunctions\TransformFunctions.c.i
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\ARM_DSP\Source\TransformFunctions\TransformFunctions.c > CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\TransformFunctions\TransformFunctions.c.i
 
 CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/TransformFunctions/TransformFunctions.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/TransformFunctions/TransformFunctions.c.s"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\ARM_DSP\Source\TransformFunctions\TransformFunctions.c -o CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\TransformFunctions\TransformFunctions.c.s
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\ARM_DSP\Source\TransformFunctions\TransformFunctions.c -o CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\TransformFunctions\TransformFunctions.c.s
 
 CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/WindowFunctions/WindowFunctions.c.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
 CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/WindowFunctions/WindowFunctions.c.obj: ../ARM_DSP/Source/WindowFunctions/WindowFunctions.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/WindowFunctions/WindowFunctions.c.obj"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\WindowFunctions\WindowFunctions.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\ARM_DSP\Source\WindowFunctions\WindowFunctions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/WindowFunctions/WindowFunctions.c.obj"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\WindowFunctions\WindowFunctions.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\ARM_DSP\Source\WindowFunctions\WindowFunctions.c
 
 CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/WindowFunctions/WindowFunctions.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/WindowFunctions/WindowFunctions.c.i"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\ARM_DSP\Source\WindowFunctions\WindowFunctions.c > CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\WindowFunctions\WindowFunctions.c.i
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\ARM_DSP\Source\WindowFunctions\WindowFunctions.c > CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\WindowFunctions\WindowFunctions.c.i
 
 CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/WindowFunctions/WindowFunctions.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/WindowFunctions/WindowFunctions.c.s"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\ARM_DSP\Source\WindowFunctions\WindowFunctions.c -o CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\WindowFunctions\WindowFunctions.c.s
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\ARM_DSP\Source\WindowFunctions\WindowFunctions.c -o CMakeFiles\HEllOWORLD.elf.dir\ARM_DSP\Source\WindowFunctions\WindowFunctions.c.s
 
 CMakeFiles/HEllOWORLD.elf.dir/Core/Src/adc.c.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
 CMakeFiles/HEllOWORLD.elf.dir/Core/Src/adc.c.obj: ../Core/Src/adc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/HEllOWORLD.elf.dir/Core/Src/adc.c.obj"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\Core\Src\adc.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Core\Src\adc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/HEllOWORLD.elf.dir/Core/Src/adc.c.obj"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\Core\Src\adc.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Core\Src\adc.c
 
 CMakeFiles/HEllOWORLD.elf.dir/Core/Src/adc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HEllOWORLD.elf.dir/Core/Src/adc.c.i"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Core\Src\adc.c > CMakeFiles\HEllOWORLD.elf.dir\Core\Src\adc.c.i
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Core\Src\adc.c > CMakeFiles\HEllOWORLD.elf.dir\Core\Src\adc.c.i
 
 CMakeFiles/HEllOWORLD.elf.dir/Core/Src/adc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HEllOWORLD.elf.dir/Core/Src/adc.c.s"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Core\Src\adc.c -o CMakeFiles\HEllOWORLD.elf.dir\Core\Src\adc.c.s
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Core\Src\adc.c -o CMakeFiles\HEllOWORLD.elf.dir\Core\Src\adc.c.s
 
 CMakeFiles/HEllOWORLD.elf.dir/Core/Src/dac.c.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
 CMakeFiles/HEllOWORLD.elf.dir/Core/Src/dac.c.obj: ../Core/Src/dac.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/HEllOWORLD.elf.dir/Core/Src/dac.c.obj"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\Core\Src\dac.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Core\Src\dac.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/HEllOWORLD.elf.dir/Core/Src/dac.c.obj"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\Core\Src\dac.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Core\Src\dac.c
 
 CMakeFiles/HEllOWORLD.elf.dir/Core/Src/dac.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HEllOWORLD.elf.dir/Core/Src/dac.c.i"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Core\Src\dac.c > CMakeFiles\HEllOWORLD.elf.dir\Core\Src\dac.c.i
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Core\Src\dac.c > CMakeFiles\HEllOWORLD.elf.dir\Core\Src\dac.c.i
 
 CMakeFiles/HEllOWORLD.elf.dir/Core/Src/dac.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HEllOWORLD.elf.dir/Core/Src/dac.c.s"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Core\Src\dac.c -o CMakeFiles\HEllOWORLD.elf.dir\Core\Src\dac.c.s
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Core\Src\dac.c -o CMakeFiles\HEllOWORLD.elf.dir\Core\Src\dac.c.s
 
 CMakeFiles/HEllOWORLD.elf.dir/Core/Src/dma.c.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
 CMakeFiles/HEllOWORLD.elf.dir/Core/Src/dma.c.obj: ../Core/Src/dma.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/HEllOWORLD.elf.dir/Core/Src/dma.c.obj"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\Core\Src\dma.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Core\Src\dma.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/HEllOWORLD.elf.dir/Core/Src/dma.c.obj"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\Core\Src\dma.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Core\Src\dma.c
 
 CMakeFiles/HEllOWORLD.elf.dir/Core/Src/dma.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HEllOWORLD.elf.dir/Core/Src/dma.c.i"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Core\Src\dma.c > CMakeFiles\HEllOWORLD.elf.dir\Core\Src\dma.c.i
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Core\Src\dma.c > CMakeFiles\HEllOWORLD.elf.dir\Core\Src\dma.c.i
 
 CMakeFiles/HEllOWORLD.elf.dir/Core/Src/dma.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HEllOWORLD.elf.dir/Core/Src/dma.c.s"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Core\Src\dma.c -o CMakeFiles\HEllOWORLD.elf.dir\Core\Src\dma.c.s
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Core\Src\dma.c -o CMakeFiles\HEllOWORLD.elf.dir\Core\Src\dma.c.s
 
 CMakeFiles/HEllOWORLD.elf.dir/Core/Src/fsmc.c.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
 CMakeFiles/HEllOWORLD.elf.dir/Core/Src/fsmc.c.obj: ../Core/Src/fsmc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/HEllOWORLD.elf.dir/Core/Src/fsmc.c.obj"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\Core\Src\fsmc.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Core\Src\fsmc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/HEllOWORLD.elf.dir/Core/Src/fsmc.c.obj"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\Core\Src\fsmc.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Core\Src\fsmc.c
 
 CMakeFiles/HEllOWORLD.elf.dir/Core/Src/fsmc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HEllOWORLD.elf.dir/Core/Src/fsmc.c.i"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Core\Src\fsmc.c > CMakeFiles\HEllOWORLD.elf.dir\Core\Src\fsmc.c.i
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Core\Src\fsmc.c > CMakeFiles\HEllOWORLD.elf.dir\Core\Src\fsmc.c.i
 
 CMakeFiles/HEllOWORLD.elf.dir/Core/Src/fsmc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HEllOWORLD.elf.dir/Core/Src/fsmc.c.s"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Core\Src\fsmc.c -o CMakeFiles\HEllOWORLD.elf.dir\Core\Src\fsmc.c.s
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Core\Src\fsmc.c -o CMakeFiles\HEllOWORLD.elf.dir\Core\Src\fsmc.c.s
 
 CMakeFiles/HEllOWORLD.elf.dir/Core/Src/gpio.c.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
 CMakeFiles/HEllOWORLD.elf.dir/Core/Src/gpio.c.obj: ../Core/Src/gpio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/HEllOWORLD.elf.dir/Core/Src/gpio.c.obj"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\Core\Src\gpio.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Core\Src\gpio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/HEllOWORLD.elf.dir/Core/Src/gpio.c.obj"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\Core\Src\gpio.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Core\Src\gpio.c
 
 CMakeFiles/HEllOWORLD.elf.dir/Core/Src/gpio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HEllOWORLD.elf.dir/Core/Src/gpio.c.i"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Core\Src\gpio.c > CMakeFiles\HEllOWORLD.elf.dir\Core\Src\gpio.c.i
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Core\Src\gpio.c > CMakeFiles\HEllOWORLD.elf.dir\Core\Src\gpio.c.i
 
 CMakeFiles/HEllOWORLD.elf.dir/Core/Src/gpio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HEllOWORLD.elf.dir/Core/Src/gpio.c.s"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Core\Src\gpio.c -o CMakeFiles\HEllOWORLD.elf.dir\Core\Src\gpio.c.s
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Core\Src\gpio.c -o CMakeFiles\HEllOWORLD.elf.dir\Core\Src\gpio.c.s
 
 CMakeFiles/HEllOWORLD.elf.dir/Core/Src/main.c.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
 CMakeFiles/HEllOWORLD.elf.dir/Core/Src/main.c.obj: ../Core/Src/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/HEllOWORLD.elf.dir/Core/Src/main.c.obj"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\Core\Src\main.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Core\Src\main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/HEllOWORLD.elf.dir/Core/Src/main.c.obj"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\Core\Src\main.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Core\Src\main.c
 
 CMakeFiles/HEllOWORLD.elf.dir/Core/Src/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HEllOWORLD.elf.dir/Core/Src/main.c.i"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Core\Src\main.c > CMakeFiles\HEllOWORLD.elf.dir\Core\Src\main.c.i
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Core\Src\main.c > CMakeFiles\HEllOWORLD.elf.dir\Core\Src\main.c.i
 
 CMakeFiles/HEllOWORLD.elf.dir/Core/Src/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HEllOWORLD.elf.dir/Core/Src/main.c.s"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Core\Src\main.c -o CMakeFiles\HEllOWORLD.elf.dir\Core\Src\main.c.s
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Core\Src\main.c -o CMakeFiles\HEllOWORLD.elf.dir\Core\Src\main.c.s
 
 CMakeFiles/HEllOWORLD.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
 CMakeFiles/HEllOWORLD.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: ../Core/Src/stm32f4xx_hal_msp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/HEllOWORLD.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\Core\Src\stm32f4xx_hal_msp.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Core\Src\stm32f4xx_hal_msp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/HEllOWORLD.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\Core\Src\stm32f4xx_hal_msp.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Core\Src\stm32f4xx_hal_msp.c
 
 CMakeFiles/HEllOWORLD.elf.dir/Core/Src/stm32f4xx_hal_msp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HEllOWORLD.elf.dir/Core/Src/stm32f4xx_hal_msp.c.i"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Core\Src\stm32f4xx_hal_msp.c > CMakeFiles\HEllOWORLD.elf.dir\Core\Src\stm32f4xx_hal_msp.c.i
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Core\Src\stm32f4xx_hal_msp.c > CMakeFiles\HEllOWORLD.elf.dir\Core\Src\stm32f4xx_hal_msp.c.i
 
 CMakeFiles/HEllOWORLD.elf.dir/Core/Src/stm32f4xx_hal_msp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HEllOWORLD.elf.dir/Core/Src/stm32f4xx_hal_msp.c.s"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Core\Src\stm32f4xx_hal_msp.c -o CMakeFiles\HEllOWORLD.elf.dir\Core\Src\stm32f4xx_hal_msp.c.s
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Core\Src\stm32f4xx_hal_msp.c -o CMakeFiles\HEllOWORLD.elf.dir\Core\Src\stm32f4xx_hal_msp.c.s
 
 CMakeFiles/HEllOWORLD.elf.dir/Core/Src/stm32f4xx_it.c.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
 CMakeFiles/HEllOWORLD.elf.dir/Core/Src/stm32f4xx_it.c.obj: ../Core/Src/stm32f4xx_it.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/HEllOWORLD.elf.dir/Core/Src/stm32f4xx_it.c.obj"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\Core\Src\stm32f4xx_it.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Core\Src\stm32f4xx_it.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/HEllOWORLD.elf.dir/Core/Src/stm32f4xx_it.c.obj"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\Core\Src\stm32f4xx_it.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Core\Src\stm32f4xx_it.c
 
 CMakeFiles/HEllOWORLD.elf.dir/Core/Src/stm32f4xx_it.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HEllOWORLD.elf.dir/Core/Src/stm32f4xx_it.c.i"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Core\Src\stm32f4xx_it.c > CMakeFiles\HEllOWORLD.elf.dir\Core\Src\stm32f4xx_it.c.i
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Core\Src\stm32f4xx_it.c > CMakeFiles\HEllOWORLD.elf.dir\Core\Src\stm32f4xx_it.c.i
 
 CMakeFiles/HEllOWORLD.elf.dir/Core/Src/stm32f4xx_it.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HEllOWORLD.elf.dir/Core/Src/stm32f4xx_it.c.s"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Core\Src\stm32f4xx_it.c -o CMakeFiles\HEllOWORLD.elf.dir\Core\Src\stm32f4xx_it.c.s
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Core\Src\stm32f4xx_it.c -o CMakeFiles\HEllOWORLD.elf.dir\Core\Src\stm32f4xx_it.c.s
 
 CMakeFiles/HEllOWORLD.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
 CMakeFiles/HEllOWORLD.elf.dir/Core/Src/syscalls.c.obj: ../Core/Src/syscalls.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/HEllOWORLD.elf.dir/Core/Src/syscalls.c.obj"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\Core\Src\syscalls.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Core\Src\syscalls.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/HEllOWORLD.elf.dir/Core/Src/syscalls.c.obj"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\Core\Src\syscalls.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Core\Src\syscalls.c
 
 CMakeFiles/HEllOWORLD.elf.dir/Core/Src/syscalls.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HEllOWORLD.elf.dir/Core/Src/syscalls.c.i"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Core\Src\syscalls.c > CMakeFiles\HEllOWORLD.elf.dir\Core\Src\syscalls.c.i
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Core\Src\syscalls.c > CMakeFiles\HEllOWORLD.elf.dir\Core\Src\syscalls.c.i
 
 CMakeFiles/HEllOWORLD.elf.dir/Core/Src/syscalls.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HEllOWORLD.elf.dir/Core/Src/syscalls.c.s"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Core\Src\syscalls.c -o CMakeFiles\HEllOWORLD.elf.dir\Core\Src\syscalls.c.s
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Core\Src\syscalls.c -o CMakeFiles\HEllOWORLD.elf.dir\Core\Src\syscalls.c.s
 
 CMakeFiles/HEllOWORLD.elf.dir/Core/Src/system_stm32f4xx.c.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
 CMakeFiles/HEllOWORLD.elf.dir/Core/Src/system_stm32f4xx.c.obj: ../Core/Src/system_stm32f4xx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/HEllOWORLD.elf.dir/Core/Src/system_stm32f4xx.c.obj"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\Core\Src\system_stm32f4xx.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Core\Src\system_stm32f4xx.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/HEllOWORLD.elf.dir/Core/Src/system_stm32f4xx.c.obj"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\Core\Src\system_stm32f4xx.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Core\Src\system_stm32f4xx.c
 
 CMakeFiles/HEllOWORLD.elf.dir/Core/Src/system_stm32f4xx.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HEllOWORLD.elf.dir/Core/Src/system_stm32f4xx.c.i"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Core\Src\system_stm32f4xx.c > CMakeFiles\HEllOWORLD.elf.dir\Core\Src\system_stm32f4xx.c.i
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Core\Src\system_stm32f4xx.c > CMakeFiles\HEllOWORLD.elf.dir\Core\Src\system_stm32f4xx.c.i
 
 CMakeFiles/HEllOWORLD.elf.dir/Core/Src/system_stm32f4xx.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HEllOWORLD.elf.dir/Core/Src/system_stm32f4xx.c.s"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Core\Src\system_stm32f4xx.c -o CMakeFiles\HEllOWORLD.elf.dir\Core\Src\system_stm32f4xx.c.s
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Core\Src\system_stm32f4xx.c -o CMakeFiles\HEllOWORLD.elf.dir\Core\Src\system_stm32f4xx.c.s
 
 CMakeFiles/HEllOWORLD.elf.dir/Core/Src/tim.c.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
 CMakeFiles/HEllOWORLD.elf.dir/Core/Src/tim.c.obj: ../Core/Src/tim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/HEllOWORLD.elf.dir/Core/Src/tim.c.obj"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\Core\Src\tim.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Core\Src\tim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/HEllOWORLD.elf.dir/Core/Src/tim.c.obj"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\Core\Src\tim.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Core\Src\tim.c
 
 CMakeFiles/HEllOWORLD.elf.dir/Core/Src/tim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HEllOWORLD.elf.dir/Core/Src/tim.c.i"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Core\Src\tim.c > CMakeFiles\HEllOWORLD.elf.dir\Core\Src\tim.c.i
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Core\Src\tim.c > CMakeFiles\HEllOWORLD.elf.dir\Core\Src\tim.c.i
 
 CMakeFiles/HEllOWORLD.elf.dir/Core/Src/tim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HEllOWORLD.elf.dir/Core/Src/tim.c.s"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Core\Src\tim.c -o CMakeFiles\HEllOWORLD.elf.dir\Core\Src\tim.c.s
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Core\Src\tim.c -o CMakeFiles\HEllOWORLD.elf.dir\Core\Src\tim.c.s
 
 CMakeFiles/HEllOWORLD.elf.dir/Core/Src/usart.c.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
 CMakeFiles/HEllOWORLD.elf.dir/Core/Src/usart.c.obj: ../Core/Src/usart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/HEllOWORLD.elf.dir/Core/Src/usart.c.obj"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\Core\Src\usart.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Core\Src\usart.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/HEllOWORLD.elf.dir/Core/Src/usart.c.obj"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\Core\Src\usart.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Core\Src\usart.c
 
 CMakeFiles/HEllOWORLD.elf.dir/Core/Src/usart.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HEllOWORLD.elf.dir/Core/Src/usart.c.i"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Core\Src\usart.c > CMakeFiles\HEllOWORLD.elf.dir\Core\Src\usart.c.i
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Core\Src\usart.c > CMakeFiles\HEllOWORLD.elf.dir\Core\Src\usart.c.i
 
 CMakeFiles/HEllOWORLD.elf.dir/Core/Src/usart.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HEllOWORLD.elf.dir/Core/Src/usart.c.s"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Core\Src\usart.c -o CMakeFiles\HEllOWORLD.elf.dir\Core\Src\usart.c.s
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Core\Src\usart.c -o CMakeFiles\HEllOWORLD.elf.dir\Core\Src\usart.c.s
 
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c
 
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c > CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.i
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c > CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.i
 
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.s"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.s
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.s
 
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.obj"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c
 
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.i"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c > CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c.i
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c > CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c.i
 
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c.s"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c.s
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc.c.s
 
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.obj"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c
 
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.i"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c > CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c.i
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c > CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c.i
 
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c.s"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c.s
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_adc_ex.c.s
 
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c
 
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c > CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.i
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c > CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.i
 
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.s"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.s
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.s
 
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.obj"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.obj"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac.c
 
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.i"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac.c > CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac.c.i
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac.c > CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac.c.i
 
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c.s"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac.c -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac.c.s
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac.c -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac.c.s
 
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.obj"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac_ex.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.obj"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac_ex.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac_ex.c
 
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.i"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac_ex.c > CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac_ex.c.i
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac_ex.c > CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac_ex.c.i
 
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c.s"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac_ex.c -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac_ex.c.s
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac_ex.c -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dac_ex.c.s
 
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c
 
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c > CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.i
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c > CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.i
 
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.s"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.s
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.s
 
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c
 
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c > CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.i
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c > CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.i
 
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.s"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.s
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.s
 
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c
 
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.i"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c > CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.i
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c > CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.i
 
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.s"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.s
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.s
 
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c
 
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c > CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.i
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c > CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.i
 
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.s"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.s
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.s
 
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c
 
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c > CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.i
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c > CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.i
 
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.s"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.s
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.s
 
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c
 
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c > CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.i
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c > CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.i
 
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.s"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.s
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.s
 
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c
 
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c > CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.i
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c > CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.i
 
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.s
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.s
 
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c
 
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c > CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.i
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c > CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.i
 
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.s"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.s
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.s
 
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c
 
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c > CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.i
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c > CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.i
 
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.s"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.s
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.s
 
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c
 
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c > CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.i
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c > CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.i
 
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.s"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.s
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.s
 
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c
 
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c > CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.i
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c > CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.i
 
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.s"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.s
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.s
 
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.obj"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sram.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sram.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.obj"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sram.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sram.c
 
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.i"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sram.c > CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sram.c.i
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sram.c > CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sram.c.i
 
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c.s"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sram.c -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sram.c.s
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sram.c -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_sram.c.s
 
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c
 
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.i"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c > CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.i
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c > CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.i
 
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.s"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.s
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.s
 
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c
 
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.i"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c > CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.i
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c > CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.i
 
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.s"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.s
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.s
 
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c
 
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.i"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c > CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.i
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c > CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.i
 
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.s"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.s
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c.s
 
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_adc.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_adc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_adc.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_adc.c
 
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.i"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_adc.c > CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_adc.c.i
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_adc.c > CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_adc.c.i
 
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.s"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_adc.c -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_adc.c.s
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_adc.c -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_adc.c.s
 
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.obj: ../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.obj"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_fsmc.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_fsmc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.obj"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_fsmc.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_fsmc.c
 
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.i"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_fsmc.c > CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_fsmc.c.i
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_fsmc.c > CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_fsmc.c.i
 
 CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.s"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_fsmc.c -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_fsmc.c.s
-
-CMakeFiles/HEllOWORLD.elf.dir/GUI/gui.c.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
-CMakeFiles/HEllOWORLD.elf.dir/GUI/gui.c.obj: ../GUI/gui.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/HEllOWORLD.elf.dir/GUI/gui.c.obj"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\GUI\gui.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\GUI\gui.c
-
-CMakeFiles/HEllOWORLD.elf.dir/GUI/gui.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HEllOWORLD.elf.dir/GUI/gui.c.i"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\GUI\gui.c > CMakeFiles\HEllOWORLD.elf.dir\GUI\gui.c.i
-
-CMakeFiles/HEllOWORLD.elf.dir/GUI/gui.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HEllOWORLD.elf.dir/GUI/gui.c.s"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\GUI\gui.c -o CMakeFiles\HEllOWORLD.elf.dir\GUI\gui.c.s
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_fsmc.c -o CMakeFiles\HEllOWORLD.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_ll_fsmc.c.s
 
 CMakeFiles/HEllOWORLD.elf.dir/HardWare/key/key.c.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
 CMakeFiles/HEllOWORLD.elf.dir/HardWare/key/key.c.obj: ../HardWare/key/key.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/HEllOWORLD.elf.dir/HardWare/key/key.c.obj"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\HardWare\key\key.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\HardWare\key\key.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/HEllOWORLD.elf.dir/HardWare/key/key.c.obj"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\HardWare\key\key.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\HardWare\key\key.c
 
 CMakeFiles/HEllOWORLD.elf.dir/HardWare/key/key.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HEllOWORLD.elf.dir/HardWare/key/key.c.i"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\HardWare\key\key.c > CMakeFiles\HEllOWORLD.elf.dir\HardWare\key\key.c.i
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\HardWare\key\key.c > CMakeFiles\HEllOWORLD.elf.dir\HardWare\key\key.c.i
 
 CMakeFiles/HEllOWORLD.elf.dir/HardWare/key/key.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HEllOWORLD.elf.dir/HardWare/key/key.c.s"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\HardWare\key\key.c -o CMakeFiles\HEllOWORLD.elf.dir\HardWare\key\key.c.s
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\HardWare\key\key.c -o CMakeFiles\HEllOWORLD.elf.dir\HardWare\key\key.c.s
 
 CMakeFiles/HEllOWORLD.elf.dir/HardWare/lcd/demos.c.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
 CMakeFiles/HEllOWORLD.elf.dir/HardWare/lcd/demos.c.obj: ../HardWare/lcd/demos.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/HEllOWORLD.elf.dir/HardWare/lcd/demos.c.obj"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\HardWare\lcd\demos.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\HardWare\lcd\demos.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/HEllOWORLD.elf.dir/HardWare/lcd/demos.c.obj"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\HardWare\lcd\demos.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\HardWare\lcd\demos.c
 
 CMakeFiles/HEllOWORLD.elf.dir/HardWare/lcd/demos.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HEllOWORLD.elf.dir/HardWare/lcd/demos.c.i"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\HardWare\lcd\demos.c > CMakeFiles\HEllOWORLD.elf.dir\HardWare\lcd\demos.c.i
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\HardWare\lcd\demos.c > CMakeFiles\HEllOWORLD.elf.dir\HardWare\lcd\demos.c.i
 
 CMakeFiles/HEllOWORLD.elf.dir/HardWare/lcd/demos.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HEllOWORLD.elf.dir/HardWare/lcd/demos.c.s"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\HardWare\lcd\demos.c -o CMakeFiles\HEllOWORLD.elf.dir\HardWare\lcd\demos.c.s
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\HardWare\lcd\demos.c -o CMakeFiles\HEllOWORLD.elf.dir\HardWare\lcd\demos.c.s
 
 CMakeFiles/HEllOWORLD.elf.dir/HardWare/lcd/lcd.c.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
 CMakeFiles/HEllOWORLD.elf.dir/HardWare/lcd/lcd.c.obj: ../HardWare/lcd/lcd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/HEllOWORLD.elf.dir/HardWare/lcd/lcd.c.obj"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\HardWare\lcd\lcd.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\HardWare\lcd\lcd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/HEllOWORLD.elf.dir/HardWare/lcd/lcd.c.obj"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\HardWare\lcd\lcd.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\HardWare\lcd\lcd.c
 
 CMakeFiles/HEllOWORLD.elf.dir/HardWare/lcd/lcd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HEllOWORLD.elf.dir/HardWare/lcd/lcd.c.i"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\HardWare\lcd\lcd.c > CMakeFiles\HEllOWORLD.elf.dir\HardWare\lcd\lcd.c.i
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\HardWare\lcd\lcd.c > CMakeFiles\HEllOWORLD.elf.dir\HardWare\lcd\lcd.c.i
 
 CMakeFiles/HEllOWORLD.elf.dir/HardWare/lcd/lcd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HEllOWORLD.elf.dir/HardWare/lcd/lcd.c.s"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\HardWare\lcd\lcd.c -o CMakeFiles\HEllOWORLD.elf.dir\HardWare\lcd\lcd.c.s
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\HardWare\lcd\lcd.c -o CMakeFiles\HEllOWORLD.elf.dir\HardWare\lcd\lcd.c.s
 
 CMakeFiles/HEllOWORLD.elf.dir/HardWare/lcd/lcd_ex.c.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
 CMakeFiles/HEllOWORLD.elf.dir/HardWare/lcd/lcd_ex.c.obj: ../HardWare/lcd/lcd_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/HEllOWORLD.elf.dir/HardWare/lcd/lcd_ex.c.obj"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\HardWare\lcd\lcd_ex.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\HardWare\lcd\lcd_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/HEllOWORLD.elf.dir/HardWare/lcd/lcd_ex.c.obj"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\HardWare\lcd\lcd_ex.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\HardWare\lcd\lcd_ex.c
 
 CMakeFiles/HEllOWORLD.elf.dir/HardWare/lcd/lcd_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HEllOWORLD.elf.dir/HardWare/lcd/lcd_ex.c.i"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\HardWare\lcd\lcd_ex.c > CMakeFiles\HEllOWORLD.elf.dir\HardWare\lcd\lcd_ex.c.i
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\HardWare\lcd\lcd_ex.c > CMakeFiles\HEllOWORLD.elf.dir\HardWare\lcd\lcd_ex.c.i
 
 CMakeFiles/HEllOWORLD.elf.dir/HardWare/lcd/lcd_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HEllOWORLD.elf.dir/HardWare/lcd/lcd_ex.c.s"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\HardWare\lcd\lcd_ex.c -o CMakeFiles\HEllOWORLD.elf.dir\HardWare\lcd\lcd_ex.c.s
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\HardWare\lcd\lcd_ex.c -o CMakeFiles\HEllOWORLD.elf.dir\HardWare\lcd\lcd_ex.c.s
 
 CMakeFiles/HEllOWORLD.elf.dir/HardWare/lcd/lcdlib.c.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
 CMakeFiles/HEllOWORLD.elf.dir/HardWare/lcd/lcdlib.c.obj: ../HardWare/lcd/lcdlib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/HEllOWORLD.elf.dir/HardWare/lcd/lcdlib.c.obj"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\HardWare\lcd\lcdlib.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\HardWare\lcd\lcdlib.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/HEllOWORLD.elf.dir/HardWare/lcd/lcdlib.c.obj"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\HardWare\lcd\lcdlib.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\HardWare\lcd\lcdlib.c
 
 CMakeFiles/HEllOWORLD.elf.dir/HardWare/lcd/lcdlib.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HEllOWORLD.elf.dir/HardWare/lcd/lcdlib.c.i"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\HardWare\lcd\lcdlib.c > CMakeFiles\HEllOWORLD.elf.dir\HardWare\lcd\lcdlib.c.i
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\HardWare\lcd\lcdlib.c > CMakeFiles\HEllOWORLD.elf.dir\HardWare\lcd\lcdlib.c.i
 
 CMakeFiles/HEllOWORLD.elf.dir/HardWare/lcd/lcdlib.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HEllOWORLD.elf.dir/HardWare/lcd/lcdlib.c.s"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\HardWare\lcd\lcdlib.c -o CMakeFiles\HEllOWORLD.elf.dir\HardWare\lcd\lcdlib.c.s
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\HardWare\lcd\lcdlib.c -o CMakeFiles\HEllOWORLD.elf.dir\HardWare\lcd\lcdlib.c.s
 
-CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SignalProcess.c.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
-CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SignalProcess.c.obj: ../SignalProcess/SignalProcess.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SignalProcess.c.obj"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\SignalProcess\SignalProcess.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\SignalProcess\SignalProcess.c
+CMakeFiles/HEllOWORLD.elf.dir/Platform/Adc/My_Adc.cpp.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
+CMakeFiles/HEllOWORLD.elf.dir/Platform/Adc/My_Adc.cpp.obj: ../Platform/Adc/My_Adc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object CMakeFiles/HEllOWORLD.elf.dir/Platform/Adc/My_Adc.cpp.obj"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\Platform\Adc\My_Adc.cpp.obj -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Platform\Adc\My_Adc.cpp
 
-CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SignalProcess.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SignalProcess.c.i"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\SignalProcess\SignalProcess.c > CMakeFiles\HEllOWORLD.elf.dir\SignalProcess\SignalProcess.c.i
+CMakeFiles/HEllOWORLD.elf.dir/Platform/Adc/My_Adc.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HEllOWORLD.elf.dir/Platform/Adc/My_Adc.cpp.i"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Platform\Adc\My_Adc.cpp > CMakeFiles\HEllOWORLD.elf.dir\Platform\Adc\My_Adc.cpp.i
 
-CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SignalProcess.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SignalProcess.c.s"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\SignalProcess\SignalProcess.c -o CMakeFiles\HEllOWORLD.elf.dir\SignalProcess\SignalProcess.c.s
+CMakeFiles/HEllOWORLD.elf.dir/Platform/Adc/My_Adc.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HEllOWORLD.elf.dir/Platform/Adc/My_Adc.cpp.s"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Platform\Adc\My_Adc.cpp -o CMakeFiles\HEllOWORLD.elf.dir\Platform\Adc\My_Adc.cpp.s
 
-CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SignalProcess_dac.c.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
-CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SignalProcess_dac.c.obj: ../SignalProcess/SignalProcess_dac.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SignalProcess_dac.c.obj"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\SignalProcess\SignalProcess_dac.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\SignalProcess\SignalProcess_dac.c
+CMakeFiles/HEllOWORLD.elf.dir/Platform/Dac/My_Dac.cpp.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
+CMakeFiles/HEllOWORLD.elf.dir/Platform/Dac/My_Dac.cpp.obj: ../Platform/Dac/My_Dac.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object CMakeFiles/HEllOWORLD.elf.dir/Platform/Dac/My_Dac.cpp.obj"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\Platform\Dac\My_Dac.cpp.obj -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Platform\Dac\My_Dac.cpp
 
-CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SignalProcess_dac.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SignalProcess_dac.c.i"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\SignalProcess\SignalProcess_dac.c > CMakeFiles\HEllOWORLD.elf.dir\SignalProcess\SignalProcess_dac.c.i
+CMakeFiles/HEllOWORLD.elf.dir/Platform/Dac/My_Dac.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HEllOWORLD.elf.dir/Platform/Dac/My_Dac.cpp.i"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Platform\Dac\My_Dac.cpp > CMakeFiles\HEllOWORLD.elf.dir\Platform\Dac\My_Dac.cpp.i
 
-CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SignalProcess_dac.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SignalProcess_dac.c.s"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\SignalProcess\SignalProcess_dac.c -o CMakeFiles\HEllOWORLD.elf.dir\SignalProcess\SignalProcess_dac.c.s
+CMakeFiles/HEllOWORLD.elf.dir/Platform/Dac/My_Dac.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HEllOWORLD.elf.dir/Platform/Dac/My_Dac.cpp.s"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Platform\Dac\My_Dac.cpp -o CMakeFiles\HEllOWORLD.elf.dir\Platform\Dac\My_Dac.cpp.s
 
-CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SignalProcess_fft.c.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
-CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SignalProcess_fft.c.obj: ../SignalProcess/SignalProcess_fft.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SignalProcess_fft.c.obj"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\SignalProcess\SignalProcess_fft.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\SignalProcess\SignalProcess_fft.c
+CMakeFiles/HEllOWORLD.elf.dir/Platform/Peripheral/SignalPeripheral.cpp.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
+CMakeFiles/HEllOWORLD.elf.dir/Platform/Peripheral/SignalPeripheral.cpp.obj: ../Platform/Peripheral/SignalPeripheral.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object CMakeFiles/HEllOWORLD.elf.dir/Platform/Peripheral/SignalPeripheral.cpp.obj"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\Platform\Peripheral\SignalPeripheral.cpp.obj -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Platform\Peripheral\SignalPeripheral.cpp
 
-CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SignalProcess_fft.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SignalProcess_fft.c.i"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\SignalProcess\SignalProcess_fft.c > CMakeFiles\HEllOWORLD.elf.dir\SignalProcess\SignalProcess_fft.c.i
+CMakeFiles/HEllOWORLD.elf.dir/Platform/Peripheral/SignalPeripheral.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HEllOWORLD.elf.dir/Platform/Peripheral/SignalPeripheral.cpp.i"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Platform\Peripheral\SignalPeripheral.cpp > CMakeFiles\HEllOWORLD.elf.dir\Platform\Peripheral\SignalPeripheral.cpp.i
 
-CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SignalProcess_fft.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SignalProcess_fft.c.s"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\SignalProcess\SignalProcess_fft.c -o CMakeFiles\HEllOWORLD.elf.dir\SignalProcess\SignalProcess_fft.c.s
+CMakeFiles/HEllOWORLD.elf.dir/Platform/Peripheral/SignalPeripheral.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HEllOWORLD.elf.dir/Platform/Peripheral/SignalPeripheral.cpp.s"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Platform\Peripheral\SignalPeripheral.cpp -o CMakeFiles\HEllOWORLD.elf.dir\Platform\Peripheral\SignalPeripheral.cpp.s
 
-CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SignalProcess_filter.c.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
-CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SignalProcess_filter.c.obj: ../SignalProcess/SignalProcess_filter.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SignalProcess_filter.c.obj"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\SignalProcess\SignalProcess_filter.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\SignalProcess\SignalProcess_filter.c
+CMakeFiles/HEllOWORLD.elf.dir/Platform/Pwm/My_Pwm.cpp.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
+CMakeFiles/HEllOWORLD.elf.dir/Platform/Pwm/My_Pwm.cpp.obj: ../Platform/Pwm/My_Pwm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object CMakeFiles/HEllOWORLD.elf.dir/Platform/Pwm/My_Pwm.cpp.obj"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\Platform\Pwm\My_Pwm.cpp.obj -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Platform\Pwm\My_Pwm.cpp
 
-CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SignalProcess_filter.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SignalProcess_filter.c.i"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\SignalProcess\SignalProcess_filter.c > CMakeFiles\HEllOWORLD.elf.dir\SignalProcess\SignalProcess_filter.c.i
+CMakeFiles/HEllOWORLD.elf.dir/Platform/Pwm/My_Pwm.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HEllOWORLD.elf.dir/Platform/Pwm/My_Pwm.cpp.i"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Platform\Pwm\My_Pwm.cpp > CMakeFiles\HEllOWORLD.elf.dir\Platform\Pwm\My_Pwm.cpp.i
 
-CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SignalProcess_filter.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SignalProcess_filter.c.s"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\SignalProcess\SignalProcess_filter.c -o CMakeFiles\HEllOWORLD.elf.dir\SignalProcess\SignalProcess_filter.c.s
+CMakeFiles/HEllOWORLD.elf.dir/Platform/Pwm/My_Pwm.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HEllOWORLD.elf.dir/Platform/Pwm/My_Pwm.cpp.s"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Platform\Pwm\My_Pwm.cpp -o CMakeFiles\HEllOWORLD.elf.dir\Platform\Pwm\My_Pwm.cpp.s
 
-CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SignalProcess_pwm.c.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
-CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SignalProcess_pwm.c.obj: ../SignalProcess/SignalProcess_pwm.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SignalProcess_pwm.c.obj"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\SignalProcess\SignalProcess_pwm.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\SignalProcess\SignalProcess_pwm.c
+CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/AdvancedMeasure/AdvancedMeasure.cpp.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
+CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/AdvancedMeasure/AdvancedMeasure.cpp.obj: ../Platform/SignalProcess/AdvancedMeasure/AdvancedMeasure.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/AdvancedMeasure/AdvancedMeasure.cpp.obj"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\Platform\SignalProcess\AdvancedMeasure\AdvancedMeasure.cpp.obj -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Platform\SignalProcess\AdvancedMeasure\AdvancedMeasure.cpp
 
-CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SignalProcess_pwm.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SignalProcess_pwm.c.i"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\SignalProcess\SignalProcess_pwm.c > CMakeFiles\HEllOWORLD.elf.dir\SignalProcess\SignalProcess_pwm.c.i
+CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/AdvancedMeasure/AdvancedMeasure.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/AdvancedMeasure/AdvancedMeasure.cpp.i"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Platform\SignalProcess\AdvancedMeasure\AdvancedMeasure.cpp > CMakeFiles\HEllOWORLD.elf.dir\Platform\SignalProcess\AdvancedMeasure\AdvancedMeasure.cpp.i
 
-CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SignalProcess_pwm.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SignalProcess_pwm.c.s"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\SignalProcess\SignalProcess_pwm.c -o CMakeFiles\HEllOWORLD.elf.dir\SignalProcess\SignalProcess_pwm.c.s
+CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/AdvancedMeasure/AdvancedMeasure.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/AdvancedMeasure/AdvancedMeasure.cpp.s"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Platform\SignalProcess\AdvancedMeasure\AdvancedMeasure.cpp -o CMakeFiles\HEllOWORLD.elf.dir\Platform\SignalProcess\AdvancedMeasure\AdvancedMeasure.cpp.s
 
-CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SignalProcess_windows.c.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
-CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SignalProcess_windows.c.obj: ../SignalProcess/SignalProcess_windows.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SignalProcess_windows.c.obj"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\SignalProcess\SignalProcess_windows.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\SignalProcess\SignalProcess_windows.c
+CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/BasicMeasure/BasicMeasure.cpp.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
+CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/BasicMeasure/BasicMeasure.cpp.obj: ../Platform/SignalProcess/BasicMeasure/BasicMeasure.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/BasicMeasure/BasicMeasure.cpp.obj"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\Platform\SignalProcess\BasicMeasure\BasicMeasure.cpp.obj -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Platform\SignalProcess\BasicMeasure\BasicMeasure.cpp
 
-CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SignalProcess_windows.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SignalProcess_windows.c.i"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\SignalProcess\SignalProcess_windows.c > CMakeFiles\HEllOWORLD.elf.dir\SignalProcess\SignalProcess_windows.c.i
+CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/BasicMeasure/BasicMeasure.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/BasicMeasure/BasicMeasure.cpp.i"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Platform\SignalProcess\BasicMeasure\BasicMeasure.cpp > CMakeFiles\HEllOWORLD.elf.dir\Platform\SignalProcess\BasicMeasure\BasicMeasure.cpp.i
 
-CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SignalProcess_windows.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SignalProcess_windows.c.s"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\SignalProcess\SignalProcess_windows.c -o CMakeFiles\HEllOWORLD.elf.dir\SignalProcess\SignalProcess_windows.c.s
+CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/BasicMeasure/BasicMeasure.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/BasicMeasure/BasicMeasure.cpp.s"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Platform\SignalProcess\BasicMeasure\BasicMeasure.cpp -o CMakeFiles\HEllOWORLD.elf.dir\Platform\SignalProcess\BasicMeasure\BasicMeasure.cpp.s
 
-CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SingnalProcess_adc.c.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
-CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SingnalProcess_adc.c.obj: ../SignalProcess/SingnalProcess_adc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SingnalProcess_adc.c.obj"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\SignalProcess\SingnalProcess_adc.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\SignalProcess\SingnalProcess_adc.c
+CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/FFT/Fft.cpp.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
+CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/FFT/Fft.cpp.obj: ../Platform/SignalProcess/FFT/Fft.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/FFT/Fft.cpp.obj"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\Platform\SignalProcess\FFT\Fft.cpp.obj -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Platform\SignalProcess\FFT\Fft.cpp
 
-CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SingnalProcess_adc.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SingnalProcess_adc.c.i"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\SignalProcess\SingnalProcess_adc.c > CMakeFiles\HEllOWORLD.elf.dir\SignalProcess\SingnalProcess_adc.c.i
+CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/FFT/Fft.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/FFT/Fft.cpp.i"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Platform\SignalProcess\FFT\Fft.cpp > CMakeFiles\HEllOWORLD.elf.dir\Platform\SignalProcess\FFT\Fft.cpp.i
 
-CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SingnalProcess_adc.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SingnalProcess_adc.c.s"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\SignalProcess\SingnalProcess_adc.c -o CMakeFiles\HEllOWORLD.elf.dir\SignalProcess\SingnalProcess_adc.c.s
+CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/FFT/Fft.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/FFT/Fft.cpp.s"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Platform\SignalProcess\FFT\Fft.cpp -o CMakeFiles\HEllOWORLD.elf.dir\Platform\SignalProcess\FFT\Fft.cpp.s
+
+CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/Filter/Filter.cpp.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
+CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/Filter/Filter.cpp.obj: ../Platform/SignalProcess/Filter/Filter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/Filter/Filter.cpp.obj"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\Platform\SignalProcess\Filter\Filter.cpp.obj -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Platform\SignalProcess\Filter\Filter.cpp
+
+CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/Filter/Filter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/Filter/Filter.cpp.i"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Platform\SignalProcess\Filter\Filter.cpp > CMakeFiles\HEllOWORLD.elf.dir\Platform\SignalProcess\Filter\Filter.cpp.i
+
+CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/Filter/Filter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/Filter/Filter.cpp.s"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Platform\SignalProcess\Filter\Filter.cpp -o CMakeFiles\HEllOWORLD.elf.dir\Platform\SignalProcess\Filter\Filter.cpp.s
+
+CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/PwmMeasure/PwmMeasure.cpp.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
+CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/PwmMeasure/PwmMeasure.cpp.obj: ../Platform/SignalProcess/PwmMeasure/PwmMeasure.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/PwmMeasure/PwmMeasure.cpp.obj"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\Platform\SignalProcess\PwmMeasure\PwmMeasure.cpp.obj -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Platform\SignalProcess\PwmMeasure\PwmMeasure.cpp
+
+CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/PwmMeasure/PwmMeasure.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/PwmMeasure/PwmMeasure.cpp.i"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Platform\SignalProcess\PwmMeasure\PwmMeasure.cpp > CMakeFiles\HEllOWORLD.elf.dir\Platform\SignalProcess\PwmMeasure\PwmMeasure.cpp.i
+
+CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/PwmMeasure/PwmMeasure.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/PwmMeasure/PwmMeasure.cpp.s"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Platform\SignalProcess\PwmMeasure\PwmMeasure.cpp -o CMakeFiles\HEllOWORLD.elf.dir\Platform\SignalProcess\PwmMeasure\PwmMeasure.cpp.s
+
+CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/SignalProcessBase.cpp.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
+CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/SignalProcessBase.cpp.obj: ../Platform/SignalProcess/SignalProcessBase.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/SignalProcessBase.cpp.obj"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\Platform\SignalProcess\SignalProcessBase.cpp.obj -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Platform\SignalProcess\SignalProcessBase.cpp
+
+CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/SignalProcessBase.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/SignalProcessBase.cpp.i"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Platform\SignalProcess\SignalProcessBase.cpp > CMakeFiles\HEllOWORLD.elf.dir\Platform\SignalProcess\SignalProcessBase.cpp.i
+
+CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/SignalProcessBase.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/SignalProcessBase.cpp.s"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Platform\SignalProcess\SignalProcessBase.cpp -o CMakeFiles\HEllOWORLD.elf.dir\Platform\SignalProcess\SignalProcessBase.cpp.s
+
+CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/Windows/Windows.cpp.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
+CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/Windows/Windows.cpp.obj: ../Platform/SignalProcess/Windows/Windows.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/Windows/Windows.cpp.obj"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\Platform\SignalProcess\Windows\Windows.cpp.obj -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Platform\SignalProcess\Windows\Windows.cpp
+
+CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/Windows/Windows.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/Windows/Windows.cpp.i"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Platform\SignalProcess\Windows\Windows.cpp > CMakeFiles\HEllOWORLD.elf.dir\Platform\SignalProcess\Windows\Windows.cpp.i
+
+CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/Windows/Windows.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/Windows/Windows.cpp.s"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Platform\SignalProcess\Windows\Windows.cpp -o CMakeFiles\HEllOWORLD.elf.dir\Platform\SignalProcess\Windows\Windows.cpp.s
 
 CMakeFiles/HEllOWORLD.elf.dir/System/delay/delay.c.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
 CMakeFiles/HEllOWORLD.elf.dir/System/delay/delay.c.obj: ../System/delay/delay.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/HEllOWORLD.elf.dir/System/delay/delay.c.obj"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\System\delay\delay.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\System\delay\delay.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/HEllOWORLD.elf.dir/System/delay/delay.c.obj"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\System\delay\delay.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\System\delay\delay.c
 
 CMakeFiles/HEllOWORLD.elf.dir/System/delay/delay.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HEllOWORLD.elf.dir/System/delay/delay.c.i"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\System\delay\delay.c > CMakeFiles\HEllOWORLD.elf.dir\System\delay\delay.c.i
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\System\delay\delay.c > CMakeFiles\HEllOWORLD.elf.dir\System\delay\delay.c.i
 
 CMakeFiles/HEllOWORLD.elf.dir/System/delay/delay.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HEllOWORLD.elf.dir/System/delay/delay.c.s"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\System\delay\delay.c -o CMakeFiles\HEllOWORLD.elf.dir\System\delay\delay.c.s
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\System\delay\delay.c -o CMakeFiles\HEllOWORLD.elf.dir\System\delay\delay.c.s
 
 CMakeFiles/HEllOWORLD.elf.dir/System/sys/sys.c.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
 CMakeFiles/HEllOWORLD.elf.dir/System/sys/sys.c.obj: ../System/sys/sys.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/HEllOWORLD.elf.dir/System/sys/sys.c.obj"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\System\sys\sys.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\System\sys\sys.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/HEllOWORLD.elf.dir/System/sys/sys.c.obj"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\System\sys\sys.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\System\sys\sys.c
 
 CMakeFiles/HEllOWORLD.elf.dir/System/sys/sys.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HEllOWORLD.elf.dir/System/sys/sys.c.i"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\System\sys\sys.c > CMakeFiles\HEllOWORLD.elf.dir\System\sys\sys.c.i
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\System\sys\sys.c > CMakeFiles\HEllOWORLD.elf.dir\System\sys\sys.c.i
 
 CMakeFiles/HEllOWORLD.elf.dir/System/sys/sys.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HEllOWORLD.elf.dir/System/sys/sys.c.s"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\System\sys\sys.c -o CMakeFiles\HEllOWORLD.elf.dir\System\sys\sys.c.s
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\System\sys\sys.c -o CMakeFiles\HEllOWORLD.elf.dir\System\sys\sys.c.s
 
 CMakeFiles/HEllOWORLD.elf.dir/System/usart/Module_UART.c.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
 CMakeFiles/HEllOWORLD.elf.dir/System/usart/Module_UART.c.obj: ../System/usart/Module_UART.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/HEllOWORLD.elf.dir/System/usart/Module_UART.c.obj"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\System\usart\Module_UART.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\System\usart\Module_UART.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/HEllOWORLD.elf.dir/System/usart/Module_UART.c.obj"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\System\usart\Module_UART.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\System\usart\Module_UART.c
 
 CMakeFiles/HEllOWORLD.elf.dir/System/usart/Module_UART.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HEllOWORLD.elf.dir/System/usart/Module_UART.c.i"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\System\usart\Module_UART.c > CMakeFiles\HEllOWORLD.elf.dir\System\usart\Module_UART.c.i
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\System\usart\Module_UART.c > CMakeFiles\HEllOWORLD.elf.dir\System\usart\Module_UART.c.i
 
 CMakeFiles/HEllOWORLD.elf.dir/System/usart/Module_UART.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HEllOWORLD.elf.dir/System/usart/Module_UART.c.s"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\System\usart\Module_UART.c -o CMakeFiles\HEllOWORLD.elf.dir\System\usart\Module_UART.c.s
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\System\usart\Module_UART.c -o CMakeFiles\HEllOWORLD.elf.dir\System\usart\Module_UART.c.s
 
 CMakeFiles/HEllOWORLD.elf.dir/System/usart/retarget.c.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
 CMakeFiles/HEllOWORLD.elf.dir/System/usart/retarget.c.obj: ../System/usart/retarget.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/HEllOWORLD.elf.dir/System/usart/retarget.c.obj"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\System\usart\retarget.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\System\usart\retarget.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/HEllOWORLD.elf.dir/System/usart/retarget.c.obj"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\System\usart\retarget.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\System\usart\retarget.c
 
 CMakeFiles/HEllOWORLD.elf.dir/System/usart/retarget.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/HEllOWORLD.elf.dir/System/usart/retarget.c.i"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\System\usart\retarget.c > CMakeFiles\HEllOWORLD.elf.dir\System\usart\retarget.c.i
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\System\usart\retarget.c > CMakeFiles\HEllOWORLD.elf.dir\System\usart\retarget.c.i
 
 CMakeFiles/HEllOWORLD.elf.dir/System/usart/retarget.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/HEllOWORLD.elf.dir/System/usart/retarget.c.s"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\System\usart\retarget.c -o CMakeFiles\HEllOWORLD.elf.dir\System\usart\retarget.c.s
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\System\usart\retarget.c -o CMakeFiles\HEllOWORLD.elf.dir\System\usart\retarget.c.s
 
 CMakeFiles/HEllOWORLD.elf.dir/UserApp/init.cpp.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
 CMakeFiles/HEllOWORLD.elf.dir/UserApp/init.cpp.obj: ../UserApp/init.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object CMakeFiles/HEllOWORLD.elf.dir/UserApp/init.cpp.obj"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\UserApp\init.cpp.obj -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\UserApp\init.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object CMakeFiles/HEllOWORLD.elf.dir/UserApp/init.cpp.obj"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\UserApp\init.cpp.obj -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\UserApp\init.cpp
 
 CMakeFiles/HEllOWORLD.elf.dir/UserApp/init.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HEllOWORLD.elf.dir/UserApp/init.cpp.i"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\UserApp\init.cpp > CMakeFiles\HEllOWORLD.elf.dir\UserApp\init.cpp.i
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\UserApp\init.cpp > CMakeFiles\HEllOWORLD.elf.dir\UserApp\init.cpp.i
 
 CMakeFiles/HEllOWORLD.elf.dir/UserApp/init.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HEllOWORLD.elf.dir/UserApp/init.cpp.s"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\UserApp\init.cpp -o CMakeFiles\HEllOWORLD.elf.dir\UserApp\init.cpp.s
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\UserApp\init.cpp -o CMakeFiles\HEllOWORLD.elf.dir\UserApp\init.cpp.s
 
 CMakeFiles/HEllOWORLD.elf.dir/UserApp/main.cpp.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
 CMakeFiles/HEllOWORLD.elf.dir/UserApp/main.cpp.obj: ../UserApp/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object CMakeFiles/HEllOWORLD.elf.dir/UserApp/main.cpp.obj"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\UserApp\main.cpp.obj -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\UserApp\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object CMakeFiles/HEllOWORLD.elf.dir/UserApp/main.cpp.obj"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\UserApp\main.cpp.obj -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\UserApp\main.cpp
 
 CMakeFiles/HEllOWORLD.elf.dir/UserApp/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HEllOWORLD.elf.dir/UserApp/main.cpp.i"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\UserApp\main.cpp > CMakeFiles\HEllOWORLD.elf.dir\UserApp\main.cpp.i
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\UserApp\main.cpp > CMakeFiles\HEllOWORLD.elf.dir\UserApp\main.cpp.i
 
 CMakeFiles/HEllOWORLD.elf.dir/UserApp/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HEllOWORLD.elf.dir/UserApp/main.cpp.s"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\UserApp\main.cpp -o CMakeFiles\HEllOWORLD.elf.dir\UserApp\main.cpp.s
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\UserApp\main.cpp -o CMakeFiles\HEllOWORLD.elf.dir\UserApp\main.cpp.s
 
 CMakeFiles/HEllOWORLD.elf.dir/UserApp/usart_receive.cpp.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
 CMakeFiles/HEllOWORLD.elf.dir/UserApp/usart_receive.cpp.obj: ../UserApp/usart_receive.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object CMakeFiles/HEllOWORLD.elf.dir/UserApp/usart_receive.cpp.obj"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\UserApp\usart_receive.cpp.obj -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\UserApp\usart_receive.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object CMakeFiles/HEllOWORLD.elf.dir/UserApp/usart_receive.cpp.obj"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\UserApp\usart_receive.cpp.obj -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\UserApp\usart_receive.cpp
 
 CMakeFiles/HEllOWORLD.elf.dir/UserApp/usart_receive.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HEllOWORLD.elf.dir/UserApp/usart_receive.cpp.i"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\UserApp\usart_receive.cpp > CMakeFiles\HEllOWORLD.elf.dir\UserApp\usart_receive.cpp.i
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\UserApp\usart_receive.cpp > CMakeFiles\HEllOWORLD.elf.dir\UserApp\usart_receive.cpp.i
 
 CMakeFiles/HEllOWORLD.elf.dir/UserApp/usart_receive.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HEllOWORLD.elf.dir/UserApp/usart_receive.cpp.s"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\UserApp\usart_receive.cpp -o CMakeFiles\HEllOWORLD.elf.dir\UserApp\usart_receive.cpp.s
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\UserApp\usart_receive.cpp -o CMakeFiles\HEllOWORLD.elf.dir\UserApp\usart_receive.cpp.s
 
 CMakeFiles/HEllOWORLD.elf.dir/startup/startup_stm32f407xx.s.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
 CMakeFiles/HEllOWORLD.elf.dir/startup/startup_stm32f407xx.s.obj: ../startup/startup_stm32f407xx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building ASM object CMakeFiles/HEllOWORLD.elf.dir/startup/startup_stm32f407xx.s.obj"
-	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\startup\startup_stm32f407xx.s.obj -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\startup\startup_stm32f407xx.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building ASM object CMakeFiles/HEllOWORLD.elf.dir/startup/startup_stm32f407xx.s.obj"
+	C:\MinGW\gcc-arm-none-eabi-10.3-2021.10\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\startup\startup_stm32f407xx.s.obj -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\startup\startup_stm32f407xx.s
 
 # Object files for target HEllOWORLD.elf
 HEllOWORLD_elf_OBJECTS = \
@@ -1057,19 +1096,22 @@ HEllOWORLD_elf_OBJECTS = \
 "CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj" \
 "CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj" \
 "CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.obj" \
-"CMakeFiles/HEllOWORLD.elf.dir/GUI/gui.c.obj" \
 "CMakeFiles/HEllOWORLD.elf.dir/HardWare/key/key.c.obj" \
 "CMakeFiles/HEllOWORLD.elf.dir/HardWare/lcd/demos.c.obj" \
 "CMakeFiles/HEllOWORLD.elf.dir/HardWare/lcd/lcd.c.obj" \
 "CMakeFiles/HEllOWORLD.elf.dir/HardWare/lcd/lcd_ex.c.obj" \
 "CMakeFiles/HEllOWORLD.elf.dir/HardWare/lcd/lcdlib.c.obj" \
-"CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SignalProcess.c.obj" \
-"CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SignalProcess_dac.c.obj" \
-"CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SignalProcess_fft.c.obj" \
-"CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SignalProcess_filter.c.obj" \
-"CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SignalProcess_pwm.c.obj" \
-"CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SignalProcess_windows.c.obj" \
-"CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SingnalProcess_adc.c.obj" \
+"CMakeFiles/HEllOWORLD.elf.dir/Platform/Adc/My_Adc.cpp.obj" \
+"CMakeFiles/HEllOWORLD.elf.dir/Platform/Dac/My_Dac.cpp.obj" \
+"CMakeFiles/HEllOWORLD.elf.dir/Platform/Peripheral/SignalPeripheral.cpp.obj" \
+"CMakeFiles/HEllOWORLD.elf.dir/Platform/Pwm/My_Pwm.cpp.obj" \
+"CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/AdvancedMeasure/AdvancedMeasure.cpp.obj" \
+"CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/BasicMeasure/BasicMeasure.cpp.obj" \
+"CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/FFT/Fft.cpp.obj" \
+"CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/Filter/Filter.cpp.obj" \
+"CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/PwmMeasure/PwmMeasure.cpp.obj" \
+"CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/SignalProcessBase.cpp.obj" \
+"CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/Windows/Windows.cpp.obj" \
 "CMakeFiles/HEllOWORLD.elf.dir/System/delay/delay.c.obj" \
 "CMakeFiles/HEllOWORLD.elf.dir/System/sys/sys.c.obj" \
 "CMakeFiles/HEllOWORLD.elf.dir/System/usart/Module_UART.c.obj" \
@@ -1133,19 +1175,22 @@ HEllOWORLD.elf: CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/s
 HEllOWORLD.elf: CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c.obj
 HEllOWORLD.elf: CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c.obj
 HEllOWORLD.elf: CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.obj
-HEllOWORLD.elf: CMakeFiles/HEllOWORLD.elf.dir/GUI/gui.c.obj
 HEllOWORLD.elf: CMakeFiles/HEllOWORLD.elf.dir/HardWare/key/key.c.obj
 HEllOWORLD.elf: CMakeFiles/HEllOWORLD.elf.dir/HardWare/lcd/demos.c.obj
 HEllOWORLD.elf: CMakeFiles/HEllOWORLD.elf.dir/HardWare/lcd/lcd.c.obj
 HEllOWORLD.elf: CMakeFiles/HEllOWORLD.elf.dir/HardWare/lcd/lcd_ex.c.obj
 HEllOWORLD.elf: CMakeFiles/HEllOWORLD.elf.dir/HardWare/lcd/lcdlib.c.obj
-HEllOWORLD.elf: CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SignalProcess.c.obj
-HEllOWORLD.elf: CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SignalProcess_dac.c.obj
-HEllOWORLD.elf: CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SignalProcess_fft.c.obj
-HEllOWORLD.elf: CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SignalProcess_filter.c.obj
-HEllOWORLD.elf: CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SignalProcess_pwm.c.obj
-HEllOWORLD.elf: CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SignalProcess_windows.c.obj
-HEllOWORLD.elf: CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SingnalProcess_adc.c.obj
+HEllOWORLD.elf: CMakeFiles/HEllOWORLD.elf.dir/Platform/Adc/My_Adc.cpp.obj
+HEllOWORLD.elf: CMakeFiles/HEllOWORLD.elf.dir/Platform/Dac/My_Dac.cpp.obj
+HEllOWORLD.elf: CMakeFiles/HEllOWORLD.elf.dir/Platform/Peripheral/SignalPeripheral.cpp.obj
+HEllOWORLD.elf: CMakeFiles/HEllOWORLD.elf.dir/Platform/Pwm/My_Pwm.cpp.obj
+HEllOWORLD.elf: CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/AdvancedMeasure/AdvancedMeasure.cpp.obj
+HEllOWORLD.elf: CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/BasicMeasure/BasicMeasure.cpp.obj
+HEllOWORLD.elf: CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/FFT/Fft.cpp.obj
+HEllOWORLD.elf: CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/Filter/Filter.cpp.obj
+HEllOWORLD.elf: CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/PwmMeasure/PwmMeasure.cpp.obj
+HEllOWORLD.elf: CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/SignalProcessBase.cpp.obj
+HEllOWORLD.elf: CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/Windows/Windows.cpp.obj
 HEllOWORLD.elf: CMakeFiles/HEllOWORLD.elf.dir/System/delay/delay.c.obj
 HEllOWORLD.elf: CMakeFiles/HEllOWORLD.elf.dir/System/sys/sys.c.obj
 HEllOWORLD.elf: CMakeFiles/HEllOWORLD.elf.dir/System/usart/Module_UART.c.obj
@@ -1157,12 +1202,12 @@ HEllOWORLD.elf: CMakeFiles/HEllOWORLD.elf.dir/startup/startup_stm32f407xx.s.obj
 HEllOWORLD.elf: CMakeFiles/HEllOWORLD.elf.dir/build.make
 HEllOWORLD.elf: CMakeFiles/HEllOWORLD.elf.dir/objects1.rsp
 HEllOWORLD.elf: CMakeFiles/HEllOWORLD.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Linking CXX executable HEllOWORLD.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Linking CXX executable HEllOWORLD.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\HEllOWORLD.elf.dir\link.txt --verbose=$(VERBOSE)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/cmake-build-default/HEllOWORLD.hex"
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/cmake-build-default/HEllOWORLD.bin"
-	arm-none-eabi-objcopy -Oihex C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/cmake-build-default/HEllOWORLD.elf C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/cmake-build-default/HEllOWORLD.hex
-	arm-none-eabi-objcopy -Obinary C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/cmake-build-default/HEllOWORLD.elf C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/cmake-build-default/HEllOWORLD.bin
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/cmake-build-default/HEllOWORLD.hex"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/cmake-build-default/HEllOWORLD.bin"
+	arm-none-eabi-objcopy -Oihex C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/cmake-build-default/HEllOWORLD.elf C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/cmake-build-default/HEllOWORLD.hex
+	arm-none-eabi-objcopy -Obinary C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/cmake-build-default/HEllOWORLD.elf C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/cmake-build-default/HEllOWORLD.bin
 
 # Rule to build all files generated by this target.
 CMakeFiles/HEllOWORLD.elf.dir/build: HEllOWORLD.elf
@@ -1174,6 +1219,6 @@ CMakeFiles/HEllOWORLD.elf.dir/clean:
 .PHONY : CMakeFiles/HEllOWORLD.elf.dir/clean
 
 CMakeFiles/HEllOWORLD.elf.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\cmake-build-default C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\cmake-build-default C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\cmake-build-default\CMakeFiles\HEllOWORLD.elf.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles\HEllOWORLD.elf.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/HEllOWORLD.elf.dir/depend
 

@@ -18,13 +18,12 @@ extern "C" {
 #include "usart.h"
 #include "tim.h"
 #include "adc.h"
+#include "dac.h"
 #include "retarget.h"
 #include "delay.h"
-#include "my_dsp.h"
 #include "lcd.h"
 #include "demos.h"
 #include "key.h"
-#include "gui.h"
 
 void Main();
 
@@ -32,6 +31,12 @@ void Main();
 #ifdef __cplusplus
 }
 /*---------------------------- C++ Scope ---------------------------*/
+#include "My_Adc.h"
+#include "My_Dac.h"
+#include "My_Pwm.h"
+#include "BasicMeasure.h"
+#include "AdvancedMeasure.h"
+#include "PwmMeasure.h"
 void Init();
 
 

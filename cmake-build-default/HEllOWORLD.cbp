@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/cmake-build-default"/>
+				<Option working_dir="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/cmake-build-default"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/cmake-build-default/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/cmake-build-default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/cmake-build-default/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/cmake-build-default/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/cmake-build-default/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/cmake-build-default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/cmake-build-default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/cmake-build-default/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="HEllOWORLD.elf">
-				<Option output="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/cmake-build-default/HEllOWORLD.elf" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/cmake-build-default"/>
+				<Option output="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/cmake-build-default/HEllOWORLD.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/cmake-build-default"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -29,24 +29,33 @@
 					<Add option="-DARM_MATH_ROUNDING"/>
 					<Add option="-DUSE_HAL_DRIVER"/>
 					<Add option="-DSTM32F407xx"/>
-					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Core/Inc"/>
-					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/STM32F4xx_HAL_Driver/Inc"/>
-					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
-					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
-					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/CMSIS/Include"/>
-					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/UserApp"/>
-					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/System/sys"/>
-					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/System/usart"/>
-					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/System/delay"/>
-					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/System/*.*"/>
-					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/SignalProcess"/>
-					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/SignalProcess/fdacoefs"/>
-					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/HardWare/lcd"/>
-					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/GUI"/>
-					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/HardWare/key"/>
-					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/ARM_DSP/Include/dsp"/>
-					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/ARM_DSP/Include"/>
-					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/ARM_DSP/PrivateInclude"/>
+					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Core/Inc"/>
+					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Drivers/CMSIS/Include"/>
+					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/UserApp"/>
+					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/System/sys"/>
+					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/System/usart"/>
+					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/System/delay"/>
+					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Platform"/>
+					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Platform/Peripheral"/>
+					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Platform/Adc"/>
+					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Platform/Dac"/>
+					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Platform/Pwm"/>
+					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Platform/SignalProcess"/>
+					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Platform/SignalProcess/BasicMeasure"/>
+					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Platform/SignalProcess/AdvancedMeasure"/>
+					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Platform/SignalProcess/FFT"/>
+					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Platform/SignalProcess/Filter"/>
+					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Platform/SignalProcess/Filter/fdacoefs"/>
+					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Platform/SignalProcess/PwmMeasure"/>
+					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/HardWare/lcd"/>
+					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/GUI"/>
+					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/HardWare/key"/>
+					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/ARM_DSP/Include/dsp"/>
+					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/ARM_DSP/Include"/>
+					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/ARM_DSP/PrivateInclude"/>
 					<Add directory="c:\mingw\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
 					<Add directory="c:\mingw\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
 					<Add directory="c:\mingw\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
@@ -55,15 +64,15 @@
 					<Add directory="c:\mingw\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/cmake-build-default/Makefile&quot;  VERBOSE=1 HEllOWORLD.elf"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/cmake-build-default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/cmake-build-default/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/cmake-build-default/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/cmake-build-default/Makefile&quot;  VERBOSE=1 HEllOWORLD.elf"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/cmake-build-default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/cmake-build-default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/cmake-build-default/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="HEllOWORLD.elf/fast">
-				<Option output="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/cmake-build-default/HEllOWORLD.elf" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/cmake-build-default"/>
+				<Option output="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/cmake-build-default/HEllOWORLD.elf" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/cmake-build-default"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -73,24 +82,33 @@
 					<Add option="-DARM_MATH_ROUNDING"/>
 					<Add option="-DUSE_HAL_DRIVER"/>
 					<Add option="-DSTM32F407xx"/>
-					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Core/Inc"/>
-					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/STM32F4xx_HAL_Driver/Inc"/>
-					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
-					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
-					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/CMSIS/Include"/>
-					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/UserApp"/>
-					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/System/sys"/>
-					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/System/usart"/>
-					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/System/delay"/>
-					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/System/*.*"/>
-					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/SignalProcess"/>
-					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/SignalProcess/fdacoefs"/>
-					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/HardWare/lcd"/>
-					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/GUI"/>
-					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/HardWare/key"/>
-					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/ARM_DSP/Include/dsp"/>
-					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/ARM_DSP/Include"/>
-					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/ARM_DSP/PrivateInclude"/>
+					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Core/Inc"/>
+					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Drivers/STM32F4xx_HAL_Driver/Inc"/>
+					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy"/>
+					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Drivers/CMSIS/Device/ST/STM32F4xx/Include"/>
+					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Drivers/CMSIS/Include"/>
+					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/UserApp"/>
+					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/System/sys"/>
+					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/System/usart"/>
+					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/System/delay"/>
+					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Platform"/>
+					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Platform/Peripheral"/>
+					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Platform/Adc"/>
+					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Platform/Dac"/>
+					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Platform/Pwm"/>
+					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Platform/SignalProcess"/>
+					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Platform/SignalProcess/BasicMeasure"/>
+					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Platform/SignalProcess/AdvancedMeasure"/>
+					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Platform/SignalProcess/FFT"/>
+					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Platform/SignalProcess/Filter"/>
+					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Platform/SignalProcess/Filter/fdacoefs"/>
+					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Platform/SignalProcess/PwmMeasure"/>
+					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/HardWare/lcd"/>
+					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/GUI"/>
+					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/HardWare/key"/>
+					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/ARM_DSP/Include/dsp"/>
+					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/ARM_DSP/Include"/>
+					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/ARM_DSP/PrivateInclude"/>
 					<Add directory="c:\mingw\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
 					<Add directory="c:\mingw\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
 					<Add directory="c:\mingw\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
@@ -99,508 +117,523 @@
 					<Add directory="c:\mingw\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/cmake-build-default/Makefile&quot;  VERBOSE=1 HEllOWORLD.elf/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/cmake-build-default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/cmake-build-default/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/cmake-build-default/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/cmake-build-default/Makefile&quot;  VERBOSE=1 HEllOWORLD.elf/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/cmake-build-default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/cmake-build-default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/cmake-build-default/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/cmake-build-default"/>
+				<Option working_dir="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/cmake-build-default"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/cmake-build-default/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/cmake-build-default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/cmake-build-default/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/cmake-build-default/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/cmake-build-default/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/cmake-build-default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/cmake-build-default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/cmake-build-default/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/cmake-build-default"/>
+				<Option working_dir="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/cmake-build-default"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/cmake-build-default/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/cmake-build-default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/cmake-build-default/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/cmake-build-default/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/cmake-build-default/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/cmake-build-default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/cmake-build-default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/cmake-build-default/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/ARM_DSP/Source/BasicMathFunctions/BasicMathFunctions.c">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/ARM_DSP/Source/BasicMathFunctions/BasicMathFunctions.c">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/ARM_DSP/Source/BayesFunctions/BayesFunctions.c">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/ARM_DSP/Source/BayesFunctions/BayesFunctions.c">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/ARM_DSP/Source/CommonTables/CommonTables.c">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/ARM_DSP/Source/CommonTables/CommonTables.c">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/ARM_DSP/Source/ComplexMathFunctions/ComplexMathFunctions.c">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/ARM_DSP/Source/ComplexMathFunctions/ComplexMathFunctions.c">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/ARM_DSP/Source/ControllerFunctions/ControllerFunctions.c">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/ARM_DSP/Source/ControllerFunctions/ControllerFunctions.c">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/ARM_DSP/Source/DistanceFunctions/DistanceFunctions.c">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/ARM_DSP/Source/DistanceFunctions/DistanceFunctions.c">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/ARM_DSP/Source/FastMathFunctions/FastMathFunctions.c">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/ARM_DSP/Source/FastMathFunctions/FastMathFunctions.c">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/ARM_DSP/Source/FilteringFunctions/FilteringFunctions.c">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/ARM_DSP/Source/FilteringFunctions/FilteringFunctions.c">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/ARM_DSP/Source/InterpolationFunctions/InterpolationFunctions.c">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/ARM_DSP/Source/InterpolationFunctions/InterpolationFunctions.c">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/ARM_DSP/Source/MatrixFunctions/MatrixFunctions.c">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/ARM_DSP/Source/MatrixFunctions/MatrixFunctions.c">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/ARM_DSP/Source/QuaternionMathFunctions/QuaternionMathFunctions.c">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/ARM_DSP/Source/QuaternionMathFunctions/QuaternionMathFunctions.c">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/ARM_DSP/Source/SVMFunctions/SVMFunctions.c">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/ARM_DSP/Source/SVMFunctions/SVMFunctions.c">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/ARM_DSP/Source/StatisticsFunctions/StatisticsFunctions.c">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/ARM_DSP/Source/StatisticsFunctions/StatisticsFunctions.c">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/ARM_DSP/Source/SupportFunctions/SupportFunctions.c">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/ARM_DSP/Source/SupportFunctions/SupportFunctions.c">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/ARM_DSP/Source/TransformFunctions/TransformFunctions.c">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/ARM_DSP/Source/TransformFunctions/TransformFunctions.c">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/ARM_DSP/Source/WindowFunctions/WindowFunctions.c">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/ARM_DSP/Source/WindowFunctions/WindowFunctions.c">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Core/Inc/adc.h">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Core/Inc/adc.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Core/Inc/dac.h">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Core/Inc/dac.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Core/Inc/dma.h">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Core/Inc/dma.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Core/Inc/fsmc.h">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Core/Inc/fsmc.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Core/Inc/gpio.h">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Core/Inc/gpio.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Core/Inc/main.h">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Core/Inc/main.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Core/Inc/stm32f4xx_hal_conf.h">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Core/Inc/stm32f4xx_hal_conf.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Core/Inc/stm32f4xx_it.h">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Core/Inc/stm32f4xx_it.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Core/Inc/tim.h">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Core/Inc/tim.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Core/Inc/usart.h">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Core/Inc/usart.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Core/Src/adc.c">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Core/Src/adc.c">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Core/Src/dac.c">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Core/Src/dac.c">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Core/Src/dma.c">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Core/Src/dma.c">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Core/Src/fsmc.c">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Core/Src/fsmc.c">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Core/Src/gpio.c">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Core/Src/gpio.c">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Core/Src/main.c">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Core/Src/main.c">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Core/Src/stm32f4xx_hal_msp.c">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Core/Src/stm32f4xx_hal_msp.c">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Core/Src/stm32f4xx_it.c">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Core/Src/stm32f4xx_it.c">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Core/Src/syscalls.c">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Core/Src/syscalls.c">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Core/Src/system_stm32f4xx.c">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Core/Src/system_stm32f4xx.c">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Core/Src/tim.c">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Core/Src/tim.c">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Core/Src/usart.c">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Core/Src/usart.c">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/CMSIS/Device/ST/STM32F4xx/LICENSE.txt">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Drivers/CMSIS/Device/ST/STM32F4xx/LICENSE.txt">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/CMSIS/Include/cmsis_armcc.h">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Drivers/CMSIS/Include/cmsis_armcc.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/CMSIS/Include/cmsis_armclang.h">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Drivers/CMSIS/Include/cmsis_armclang.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/CMSIS/Include/cmsis_compiler.h">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Drivers/CMSIS/Include/cmsis_compiler.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/CMSIS/Include/cmsis_gcc.h">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Drivers/CMSIS/Include/cmsis_gcc.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/CMSIS/Include/cmsis_iccarm.h">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Drivers/CMSIS/Include/cmsis_iccarm.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/CMSIS/Include/cmsis_version.h">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Drivers/CMSIS/Include/cmsis_version.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/CMSIS/Include/core_armv8mbl.h">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Drivers/CMSIS/Include/core_armv8mbl.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/CMSIS/Include/core_armv8mml.h">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Drivers/CMSIS/Include/core_armv8mml.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/CMSIS/Include/core_cm0.h">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Drivers/CMSIS/Include/core_cm0.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/CMSIS/Include/core_cm0plus.h">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Drivers/CMSIS/Include/core_cm0plus.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/CMSIS/Include/core_cm1.h">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Drivers/CMSIS/Include/core_cm1.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/CMSIS/Include/core_cm23.h">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Drivers/CMSIS/Include/core_cm23.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/CMSIS/Include/core_cm3.h">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Drivers/CMSIS/Include/core_cm3.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/CMSIS/Include/core_cm33.h">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Drivers/CMSIS/Include/core_cm33.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/CMSIS/Include/core_cm4.h">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Drivers/CMSIS/Include/core_cm4.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/CMSIS/Include/core_cm7.h">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Drivers/CMSIS/Include/core_cm7.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/CMSIS/Include/core_sc000.h">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Drivers/CMSIS/Include/core_sc000.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/CMSIS/Include/core_sc300.h">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Drivers/CMSIS/Include/core_sc300.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/CMSIS/Include/mpu_armv7.h">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Drivers/CMSIS/Include/mpu_armv7.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/CMSIS/Include/mpu_armv8.h">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Drivers/CMSIS/Include/mpu_armv8.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/CMSIS/Include/tz_context.h">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Drivers/CMSIS/Include/tz_context.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/CMSIS/LICENSE.txt">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Drivers/CMSIS/LICENSE.txt">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac.h">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac_ex.h">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac_ex.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/STM32F4xx_HAL_Driver/LICENSE.txt">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Drivers/STM32F4xx_HAL_Driver/LICENSE.txt">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac.c">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dac_ex.c">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_sram.c">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_adc.c">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/GUI/gui.c">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/HardWare/key/key.c">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/GUI/gui.h">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/HardWare/key/key.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/HardWare/key/key.c">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/HardWare/lcd/demos.c">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/HardWare/key/key.h">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/HardWare/lcd/demos.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/HardWare/lcd/demos.c">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/HardWare/lcd/lcd.c">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/HardWare/lcd/demos.h">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/HardWare/lcd/lcd.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/HardWare/lcd/lcd.c">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/HardWare/lcd/lcd_color.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/HardWare/lcd/lcd.h">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/HardWare/lcd/lcd_ex.c">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/HardWare/lcd/lcd_color.h">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/HardWare/lcd/lcdfont.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/HardWare/lcd/lcd_ex.c">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/HardWare/lcd/lcdlib.c">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/HardWare/lcd/lcdfont.h">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Platform/Adc/My_Adc.cpp">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/HardWare/lcd/lcdlib.c">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Platform/Adc/My_Adc.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/STM32F407VETx_FLASH.ld">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Platform/Config.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/SignalProcess/SignalProcess.c">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Platform/Dac/My_Dac.cpp">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/SignalProcess/SignalProcess.h">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Platform/Dac/My_Dac.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/SignalProcess/SignalProcessConfig.h">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Platform/EmbeddedSystem.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/SignalProcess/SignalProcess_dac.c">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Platform/Peripheral/BasePeripheral.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/SignalProcess/SignalProcess_dac.h">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Platform/Peripheral/SignalPeripheral.cpp">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/SignalProcess/SignalProcess_fft.c">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Platform/Peripheral/SignalPeripheral.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/SignalProcess/SignalProcess_fft.h">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Platform/Pwm/My_Pwm.cpp">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/SignalProcess/SignalProcess_filter.c">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Platform/Pwm/My_Pwm.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/SignalProcess/SignalProcess_filter.h">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Platform/SignalProcess/AdvancedMeasure/AdvancedMeasure.cpp">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/SignalProcess/SignalProcess_pwm.c">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Platform/SignalProcess/AdvancedMeasure/AdvancedMeasure.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/SignalProcess/SignalProcess_pwm.h">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Platform/SignalProcess/BasicMeasure/BasicMeasure.cpp">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/SignalProcess/SignalProcess_windows.c">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Platform/SignalProcess/BasicMeasure/BasicMeasure.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/SignalProcess/SignalProcess_windows.h">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Platform/SignalProcess/FFT/Fft.cpp">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/SignalProcess/SingnalProcess_adc.c">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Platform/SignalProcess/Filter/Filter.cpp">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/SignalProcess/SingnalProcess_adc.h">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Platform/SignalProcess/Filter/fdacoefs/fdacoefs.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/SignalProcess/fdacoefs/fdacoefs.h">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Platform/SignalProcess/Filter/fdacoefs/tmwtypes.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/SignalProcess/fdacoefs/tmwtypes.h">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Platform/SignalProcess/PwmMeasure/PwmMeasure.cpp">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/SignalProcess/my_dsp.h">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Platform/SignalProcess/PwmMeasure/PwmMeasure.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/System/delay/delay.c">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Platform/SignalProcess/SignalProcessBase.cpp">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/System/delay/delay.h">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Platform/SignalProcess/SignalProcessBase.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/System/sys/sys.c">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Platform/SignalProcess/Windows/Windows.cpp">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/System/sys/sys.h">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Platform/SignalSystem.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/System/usart/Module_UART.c">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/STM32F407VETx_FLASH.ld">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/System/usart/Module_UART.h">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/System/delay/delay.c">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/System/usart/retarget.c">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/System/delay/delay.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/System/usart/retarget.h">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/System/sys/sys.c">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/UserApp/common_inc.h">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/System/sys/sys.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/UserApp/init.cpp">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/System/usart/Module_UART.c">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/UserApp/main.cpp">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/System/usart/Module_UART.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/UserApp/usart_receive.cpp">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/System/usart/retarget.c">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/startup/startup_stm32f407xx.s">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/System/usart/retarget.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/dsp/oscilloscope/CMakeLists.txt">
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/UserApp/common_inc.h">
+			<Option target="HEllOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/UserApp/init.cpp">
+			<Option target="HEllOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/UserApp/main.cpp">
+			<Option target="HEllOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/UserApp/usart_receive.cpp">
+			<Option target="HEllOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/startup/startup_stm32f407xx.s">
+			<Option target="HEllOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

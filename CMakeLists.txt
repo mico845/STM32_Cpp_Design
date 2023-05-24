@@ -55,9 +55,19 @@ include_directories(
         System/sys
         System/usart
         System/delay
-        System/*.*
-        SignalProcess
-        SignalProcess/fdacoefs
+        Platform
+        Platform/Peripheral
+        Platform/Adc
+        Platform/Dac
+        Platform/Pwm
+        Platform/SignalProcess
+        Platform/SignalProcess/BasicMeasure
+        Platform/SignalProcess/AdvancedMeasure
+        Platform/SignalProcess/FFT
+        Platform/SignalProcess/Filter
+        Platform/SignalProcess/Filter/fdacoefs
+        Platform/SignalProcess/PwmMeasure
+
         HardWare/lcd
         GUI
         HardWare/key
@@ -81,7 +91,7 @@ file(
         "Core/*.*"
         "UserApp/*.*"
         "System/*.*"
-        "SignalProcess/*"
+        "Platform/*.*"
         "HardWare/lcd/*"
         "GUI/*"
         "HardWare/key/*"

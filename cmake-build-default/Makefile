@@ -67,10 +67,10 @@ RM = "C:\Program Files\JetBrains\CLion 2020.3.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope
+CMAKE_SOURCE_DIR = C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\cmake-build-default
+CMAKE_BINARY_DIR = C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -99,9 +99,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\cmake-build-default\CMakeFiles C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\cmake-build-default\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\cmake-build-default\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -1519,33 +1519,6 @@ Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.s
 .PHONY : Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.c.s
 
-GUI/gui.obj: GUI/gui.c.obj
-
-.PHONY : GUI/gui.obj
-
-# target to build an object file
-GUI/gui.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/GUI/gui.c.obj
-.PHONY : GUI/gui.c.obj
-
-GUI/gui.i: GUI/gui.c.i
-
-.PHONY : GUI/gui.i
-
-# target to preprocess a source file
-GUI/gui.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/GUI/gui.c.i
-.PHONY : GUI/gui.c.i
-
-GUI/gui.s: GUI/gui.c.s
-
-.PHONY : GUI/gui.s
-
-# target to generate assembly for a file
-GUI/gui.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/GUI/gui.c.s
-.PHONY : GUI/gui.c.s
-
 HardWare/key/key.obj: HardWare/key/key.c.obj
 
 .PHONY : HardWare/key/key.obj
@@ -1681,194 +1654,302 @@ HardWare/lcd/lcdlib.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/HardWare/lcd/lcdlib.c.s
 .PHONY : HardWare/lcd/lcdlib.c.s
 
-SignalProcess/SignalProcess.obj: SignalProcess/SignalProcess.c.obj
+Platform/Adc/My_Adc.obj: Platform/Adc/My_Adc.cpp.obj
 
-.PHONY : SignalProcess/SignalProcess.obj
-
-# target to build an object file
-SignalProcess/SignalProcess.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SignalProcess.c.obj
-.PHONY : SignalProcess/SignalProcess.c.obj
-
-SignalProcess/SignalProcess.i: SignalProcess/SignalProcess.c.i
-
-.PHONY : SignalProcess/SignalProcess.i
-
-# target to preprocess a source file
-SignalProcess/SignalProcess.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SignalProcess.c.i
-.PHONY : SignalProcess/SignalProcess.c.i
-
-SignalProcess/SignalProcess.s: SignalProcess/SignalProcess.c.s
-
-.PHONY : SignalProcess/SignalProcess.s
-
-# target to generate assembly for a file
-SignalProcess/SignalProcess.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SignalProcess.c.s
-.PHONY : SignalProcess/SignalProcess.c.s
-
-SignalProcess/SignalProcess_dac.obj: SignalProcess/SignalProcess_dac.c.obj
-
-.PHONY : SignalProcess/SignalProcess_dac.obj
+.PHONY : Platform/Adc/My_Adc.obj
 
 # target to build an object file
-SignalProcess/SignalProcess_dac.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SignalProcess_dac.c.obj
-.PHONY : SignalProcess/SignalProcess_dac.c.obj
+Platform/Adc/My_Adc.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/Platform/Adc/My_Adc.cpp.obj
+.PHONY : Platform/Adc/My_Adc.cpp.obj
 
-SignalProcess/SignalProcess_dac.i: SignalProcess/SignalProcess_dac.c.i
+Platform/Adc/My_Adc.i: Platform/Adc/My_Adc.cpp.i
 
-.PHONY : SignalProcess/SignalProcess_dac.i
+.PHONY : Platform/Adc/My_Adc.i
 
 # target to preprocess a source file
-SignalProcess/SignalProcess_dac.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SignalProcess_dac.c.i
-.PHONY : SignalProcess/SignalProcess_dac.c.i
+Platform/Adc/My_Adc.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/Platform/Adc/My_Adc.cpp.i
+.PHONY : Platform/Adc/My_Adc.cpp.i
 
-SignalProcess/SignalProcess_dac.s: SignalProcess/SignalProcess_dac.c.s
+Platform/Adc/My_Adc.s: Platform/Adc/My_Adc.cpp.s
 
-.PHONY : SignalProcess/SignalProcess_dac.s
+.PHONY : Platform/Adc/My_Adc.s
 
 # target to generate assembly for a file
-SignalProcess/SignalProcess_dac.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SignalProcess_dac.c.s
-.PHONY : SignalProcess/SignalProcess_dac.c.s
+Platform/Adc/My_Adc.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/Platform/Adc/My_Adc.cpp.s
+.PHONY : Platform/Adc/My_Adc.cpp.s
 
-SignalProcess/SignalProcess_fft.obj: SignalProcess/SignalProcess_fft.c.obj
+Platform/Dac/My_Dac.obj: Platform/Dac/My_Dac.cpp.obj
 
-.PHONY : SignalProcess/SignalProcess_fft.obj
+.PHONY : Platform/Dac/My_Dac.obj
 
 # target to build an object file
-SignalProcess/SignalProcess_fft.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SignalProcess_fft.c.obj
-.PHONY : SignalProcess/SignalProcess_fft.c.obj
+Platform/Dac/My_Dac.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/Platform/Dac/My_Dac.cpp.obj
+.PHONY : Platform/Dac/My_Dac.cpp.obj
 
-SignalProcess/SignalProcess_fft.i: SignalProcess/SignalProcess_fft.c.i
+Platform/Dac/My_Dac.i: Platform/Dac/My_Dac.cpp.i
 
-.PHONY : SignalProcess/SignalProcess_fft.i
+.PHONY : Platform/Dac/My_Dac.i
 
 # target to preprocess a source file
-SignalProcess/SignalProcess_fft.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SignalProcess_fft.c.i
-.PHONY : SignalProcess/SignalProcess_fft.c.i
+Platform/Dac/My_Dac.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/Platform/Dac/My_Dac.cpp.i
+.PHONY : Platform/Dac/My_Dac.cpp.i
 
-SignalProcess/SignalProcess_fft.s: SignalProcess/SignalProcess_fft.c.s
+Platform/Dac/My_Dac.s: Platform/Dac/My_Dac.cpp.s
 
-.PHONY : SignalProcess/SignalProcess_fft.s
+.PHONY : Platform/Dac/My_Dac.s
 
 # target to generate assembly for a file
-SignalProcess/SignalProcess_fft.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SignalProcess_fft.c.s
-.PHONY : SignalProcess/SignalProcess_fft.c.s
+Platform/Dac/My_Dac.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/Platform/Dac/My_Dac.cpp.s
+.PHONY : Platform/Dac/My_Dac.cpp.s
 
-SignalProcess/SignalProcess_filter.obj: SignalProcess/SignalProcess_filter.c.obj
+Platform/Peripheral/SignalPeripheral.obj: Platform/Peripheral/SignalPeripheral.cpp.obj
 
-.PHONY : SignalProcess/SignalProcess_filter.obj
+.PHONY : Platform/Peripheral/SignalPeripheral.obj
 
 # target to build an object file
-SignalProcess/SignalProcess_filter.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SignalProcess_filter.c.obj
-.PHONY : SignalProcess/SignalProcess_filter.c.obj
+Platform/Peripheral/SignalPeripheral.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/Platform/Peripheral/SignalPeripheral.cpp.obj
+.PHONY : Platform/Peripheral/SignalPeripheral.cpp.obj
 
-SignalProcess/SignalProcess_filter.i: SignalProcess/SignalProcess_filter.c.i
+Platform/Peripheral/SignalPeripheral.i: Platform/Peripheral/SignalPeripheral.cpp.i
 
-.PHONY : SignalProcess/SignalProcess_filter.i
+.PHONY : Platform/Peripheral/SignalPeripheral.i
 
 # target to preprocess a source file
-SignalProcess/SignalProcess_filter.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SignalProcess_filter.c.i
-.PHONY : SignalProcess/SignalProcess_filter.c.i
+Platform/Peripheral/SignalPeripheral.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/Platform/Peripheral/SignalPeripheral.cpp.i
+.PHONY : Platform/Peripheral/SignalPeripheral.cpp.i
 
-SignalProcess/SignalProcess_filter.s: SignalProcess/SignalProcess_filter.c.s
+Platform/Peripheral/SignalPeripheral.s: Platform/Peripheral/SignalPeripheral.cpp.s
 
-.PHONY : SignalProcess/SignalProcess_filter.s
+.PHONY : Platform/Peripheral/SignalPeripheral.s
 
 # target to generate assembly for a file
-SignalProcess/SignalProcess_filter.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SignalProcess_filter.c.s
-.PHONY : SignalProcess/SignalProcess_filter.c.s
+Platform/Peripheral/SignalPeripheral.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/Platform/Peripheral/SignalPeripheral.cpp.s
+.PHONY : Platform/Peripheral/SignalPeripheral.cpp.s
 
-SignalProcess/SignalProcess_pwm.obj: SignalProcess/SignalProcess_pwm.c.obj
+Platform/Pwm/My_Pwm.obj: Platform/Pwm/My_Pwm.cpp.obj
 
-.PHONY : SignalProcess/SignalProcess_pwm.obj
+.PHONY : Platform/Pwm/My_Pwm.obj
 
 # target to build an object file
-SignalProcess/SignalProcess_pwm.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SignalProcess_pwm.c.obj
-.PHONY : SignalProcess/SignalProcess_pwm.c.obj
+Platform/Pwm/My_Pwm.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/Platform/Pwm/My_Pwm.cpp.obj
+.PHONY : Platform/Pwm/My_Pwm.cpp.obj
 
-SignalProcess/SignalProcess_pwm.i: SignalProcess/SignalProcess_pwm.c.i
+Platform/Pwm/My_Pwm.i: Platform/Pwm/My_Pwm.cpp.i
 
-.PHONY : SignalProcess/SignalProcess_pwm.i
+.PHONY : Platform/Pwm/My_Pwm.i
 
 # target to preprocess a source file
-SignalProcess/SignalProcess_pwm.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SignalProcess_pwm.c.i
-.PHONY : SignalProcess/SignalProcess_pwm.c.i
+Platform/Pwm/My_Pwm.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/Platform/Pwm/My_Pwm.cpp.i
+.PHONY : Platform/Pwm/My_Pwm.cpp.i
 
-SignalProcess/SignalProcess_pwm.s: SignalProcess/SignalProcess_pwm.c.s
+Platform/Pwm/My_Pwm.s: Platform/Pwm/My_Pwm.cpp.s
 
-.PHONY : SignalProcess/SignalProcess_pwm.s
+.PHONY : Platform/Pwm/My_Pwm.s
 
 # target to generate assembly for a file
-SignalProcess/SignalProcess_pwm.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SignalProcess_pwm.c.s
-.PHONY : SignalProcess/SignalProcess_pwm.c.s
+Platform/Pwm/My_Pwm.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/Platform/Pwm/My_Pwm.cpp.s
+.PHONY : Platform/Pwm/My_Pwm.cpp.s
 
-SignalProcess/SignalProcess_windows.obj: SignalProcess/SignalProcess_windows.c.obj
+Platform/SignalProcess/AdvancedMeasure/AdvancedMeasure.obj: Platform/SignalProcess/AdvancedMeasure/AdvancedMeasure.cpp.obj
 
-.PHONY : SignalProcess/SignalProcess_windows.obj
+.PHONY : Platform/SignalProcess/AdvancedMeasure/AdvancedMeasure.obj
 
 # target to build an object file
-SignalProcess/SignalProcess_windows.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SignalProcess_windows.c.obj
-.PHONY : SignalProcess/SignalProcess_windows.c.obj
+Platform/SignalProcess/AdvancedMeasure/AdvancedMeasure.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/AdvancedMeasure/AdvancedMeasure.cpp.obj
+.PHONY : Platform/SignalProcess/AdvancedMeasure/AdvancedMeasure.cpp.obj
 
-SignalProcess/SignalProcess_windows.i: SignalProcess/SignalProcess_windows.c.i
+Platform/SignalProcess/AdvancedMeasure/AdvancedMeasure.i: Platform/SignalProcess/AdvancedMeasure/AdvancedMeasure.cpp.i
 
-.PHONY : SignalProcess/SignalProcess_windows.i
+.PHONY : Platform/SignalProcess/AdvancedMeasure/AdvancedMeasure.i
 
 # target to preprocess a source file
-SignalProcess/SignalProcess_windows.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SignalProcess_windows.c.i
-.PHONY : SignalProcess/SignalProcess_windows.c.i
+Platform/SignalProcess/AdvancedMeasure/AdvancedMeasure.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/AdvancedMeasure/AdvancedMeasure.cpp.i
+.PHONY : Platform/SignalProcess/AdvancedMeasure/AdvancedMeasure.cpp.i
 
-SignalProcess/SignalProcess_windows.s: SignalProcess/SignalProcess_windows.c.s
+Platform/SignalProcess/AdvancedMeasure/AdvancedMeasure.s: Platform/SignalProcess/AdvancedMeasure/AdvancedMeasure.cpp.s
 
-.PHONY : SignalProcess/SignalProcess_windows.s
+.PHONY : Platform/SignalProcess/AdvancedMeasure/AdvancedMeasure.s
 
 # target to generate assembly for a file
-SignalProcess/SignalProcess_windows.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SignalProcess_windows.c.s
-.PHONY : SignalProcess/SignalProcess_windows.c.s
+Platform/SignalProcess/AdvancedMeasure/AdvancedMeasure.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/AdvancedMeasure/AdvancedMeasure.cpp.s
+.PHONY : Platform/SignalProcess/AdvancedMeasure/AdvancedMeasure.cpp.s
 
-SignalProcess/SingnalProcess_adc.obj: SignalProcess/SingnalProcess_adc.c.obj
+Platform/SignalProcess/BasicMeasure/BasicMeasure.obj: Platform/SignalProcess/BasicMeasure/BasicMeasure.cpp.obj
 
-.PHONY : SignalProcess/SingnalProcess_adc.obj
+.PHONY : Platform/SignalProcess/BasicMeasure/BasicMeasure.obj
 
 # target to build an object file
-SignalProcess/SingnalProcess_adc.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SingnalProcess_adc.c.obj
-.PHONY : SignalProcess/SingnalProcess_adc.c.obj
+Platform/SignalProcess/BasicMeasure/BasicMeasure.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/BasicMeasure/BasicMeasure.cpp.obj
+.PHONY : Platform/SignalProcess/BasicMeasure/BasicMeasure.cpp.obj
 
-SignalProcess/SingnalProcess_adc.i: SignalProcess/SingnalProcess_adc.c.i
+Platform/SignalProcess/BasicMeasure/BasicMeasure.i: Platform/SignalProcess/BasicMeasure/BasicMeasure.cpp.i
 
-.PHONY : SignalProcess/SingnalProcess_adc.i
+.PHONY : Platform/SignalProcess/BasicMeasure/BasicMeasure.i
 
 # target to preprocess a source file
-SignalProcess/SingnalProcess_adc.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SingnalProcess_adc.c.i
-.PHONY : SignalProcess/SingnalProcess_adc.c.i
+Platform/SignalProcess/BasicMeasure/BasicMeasure.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/BasicMeasure/BasicMeasure.cpp.i
+.PHONY : Platform/SignalProcess/BasicMeasure/BasicMeasure.cpp.i
 
-SignalProcess/SingnalProcess_adc.s: SignalProcess/SingnalProcess_adc.c.s
+Platform/SignalProcess/BasicMeasure/BasicMeasure.s: Platform/SignalProcess/BasicMeasure/BasicMeasure.cpp.s
 
-.PHONY : SignalProcess/SingnalProcess_adc.s
+.PHONY : Platform/SignalProcess/BasicMeasure/BasicMeasure.s
 
 # target to generate assembly for a file
-SignalProcess/SingnalProcess_adc.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/SignalProcess/SingnalProcess_adc.c.s
-.PHONY : SignalProcess/SingnalProcess_adc.c.s
+Platform/SignalProcess/BasicMeasure/BasicMeasure.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/BasicMeasure/BasicMeasure.cpp.s
+.PHONY : Platform/SignalProcess/BasicMeasure/BasicMeasure.cpp.s
+
+Platform/SignalProcess/FFT/Fft.obj: Platform/SignalProcess/FFT/Fft.cpp.obj
+
+.PHONY : Platform/SignalProcess/FFT/Fft.obj
+
+# target to build an object file
+Platform/SignalProcess/FFT/Fft.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/FFT/Fft.cpp.obj
+.PHONY : Platform/SignalProcess/FFT/Fft.cpp.obj
+
+Platform/SignalProcess/FFT/Fft.i: Platform/SignalProcess/FFT/Fft.cpp.i
+
+.PHONY : Platform/SignalProcess/FFT/Fft.i
+
+# target to preprocess a source file
+Platform/SignalProcess/FFT/Fft.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/FFT/Fft.cpp.i
+.PHONY : Platform/SignalProcess/FFT/Fft.cpp.i
+
+Platform/SignalProcess/FFT/Fft.s: Platform/SignalProcess/FFT/Fft.cpp.s
+
+.PHONY : Platform/SignalProcess/FFT/Fft.s
+
+# target to generate assembly for a file
+Platform/SignalProcess/FFT/Fft.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/FFT/Fft.cpp.s
+.PHONY : Platform/SignalProcess/FFT/Fft.cpp.s
+
+Platform/SignalProcess/Filter/Filter.obj: Platform/SignalProcess/Filter/Filter.cpp.obj
+
+.PHONY : Platform/SignalProcess/Filter/Filter.obj
+
+# target to build an object file
+Platform/SignalProcess/Filter/Filter.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/Filter/Filter.cpp.obj
+.PHONY : Platform/SignalProcess/Filter/Filter.cpp.obj
+
+Platform/SignalProcess/Filter/Filter.i: Platform/SignalProcess/Filter/Filter.cpp.i
+
+.PHONY : Platform/SignalProcess/Filter/Filter.i
+
+# target to preprocess a source file
+Platform/SignalProcess/Filter/Filter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/Filter/Filter.cpp.i
+.PHONY : Platform/SignalProcess/Filter/Filter.cpp.i
+
+Platform/SignalProcess/Filter/Filter.s: Platform/SignalProcess/Filter/Filter.cpp.s
+
+.PHONY : Platform/SignalProcess/Filter/Filter.s
+
+# target to generate assembly for a file
+Platform/SignalProcess/Filter/Filter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/Filter/Filter.cpp.s
+.PHONY : Platform/SignalProcess/Filter/Filter.cpp.s
+
+Platform/SignalProcess/PwmMeasure/PwmMeasure.obj: Platform/SignalProcess/PwmMeasure/PwmMeasure.cpp.obj
+
+.PHONY : Platform/SignalProcess/PwmMeasure/PwmMeasure.obj
+
+# target to build an object file
+Platform/SignalProcess/PwmMeasure/PwmMeasure.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/PwmMeasure/PwmMeasure.cpp.obj
+.PHONY : Platform/SignalProcess/PwmMeasure/PwmMeasure.cpp.obj
+
+Platform/SignalProcess/PwmMeasure/PwmMeasure.i: Platform/SignalProcess/PwmMeasure/PwmMeasure.cpp.i
+
+.PHONY : Platform/SignalProcess/PwmMeasure/PwmMeasure.i
+
+# target to preprocess a source file
+Platform/SignalProcess/PwmMeasure/PwmMeasure.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/PwmMeasure/PwmMeasure.cpp.i
+.PHONY : Platform/SignalProcess/PwmMeasure/PwmMeasure.cpp.i
+
+Platform/SignalProcess/PwmMeasure/PwmMeasure.s: Platform/SignalProcess/PwmMeasure/PwmMeasure.cpp.s
+
+.PHONY : Platform/SignalProcess/PwmMeasure/PwmMeasure.s
+
+# target to generate assembly for a file
+Platform/SignalProcess/PwmMeasure/PwmMeasure.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/PwmMeasure/PwmMeasure.cpp.s
+.PHONY : Platform/SignalProcess/PwmMeasure/PwmMeasure.cpp.s
+
+Platform/SignalProcess/SignalProcessBase.obj: Platform/SignalProcess/SignalProcessBase.cpp.obj
+
+.PHONY : Platform/SignalProcess/SignalProcessBase.obj
+
+# target to build an object file
+Platform/SignalProcess/SignalProcessBase.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/SignalProcessBase.cpp.obj
+.PHONY : Platform/SignalProcess/SignalProcessBase.cpp.obj
+
+Platform/SignalProcess/SignalProcessBase.i: Platform/SignalProcess/SignalProcessBase.cpp.i
+
+.PHONY : Platform/SignalProcess/SignalProcessBase.i
+
+# target to preprocess a source file
+Platform/SignalProcess/SignalProcessBase.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/SignalProcessBase.cpp.i
+.PHONY : Platform/SignalProcess/SignalProcessBase.cpp.i
+
+Platform/SignalProcess/SignalProcessBase.s: Platform/SignalProcess/SignalProcessBase.cpp.s
+
+.PHONY : Platform/SignalProcess/SignalProcessBase.s
+
+# target to generate assembly for a file
+Platform/SignalProcess/SignalProcessBase.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/SignalProcessBase.cpp.s
+.PHONY : Platform/SignalProcess/SignalProcessBase.cpp.s
+
+Platform/SignalProcess/Windows/Windows.obj: Platform/SignalProcess/Windows/Windows.cpp.obj
+
+.PHONY : Platform/SignalProcess/Windows/Windows.obj
+
+# target to build an object file
+Platform/SignalProcess/Windows/Windows.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/Windows/Windows.cpp.obj
+.PHONY : Platform/SignalProcess/Windows/Windows.cpp.obj
+
+Platform/SignalProcess/Windows/Windows.i: Platform/SignalProcess/Windows/Windows.cpp.i
+
+.PHONY : Platform/SignalProcess/Windows/Windows.i
+
+# target to preprocess a source file
+Platform/SignalProcess/Windows/Windows.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/Windows/Windows.cpp.i
+.PHONY : Platform/SignalProcess/Windows/Windows.cpp.i
+
+Platform/SignalProcess/Windows/Windows.s: Platform/SignalProcess/Windows/Windows.cpp.s
+
+.PHONY : Platform/SignalProcess/Windows/Windows.s
+
+# target to generate assembly for a file
+Platform/SignalProcess/Windows/Windows.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/Windows/Windows.cpp.s
+.PHONY : Platform/SignalProcess/Windows/Windows.cpp.s
 
 System/delay/delay.obj: System/delay/delay.c.obj
 
@@ -2230,9 +2311,6 @@ help:
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.obj
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.i
 	@echo ... Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_ll_fsmc.s
-	@echo ... GUI/gui.obj
-	@echo ... GUI/gui.i
-	@echo ... GUI/gui.s
 	@echo ... HardWare/key/key.obj
 	@echo ... HardWare/key/key.i
 	@echo ... HardWare/key/key.s
@@ -2248,27 +2326,39 @@ help:
 	@echo ... HardWare/lcd/lcdlib.obj
 	@echo ... HardWare/lcd/lcdlib.i
 	@echo ... HardWare/lcd/lcdlib.s
-	@echo ... SignalProcess/SignalProcess.obj
-	@echo ... SignalProcess/SignalProcess.i
-	@echo ... SignalProcess/SignalProcess.s
-	@echo ... SignalProcess/SignalProcess_dac.obj
-	@echo ... SignalProcess/SignalProcess_dac.i
-	@echo ... SignalProcess/SignalProcess_dac.s
-	@echo ... SignalProcess/SignalProcess_fft.obj
-	@echo ... SignalProcess/SignalProcess_fft.i
-	@echo ... SignalProcess/SignalProcess_fft.s
-	@echo ... SignalProcess/SignalProcess_filter.obj
-	@echo ... SignalProcess/SignalProcess_filter.i
-	@echo ... SignalProcess/SignalProcess_filter.s
-	@echo ... SignalProcess/SignalProcess_pwm.obj
-	@echo ... SignalProcess/SignalProcess_pwm.i
-	@echo ... SignalProcess/SignalProcess_pwm.s
-	@echo ... SignalProcess/SignalProcess_windows.obj
-	@echo ... SignalProcess/SignalProcess_windows.i
-	@echo ... SignalProcess/SignalProcess_windows.s
-	@echo ... SignalProcess/SingnalProcess_adc.obj
-	@echo ... SignalProcess/SingnalProcess_adc.i
-	@echo ... SignalProcess/SingnalProcess_adc.s
+	@echo ... Platform/Adc/My_Adc.obj
+	@echo ... Platform/Adc/My_Adc.i
+	@echo ... Platform/Adc/My_Adc.s
+	@echo ... Platform/Dac/My_Dac.obj
+	@echo ... Platform/Dac/My_Dac.i
+	@echo ... Platform/Dac/My_Dac.s
+	@echo ... Platform/Peripheral/SignalPeripheral.obj
+	@echo ... Platform/Peripheral/SignalPeripheral.i
+	@echo ... Platform/Peripheral/SignalPeripheral.s
+	@echo ... Platform/Pwm/My_Pwm.obj
+	@echo ... Platform/Pwm/My_Pwm.i
+	@echo ... Platform/Pwm/My_Pwm.s
+	@echo ... Platform/SignalProcess/AdvancedMeasure/AdvancedMeasure.obj
+	@echo ... Platform/SignalProcess/AdvancedMeasure/AdvancedMeasure.i
+	@echo ... Platform/SignalProcess/AdvancedMeasure/AdvancedMeasure.s
+	@echo ... Platform/SignalProcess/BasicMeasure/BasicMeasure.obj
+	@echo ... Platform/SignalProcess/BasicMeasure/BasicMeasure.i
+	@echo ... Platform/SignalProcess/BasicMeasure/BasicMeasure.s
+	@echo ... Platform/SignalProcess/FFT/Fft.obj
+	@echo ... Platform/SignalProcess/FFT/Fft.i
+	@echo ... Platform/SignalProcess/FFT/Fft.s
+	@echo ... Platform/SignalProcess/Filter/Filter.obj
+	@echo ... Platform/SignalProcess/Filter/Filter.i
+	@echo ... Platform/SignalProcess/Filter/Filter.s
+	@echo ... Platform/SignalProcess/PwmMeasure/PwmMeasure.obj
+	@echo ... Platform/SignalProcess/PwmMeasure/PwmMeasure.i
+	@echo ... Platform/SignalProcess/PwmMeasure/PwmMeasure.s
+	@echo ... Platform/SignalProcess/SignalProcessBase.obj
+	@echo ... Platform/SignalProcess/SignalProcessBase.i
+	@echo ... Platform/SignalProcess/SignalProcessBase.s
+	@echo ... Platform/SignalProcess/Windows/Windows.obj
+	@echo ... Platform/SignalProcess/Windows/Windows.i
+	@echo ... Platform/SignalProcess/Windows/Windows.s
 	@echo ... System/delay/delay.obj
 	@echo ... System/delay/delay.i
 	@echo ... System/delay/delay.s
