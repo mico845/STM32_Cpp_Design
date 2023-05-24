@@ -10,7 +10,9 @@ class Gpio : public BasePeripheral
 {
 public:
     Gpio(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin,
-         GPIO_PinState PinState = GPIO_PIN_RESET) : _GPIOx(GPIOx), _GPIO_Pin(GPIO_Pin), _PinState(PinState) { }
+         GPIO_PinState PinState) : _GPIOx(GPIOx), _GPIO_Pin(GPIO_Pin), _PinState(PinState)
+                                        { HAL_GPIO_WritePin(GPIOx, GPIO_Pin, PinState);}
+    Gpio(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin) : _GPIOx(GPIOx), _GPIO_Pin(GPIO_Pin) { }
     void set();
     void reset();
     void toggle();

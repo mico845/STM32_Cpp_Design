@@ -12,32 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8badb5f1-5c46-4956-9f55-13e5aa07b959" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Platform/Dac/My_Dac.h" beforeDir="false" afterPath="$PROJECT_DIR$/Platform/Dac/My_Dac.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Platform/SignalProcess/AdvancedMeasure/AdvancedMeasure.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Platform/SignalProcess/AdvancedMeasure/AdvancedMeasure.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Platform/SignalProcess/AdvancedMeasure/AdvancedMeasure.h" beforeDir="false" afterPath="$PROJECT_DIR$/Platform/SignalProcess/AdvancedMeasure/AdvancedMeasure.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Platform/SignalProcess/FFT/Fft.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Platform/SignalProcess/FFT/Fft.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Platform/SignalProcess/Filter/Filter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Platform/SignalProcess/Filter/Filter.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Platform/SignalProcess/PwmMeasure/PwmMeasure.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Platform/SignalProcess/PwmMeasure/PwmMeasure.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Platform/SignalProcess/PwmMeasure/PwmMeasure.h" beforeDir="false" afterPath="$PROJECT_DIR$/Platform/SignalProcess/PwmMeasure/PwmMeasure.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Platform/SignalProcess/SignalProcessBase.h" beforeDir="false" afterPath="$PROJECT_DIR$/Platform/SignalProcess/SignalProcessBase.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/Platform/Dac/My_Dac.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/Platform/Dac/My_Dac.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/AdvancedMeasure/AdvancedMeasure.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/AdvancedMeasure/AdvancedMeasure.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/FFT/Fft.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/FFT/Fft.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/Filter/Filter.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/Filter/Filter.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/PwmMeasure/PwmMeasure.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/PwmMeasure/PwmMeasure.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/SignalProcessBase.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/SignalProcessBase.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/UserApp/init.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/UserApp/init.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/UserApp/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/UserApp/main.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/UserApp/usart_receive.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/UserApp/usart_receive.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-default/HELLOWORLD.map" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/HELLOWORLD.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-default/HEllOWORLD.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/HEllOWORLD.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-default/HEllOWORLD.elf" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/HEllOWORLD.elf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-default/HEllOWORLD.hex" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/HEllOWORLD.hex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Platform/Gpio/Gpio.h" beforeDir="false" afterPath="$PROJECT_DIR$/Platform/Gpio/Gpio.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -213,7 +188,7 @@
       <workItem from="1684821080888" duration="1213000" />
       <workItem from="1684822670114" duration="251000" />
       <workItem from="1684822953259" duration="28885000" />
-      <workItem from="1684902666154" duration="16560000" />
+      <workItem from="1684902666154" duration="16871000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1684221337198</created>
@@ -236,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684919274733</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="version 1.7">
+      <created>1684925947981</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1684925947982</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,6 +237,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
     <MESSAGE value="commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+    <MESSAGE value="version 1.7" />
+    <option name="LAST_COMMIT_MESSAGE" value="version 1.7" />
   </component>
 </project>

@@ -446,6 +446,49 @@ void Main()
 }
 ```
 
+## Gpio 类
+`Gpio`类是一个用于控制STM32的GPIO（通用输入输出）的类，它继承自`BasePeripheral`类。
+
+### 构造函数
+1. `Gpio(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin, GPIO_PinState PinState)`
+   构造函数，初始化一个`Gpio`对象。`GPIOx`是GPIO端口，`GPIO_Pin`是GPIO引脚，`PinState`是引脚状态。
+
+2. `Gpio(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin)`
+   构造函数，初始化一个`Gpio`对象。`GPIOx`是GPIO端口，`GPIO_Pin`是GPIO引脚。
+
+### 成员函数
+1. `set()`
+   设置GPIO状态为高电平。
+
+2. `reset()`
+   设置GPIO状态为低电平。
+
+3. `toggle()`
+   切换GPIO状态。
+
+4. `read()`
+   读取GPIO状态。
+
+### 使用案例
+```cpp
+#include "Gpio/Gpio.h"
+
+Gpio led(GPIOC, GPIO_PIN_13);
+
+void Main()
+{
+    ...
+
+    led.set();
+
+    for (;;) {
+        led.toggle();
+        delay_ms(1000);
+    }
+
+    ...
+}
+
 
 
    
