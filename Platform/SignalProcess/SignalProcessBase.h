@@ -8,14 +8,23 @@
 #include "My_Adc.h"
 #include "arm_math.h"
 
+typedef enum
+{
+    FIR = 0,
+    IIR,
+}Filter_Type;
+
 class SignalProcessBase : public EmbeddedSystem
 {
 public:
     SignalProcessBase() = default;
     ~SignalProcessBase() = default;
 
-    virtual SignalProcessBase& init(My_Adc& Adc) ;
+    virtual SignalProcessBase& init(My_Adc& Adc);
     virtual SignalProcessBase& apply_windows();
+    virtual SignalProcessBase& fft();
+    virtual SignalProcessBase& filter(Filter_Type type);
+
     void read();
 protected:
     float32_t signal[SIGNAL_BUFF_SIZE] = {0};

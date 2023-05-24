@@ -8,20 +8,14 @@
 #include "BasicMeasure.h"
 #include "SignalSystem.h"
 
-typedef enum
-{
-    FIR = 0,
-    IIR,
-}Filter_Type;
-
 class AdvancedMeasure : public BasicMeasure
 {
 public:
     AdvancedMeasure& init(My_Adc& Adc) override;
     AdvancedMeasure& apply_windows() override;
 
-    AdvancedMeasure& fft();
-    AdvancedMeasure& filter(Filter_Type type);
+    AdvancedMeasure& fft() override;
+    AdvancedMeasure& filter(Filter_Type type) override;
 
     float32_t get_freq();
 

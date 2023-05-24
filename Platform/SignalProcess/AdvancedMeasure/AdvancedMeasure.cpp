@@ -14,6 +14,18 @@ AdvancedMeasure &AdvancedMeasure::apply_windows() {
     return *this;
 }
 
+AdvancedMeasure &AdvancedMeasure::fft() {
+    SignalProcessBase::fft();
+    return *this;
+}
+
+AdvancedMeasure &AdvancedMeasure::filter(Filter_Type type) {
+    SignalProcessBase::filter(type);
+    return *this;
+}
+
+
+
 float32_t AdvancedMeasure::get_freq() {
     float32_t max_value = 0;
     u32 max_index;

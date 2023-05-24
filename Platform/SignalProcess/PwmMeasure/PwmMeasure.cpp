@@ -28,14 +28,14 @@ void PwmMeasure::calc_tim_arr_psc() {
     _htim->Instance->ARR = 0XFFFF;
 }
 
-void PwmMeasure::start() {
+void PwmMeasure::start(Pwm_Capture_Mode mode) {
     switch (TIM_CAPTURE_STA)
     {
         case 0:
         {
             calc_tim_arr_psc();
             TIM_TIMEOUT_COUNT = 0;
-            __HAL_TIM_SET_COUNTER(_htim, 0);											// 清除定时器2现有计数
+            __HAL_TIM_SET_COUNTER(_htim, 0);										// 清除定时器2现有计数
             memset(TIM_CAPTURE_BUF, 0, sizeof(TIM_CAPTURE_BUF));						        // 清除捕获计数
             __HAL_TIM_SET_CAPTUREPOLARITY(_htim, _channel, TIM_INPUTCHANNELPOLARITY_RISING);	// 设置为上升沿触发
             HAL_TIM_Base_Start_IT(_htim);												        // 启动定时器更新中断
@@ -46,18 +46,19 @@ void PwmMeasure::start() {
 
         case 4:
         {
-            uint32_t high  = TIM_CAPTURE_BUF[1] - TIM_CAPTURE_BUF[0];
-            uint32_t cycle = TIM_CAPTURE_BUF[2] - TIM_CAPTURE_BUF[0];
-            float32_t duty_ratio = (float32_t)high/(float32_t)cycle;
-            float32_t freq = 1.0 / (((float32_t)cycle) / 1000000.0);
-
-            TIM_CAPTURE_STA = 0;
+            high  = TIM_CAPTURE_BUF[1] - TIM_CAPTURE_BUF[0];
+            cycle = TIM_CAPTURE_BUF[2] - TIM_CAPTURE_BUF[0];
+            duty = (float32_t)high/(float32_t)cycle;
+            freq = 1.0 / (((float32_t)cycle) / 1000000.0);
 
 #ifdef PWM_DEBUG
-            debug(high, cycle,  duty_ratio, freq);
-            TIM_CAPTURE_STA = 5;
+            debug();
 #endif
 
+            if (mode == Pwm_Single_Capture)
+                TIM_CAPTURE_STA = 5;
+            else
+                TIM_CAPTURE_STA = 0;
             break;
         }
 
@@ -71,15 +72,14 @@ void PwmMeasure::stop() {
     HAL_TIM_IC_Stop_IT(_htim, _channel);
 }
 
-void PwmMeasure::debug(uint32_t high, uint32_t cycle,  float32_t duty_ratio, float32_t freq) {
+void PwmMeasure::debug() {
     printf("\r\n\r\n");
     printf("################################# START #########################################\r\n");
     printf("High:       %lu us\r\n", high );
     printf("Period:     %lu us\r\n", cycle );
-    printf("Period:     %lu us\r\n", cycle );
+    printf("duty:     %f %%\r\n", duty );
     printf("Freq:       %f  Hz\r\n", freq);
     printf("################################## END ##########################################\r\n\r\n");
-    //delay_ms(1000);
 }
 
 /// 定时器时间溢出回调函数

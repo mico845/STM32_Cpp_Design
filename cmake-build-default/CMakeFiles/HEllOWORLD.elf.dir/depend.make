@@ -3132,10 +3132,7 @@ CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/FFT/Fft.cpp.obj: ../Platfor
 CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/FFT/Fft.cpp.obj: ../Platform/EmbeddedSystem.h
 CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/FFT/Fft.cpp.obj: ../Platform/Peripheral/BasePeripheral.h
 CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/FFT/Fft.cpp.obj: ../Platform/Peripheral/SignalPeripheral.h
-CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/FFT/Fft.cpp.obj: ../Platform/SignalProcess/AdvancedMeasure/AdvancedMeasure.h
-CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/FFT/Fft.cpp.obj: ../Platform/SignalProcess/BasicMeasure/BasicMeasure.h
 CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/FFT/Fft.cpp.obj: ../Platform/SignalProcess/SignalProcessBase.h
-CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/FFT/Fft.cpp.obj: ../Platform/SignalSystem.h
 CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/FFT/Fft.cpp.obj: ../System/sys/sys.h
 CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/FFT/Fft.cpp.obj: ../System/usart/retarget.h
 CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/FFT/Fft.cpp.obj: ../Platform/SignalProcess/FFT/Fft.cpp
@@ -3205,12 +3202,9 @@ CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/Filter/Filter.cpp.obj: ../P
 CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/Filter/Filter.cpp.obj: ../Platform/EmbeddedSystem.h
 CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/Filter/Filter.cpp.obj: ../Platform/Peripheral/BasePeripheral.h
 CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/Filter/Filter.cpp.obj: ../Platform/Peripheral/SignalPeripheral.h
-CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/Filter/Filter.cpp.obj: ../Platform/SignalProcess/AdvancedMeasure/AdvancedMeasure.h
-CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/Filter/Filter.cpp.obj: ../Platform/SignalProcess/BasicMeasure/BasicMeasure.h
 CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/Filter/Filter.cpp.obj: ../Platform/SignalProcess/Filter/fdacoefs/fdacoefs.h
 CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/Filter/Filter.cpp.obj: ../Platform/SignalProcess/Filter/fdacoefs/tmwtypes.h
 CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/Filter/Filter.cpp.obj: ../Platform/SignalProcess/SignalProcessBase.h
-CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/Filter/Filter.cpp.obj: ../Platform/SignalSystem.h
 CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/Filter/Filter.cpp.obj: ../System/sys/sys.h
 CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/Filter/Filter.cpp.obj: ../Platform/SignalProcess/Filter/Filter.cpp
 

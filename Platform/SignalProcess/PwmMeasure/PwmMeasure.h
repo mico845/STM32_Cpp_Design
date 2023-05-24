@@ -14,21 +14,33 @@ extern "C" {
 #ifdef __cplusplus
 }
 /*---------------------------- C++ Scope ---------------------------*/
+typedef enum {
+    Pwm_Continuous_Capture = 0,
+    Pwm_Single_Capture ,
+}Pwm_Capture_Mode;
+
 class PwmMeasure: public SignalPeripheral{
 public:
     PwmMeasure(TIM_HandleTypeDef* htim, uint8_t channel) :
             SignalPeripheral(htim) , _channel(channel){ }
     ~PwmMeasure() = default;
     PwmMeasure& init(uint32_t f_out, uint64_t f_in) override;
-    void calc_tim_arr_psc() override;
 
-    void start() override;
+    void start(Pwm_Capture_Mode mode);
     void stop() override;
 
 private:
+    uint32_t high;
+    uint32_t cycle;
+    float32_t duty;
+    float32_t freq;
+    void start() override { };
+    void calc_tim_arr_psc() override;
     uint8_t _channel = TIM_CHANNEL_1;
-    void debug(uint32_t high, uint32_t cycle,  float32_t duty_ratio, float32_t freq);
+    void debug();
 };
+
+
 
 #endif
 #endif //HELLOWORLD_PWMMEASURE_H

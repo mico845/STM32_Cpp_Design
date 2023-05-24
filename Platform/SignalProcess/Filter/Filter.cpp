@@ -2,7 +2,7 @@
 // Created by Whisky on 2023/5/24.
 //
 
-#include "AdvancedMeasure.h"
+#include "SignalProcessBase.h"
 #include "fdacoefs.h"
 
 #define BLOCK_SIZE (32)                                 /* 调用一次arm_fir_f32处理的采样点个数 */
@@ -20,7 +20,7 @@ void filter_fir(float32_t *inputF32, float32_t *outputF32)
     }
 }
 
-AdvancedMeasure &AdvancedMeasure::filter(Filter_Type type) {
+SignalProcessBase &SignalProcessBase::filter(Filter_Type type) {
     filter_fir(signal, signal);
 #ifdef FILTER_DEBUG
     debug();

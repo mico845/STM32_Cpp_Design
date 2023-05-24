@@ -3133,10 +3133,7 @@ CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/FFT/Fft.cpp.obj
  ../Platform/EmbeddedSystem.h
  ../Platform/Peripheral/BasePeripheral.h
  ../Platform/Peripheral/SignalPeripheral.h
- ../Platform/SignalProcess/AdvancedMeasure/AdvancedMeasure.h
- ../Platform/SignalProcess/BasicMeasure/BasicMeasure.h
  ../Platform/SignalProcess/SignalProcessBase.h
- ../Platform/SignalSystem.h
  ../System/sys/sys.h
  ../System/usart/retarget.h
  C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Platform/SignalProcess/FFT/Fft.cpp
@@ -3206,12 +3203,9 @@ CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/Filter/Filter.cpp.obj
  ../Platform/EmbeddedSystem.h
  ../Platform/Peripheral/BasePeripheral.h
  ../Platform/Peripheral/SignalPeripheral.h
- ../Platform/SignalProcess/AdvancedMeasure/AdvancedMeasure.h
- ../Platform/SignalProcess/BasicMeasure/BasicMeasure.h
  ../Platform/SignalProcess/Filter/fdacoefs/fdacoefs.h
  ../Platform/SignalProcess/Filter/fdacoefs/tmwtypes.h
  ../Platform/SignalProcess/SignalProcessBase.h
- ../Platform/SignalSystem.h
  ../System/sys/sys.h
  C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Platform/SignalProcess/Filter/Filter.cpp
 CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/PwmMeasure/PwmMeasure.cpp.obj

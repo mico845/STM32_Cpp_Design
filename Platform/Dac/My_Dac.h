@@ -42,7 +42,7 @@ public:
     // Add a constructor with default values
     WaveformProperties(
             Waveform_Type type = Waveform_Sine,
-            u16 maxval = 3300,
+            uint16_t maxval = 3300,
             float phase = 0) : _type(type), _maxval(maxval), _phase(phase) { }
     WaveformProperties& set_type(Waveform_Type type) {_type = type ; return *this;}
     WaveformProperties& set_maxval(u16 maxval) {_maxval = maxval ; return *this;}

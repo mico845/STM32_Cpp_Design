@@ -1,7 +1,7 @@
 //
 // Created by Whisky on 2023/5/23.
 //
-#include "AdvancedMeasure.h"
+#include "SignalProcessBase.h"
 #include "arm_const_structs.h"
 #include "retarget.h"
 
@@ -42,7 +42,7 @@ void cfft(float32_t *input, u32 fftSize, u8 ifftFlag, u8 bitReverseFlag, float32
     arm_cmplx_mag_f32(fft_input, fft_output_maxval, fftSize);
 }
 
-AdvancedMeasure& AdvancedMeasure::fft() {
+SignalProcessBase& SignalProcessBase::fft() {
     cfft(signal, SIGNAL_BUFF_SIZE, 0, 1, signal);
 #ifdef FFT_DEBUG
     debug();
