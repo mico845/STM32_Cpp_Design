@@ -39,6 +39,7 @@
 					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/System/usart"/>
 					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/System/delay"/>
 					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Platform"/>
+					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Platform/Gpio"/>
 					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Platform/Peripheral"/>
 					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Platform/Adc"/>
 					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Platform/Dac"/>
@@ -92,6 +93,7 @@
 					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/System/usart"/>
 					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/System/delay"/>
 					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Platform"/>
+					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Platform/Gpio"/>
 					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Platform/Peripheral"/>
 					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Platform/Adc"/>
 					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Platform/Dac"/>
@@ -534,6 +536,12 @@
 		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Platform/EmbeddedSystem.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Platform/Gpio/Gpio.cpp">
+			<Option target="HEllOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Platform/Gpio/Gpio.h">
+			<Option target="HEllOWORLD.elf"/>
+		</Unit>
 		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Platform/Peripheral/BasePeripheral.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
@@ -541,6 +549,9 @@
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Platform/Peripheral/SignalPeripheral.h">
+			<Option target="HEllOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Platform/Platform.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Platform/Pwm/My_Pwm.cpp">

@@ -1708,6 +1708,33 @@ Platform/Dac/My_Dac.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/Platform/Dac/My_Dac.cpp.s
 .PHONY : Platform/Dac/My_Dac.cpp.s
 
+Platform/Gpio/Gpio.obj: Platform/Gpio/Gpio.cpp.obj
+
+.PHONY : Platform/Gpio/Gpio.obj
+
+# target to build an object file
+Platform/Gpio/Gpio.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/Platform/Gpio/Gpio.cpp.obj
+.PHONY : Platform/Gpio/Gpio.cpp.obj
+
+Platform/Gpio/Gpio.i: Platform/Gpio/Gpio.cpp.i
+
+.PHONY : Platform/Gpio/Gpio.i
+
+# target to preprocess a source file
+Platform/Gpio/Gpio.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/Platform/Gpio/Gpio.cpp.i
+.PHONY : Platform/Gpio/Gpio.cpp.i
+
+Platform/Gpio/Gpio.s: Platform/Gpio/Gpio.cpp.s
+
+.PHONY : Platform/Gpio/Gpio.s
+
+# target to generate assembly for a file
+Platform/Gpio/Gpio.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/Platform/Gpio/Gpio.cpp.s
+.PHONY : Platform/Gpio/Gpio.cpp.s
+
 Platform/Peripheral/SignalPeripheral.obj: Platform/Peripheral/SignalPeripheral.cpp.obj
 
 .PHONY : Platform/Peripheral/SignalPeripheral.obj
@@ -2332,6 +2359,9 @@ help:
 	@echo ... Platform/Dac/My_Dac.obj
 	@echo ... Platform/Dac/My_Dac.i
 	@echo ... Platform/Dac/My_Dac.s
+	@echo ... Platform/Gpio/Gpio.obj
+	@echo ... Platform/Gpio/Gpio.i
+	@echo ... Platform/Gpio/Gpio.s
 	@echo ... Platform/Peripheral/SignalPeripheral.obj
 	@echo ... Platform/Peripheral/SignalPeripheral.i
 	@echo ... Platform/Peripheral/SignalPeripheral.s

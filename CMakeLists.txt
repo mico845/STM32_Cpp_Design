@@ -56,6 +56,7 @@ include_directories(
         System/usart
         System/delay
         Platform
+        Platform/Gpio
         Platform/Peripheral
         Platform/Adc
         Platform/Dac

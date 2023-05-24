@@ -31,12 +31,7 @@ void Main();
 #ifdef __cplusplus
 }
 /*---------------------------- C++ Scope ---------------------------*/
-#include "My_Adc.h"
-#include "My_Dac.h"
-#include "My_Pwm.h"
-#include "BasicMeasure.h"
-#include "AdvancedMeasure.h"
-#include "PwmMeasure.h"
+#include "Platform.h"
 void Init();
 
 

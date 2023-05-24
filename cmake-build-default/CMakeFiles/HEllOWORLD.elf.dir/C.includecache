@@ -672,6 +672,10 @@ Config.h
 main.h
 ../Platform/main.h
 
+../Platform/Gpio/Gpio.h
+BasePeripheral.h
+../Platform/Gpio/BasePeripheral.h
+
 ../Platform/Peripheral/BasePeripheral.h
 EmbeddedSystem.h
 ../Platform/Peripheral/EmbeddedSystem.h
@@ -679,6 +683,22 @@ EmbeddedSystem.h
 ../Platform/Peripheral/SignalPeripheral.h
 BasePeripheral.h
 ../Platform/Peripheral/BasePeripheral.h
+
+../Platform/Platform.h
+Gpio/Gpio.h
+../Platform/Gpio/Gpio.h
+Adc/My_Adc.h
+../Platform/Adc/My_Adc.h
+Dac/My_Dac.h
+../Platform/Dac/My_Dac.h
+Pwm/My_Pwm.h
+../Platform/Pwm/My_Pwm.h
+BasicMeasure/BasicMeasure.h
+../Platform/BasicMeasure/BasicMeasure.h
+AdvancedMeasure/AdvancedMeasure.h
+../Platform/AdvancedMeasure/AdvancedMeasure.h
+PwmMeasure/PwmMeasure.h
+../Platform/PwmMeasure/PwmMeasure.h
 
 ../Platform/Pwm/My_Pwm.h
 SignalPeripheral.h
@@ -769,18 +789,8 @@ demos.h
 ../UserApp/demos.h
 key.h
 ../UserApp/key.h
-My_Adc.h
-../UserApp/My_Adc.h
-My_Dac.h
-../UserApp/My_Dac.h
-My_Pwm.h
-../UserApp/My_Pwm.h
-BasicMeasure.h
-../UserApp/BasicMeasure.h
-AdvancedMeasure.h
-../UserApp/AdvancedMeasure.h
-PwmMeasure.h
-../UserApp/PwmMeasure.h
+Platform.h
+../UserApp/Platform.h
 
 C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Core/Src/main.c
 main.h

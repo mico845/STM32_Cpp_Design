@@ -14,14 +14,15 @@ void Main()
 {
     Init();
 
-    Pwm.init(1000, 72000000);
-    Pwm.start();
+    Pwm.init(1000, 72000000).start();
     WaveformProperties wave (Waveform_Sine, 3300, 0);
     Dac.init(2000, 144000000, wave).start();
     wave.set_type(Waveform_Triangle);
     Dac2.init(1000, 144000000, wave).start();
     pm.init(1000000, 144000000);
     Adc.init(102400, 72000000).start();
+
+
     for (;;) {
         //pm.start();
 

@@ -57,6 +57,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/HEllOWORLD.elf.dir/HardWare/lcd/lcdlib.c.obj"
   "CMakeFiles/HEllOWORLD.elf.dir/Platform/Adc/My_Adc.cpp.obj"
   "CMakeFiles/HEllOWORLD.elf.dir/Platform/Dac/My_Dac.cpp.obj"
+  "CMakeFiles/HEllOWORLD.elf.dir/Platform/Gpio/Gpio.cpp.obj"
   "CMakeFiles/HEllOWORLD.elf.dir/Platform/Peripheral/SignalPeripheral.cpp.obj"
   "CMakeFiles/HEllOWORLD.elf.dir/Platform/Pwm/My_Pwm.cpp.obj"
   "CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/AdvancedMeasure/AdvancedMeasure.cpp.obj"

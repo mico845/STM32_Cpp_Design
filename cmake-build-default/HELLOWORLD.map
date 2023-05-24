@@ -3253,6 +3253,45 @@ Discarded input sections
                 0x00000000        0x0 CMakeFiles/HEllOWORLD.elf.dir/Platform/Dac/My_Dac.cpp.obj
  .ARM.extab.text._ZN6My_Dac4initEmyR18WaveformProperties
                 0x00000000        0x0 CMakeFiles/HEllOWORLD.elf.dir/Platform/Dac/My_Dac.cpp.obj
+ .text          0x00000000        0x0 CMakeFiles/HEllOWORLD.elf.dir/Platform/Gpio/Gpio.cpp.obj
+ .data          0x00000000        0x0 CMakeFiles/HEllOWORLD.elf.dir/Platform/Gpio/Gpio.cpp.obj
+ .bss           0x00000000        0x0 CMakeFiles/HEllOWORLD.elf.dir/Platform/Gpio/Gpio.cpp.obj
+ .text._ZN4Gpio3setEv
+                0x00000000       0x10 CMakeFiles/HEllOWORLD.elf.dir/Platform/Gpio/Gpio.cpp.obj
+ .ARM.extab.text._ZN4Gpio3setEv
+                0x00000000        0xc CMakeFiles/HEllOWORLD.elf.dir/Platform/Gpio/Gpio.cpp.obj
+ .ARM.exidx.text._ZN4Gpio3setEv
+                0x00000000        0x8 CMakeFiles/HEllOWORLD.elf.dir/Platform/Gpio/Gpio.cpp.obj
+ .text._ZN4Gpio5resetEv
+                0x00000000       0x10 CMakeFiles/HEllOWORLD.elf.dir/Platform/Gpio/Gpio.cpp.obj
+ .ARM.extab.text._ZN4Gpio5resetEv
+                0x00000000        0xc CMakeFiles/HEllOWORLD.elf.dir/Platform/Gpio/Gpio.cpp.obj
+ .ARM.exidx.text._ZN4Gpio5resetEv
+                0x00000000        0x8 CMakeFiles/HEllOWORLD.elf.dir/Platform/Gpio/Gpio.cpp.obj
+ .text._ZN4Gpio6toggleEv
+                0x00000000       0x1c CMakeFiles/HEllOWORLD.elf.dir/Platform/Gpio/Gpio.cpp.obj
+ .ARM.extab.text._ZN4Gpio6toggleEv
+                0x00000000        0xc CMakeFiles/HEllOWORLD.elf.dir/Platform/Gpio/Gpio.cpp.obj
+ .ARM.exidx.text._ZN4Gpio6toggleEv
+                0x00000000        0x8 CMakeFiles/HEllOWORLD.elf.dir/Platform/Gpio/Gpio.cpp.obj
+ .text._ZN4Gpio4readEv
+                0x00000000        0xc CMakeFiles/HEllOWORLD.elf.dir/Platform/Gpio/Gpio.cpp.obj
+ .ARM.extab.text._ZN4Gpio4readEv
+                0x00000000        0xc CMakeFiles/HEllOWORLD.elf.dir/Platform/Gpio/Gpio.cpp.obj
+ .ARM.exidx.text._ZN4Gpio4readEv
+                0x00000000        0x8 CMakeFiles/HEllOWORLD.elf.dir/Platform/Gpio/Gpio.cpp.obj
+ .debug_info    0x00000000      0x4af CMakeFiles/HEllOWORLD.elf.dir/Platform/Gpio/Gpio.cpp.obj
+ .debug_abbrev  0x00000000      0x265 CMakeFiles/HEllOWORLD.elf.dir/Platform/Gpio/Gpio.cpp.obj
+ .debug_loc     0x00000000       0xa1 CMakeFiles/HEllOWORLD.elf.dir/Platform/Gpio/Gpio.cpp.obj
+ .debug_aranges
+                0x00000000       0x38 CMakeFiles/HEllOWORLD.elf.dir/Platform/Gpio/Gpio.cpp.obj
+ .debug_ranges  0x00000000       0x28 CMakeFiles/HEllOWORLD.elf.dir/Platform/Gpio/Gpio.cpp.obj
+ .debug_line    0x00000000      0x37e CMakeFiles/HEllOWORLD.elf.dir/Platform/Gpio/Gpio.cpp.obj
+ .debug_str     0x00000000      0x49f CMakeFiles/HEllOWORLD.elf.dir/Platform/Gpio/Gpio.cpp.obj
+ .comment       0x00000000       0x4a CMakeFiles/HEllOWORLD.elf.dir/Platform/Gpio/Gpio.cpp.obj
+ .debug_frame   0x00000000       0x70 CMakeFiles/HEllOWORLD.elf.dir/Platform/Gpio/Gpio.cpp.obj
+ .ARM.attributes
+                0x00000000       0x34 CMakeFiles/HEllOWORLD.elf.dir/Platform/Gpio/Gpio.cpp.obj
  .group         0x00000000       0x14 CMakeFiles/HEllOWORLD.elf.dir/Platform/Peripheral/SignalPeripheral.cpp.obj
  .group         0x00000000       0x14 CMakeFiles/HEllOWORLD.elf.dir/Platform/Peripheral/SignalPeripheral.cpp.obj
  .group         0x00000000        0x8 CMakeFiles/HEllOWORLD.elf.dir/Platform/Peripheral/SignalPeripheral.cpp.obj
@@ -4617,6 +4656,7 @@ LOAD CMakeFiles/HEllOWORLD.elf.dir/HardWare/lcd/lcd_ex.c.obj
 LOAD CMakeFiles/HEllOWORLD.elf.dir/HardWare/lcd/lcdlib.c.obj
 LOAD CMakeFiles/HEllOWORLD.elf.dir/Platform/Adc/My_Adc.cpp.obj
 LOAD CMakeFiles/HEllOWORLD.elf.dir/Platform/Dac/My_Dac.cpp.obj
+LOAD CMakeFiles/HEllOWORLD.elf.dir/Platform/Gpio/Gpio.cpp.obj
 LOAD CMakeFiles/HEllOWORLD.elf.dir/Platform/Peripheral/SignalPeripheral.cpp.obj
 LOAD CMakeFiles/HEllOWORLD.elf.dir/Platform/Pwm/My_Pwm.cpp.obj
 LOAD CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/AdvancedMeasure/AdvancedMeasure.cpp.obj
@@ -7132,7 +7172,7 @@ LOAD c:/mingw/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1
 LOAD c:/mingw/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard\libm.a
 LOAD c:/mingw/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7e-m+fp/hard\libgcc.a
 
-.debug_info     0x00000000    0x5a2ca
+.debug_info     0x00000000    0x5a2b6
  .debug_info    0x00000000     0x1d8e CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/CommonTables/CommonTables.c.obj
  .debug_info    0x00001d8e     0x1404 CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/ComplexMathFunctions/ComplexMathFunctions.c.obj
  .debug_info    0x00003192     0x2246 CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/FastMathFunctions/FastMathFunctions.c.obj
@@ -7180,10 +7220,10 @@ LOAD c:/mingw/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1
  .debug_info    0x00053e6b      0x233 CMakeFiles/HEllOWORLD.elf.dir/System/delay/delay.c.obj
  .debug_info    0x0005409e      0xff6 CMakeFiles/HEllOWORLD.elf.dir/System/usart/retarget.c.obj
  .debug_info    0x00055094     0x1e39 CMakeFiles/HEllOWORLD.elf.dir/UserApp/init.cpp.obj
- .debug_info    0x00056ecd     0x33db CMakeFiles/HEllOWORLD.elf.dir/UserApp/main.cpp.obj
- .debug_info    0x0005a2a8       0x22 CMakeFiles/HEllOWORLD.elf.dir/startup/startup_stm32f407xx.s.obj
+ .debug_info    0x00056ecd     0x33c7 CMakeFiles/HEllOWORLD.elf.dir/UserApp/main.cpp.obj
+ .debug_info    0x0005a294       0x22 CMakeFiles/HEllOWORLD.elf.dir/startup/startup_stm32f407xx.s.obj
 
-.debug_abbrev   0x00000000     0x7856
+.debug_abbrev   0x00000000     0x7861
  .debug_abbrev  0x00000000      0x128 CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/CommonTables/CommonTables.c.obj
  .debug_abbrev  0x00000128      0x236 CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/ComplexMathFunctions/ComplexMathFunctions.c.obj
  .debug_abbrev  0x0000035e      0x320 CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/FastMathFunctions/FastMathFunctions.c.obj
@@ -7231,8 +7271,8 @@ LOAD c:/mingw/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1
  .debug_abbrev  0x00006c9a      0x12e CMakeFiles/HEllOWORLD.elf.dir/System/delay/delay.c.obj
  .debug_abbrev  0x00006dc8      0x2b4 CMakeFiles/HEllOWORLD.elf.dir/System/usart/retarget.c.obj
  .debug_abbrev  0x0000707c      0x25b CMakeFiles/HEllOWORLD.elf.dir/UserApp/init.cpp.obj
- .debug_abbrev  0x000072d7      0x56d CMakeFiles/HEllOWORLD.elf.dir/UserApp/main.cpp.obj
- .debug_abbrev  0x00007844       0x12 CMakeFiles/HEllOWORLD.elf.dir/startup/startup_stm32f407xx.s.obj
+ .debug_abbrev  0x000072d7      0x578 CMakeFiles/HEllOWORLD.elf.dir/UserApp/main.cpp.obj
+ .debug_abbrev  0x0000784f       0x12 CMakeFiles/HEllOWORLD.elf.dir/startup/startup_stm32f407xx.s.obj
 
 .debug_aranges  0x00000000     0x2148
  .debug_aranges
@@ -7334,7 +7374,7 @@ LOAD c:/mingw/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1
  .debug_aranges
                 0x00002120       0x28 CMakeFiles/HEllOWORLD.elf.dir/startup/startup_stm32f407xx.s.obj
 
-.debug_line     0x00000000    0x3d2c6
+.debug_line     0x00000000    0x3d2c4
  .debug_line    0x00000000      0x249 CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/CommonTables/CommonTables.c.obj
  .debug_line    0x00000249      0xfb6 CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/ComplexMathFunctions/ComplexMathFunctions.c.obj
  .debug_line    0x000011ff     0x1d00 CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/FastMathFunctions/FastMathFunctions.c.obj
@@ -7382,8 +7422,8 @@ LOAD c:/mingw/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1
  .debug_line    0x0003ba9f      0x2ed CMakeFiles/HEllOWORLD.elf.dir/System/delay/delay.c.obj
  .debug_line    0x0003bd8c      0x3c7 CMakeFiles/HEllOWORLD.elf.dir/System/usart/retarget.c.obj
  .debug_line    0x0003c153      0x5a9 CMakeFiles/HEllOWORLD.elf.dir/UserApp/init.cpp.obj
- .debug_line    0x0003c6fc      0xb0e CMakeFiles/HEllOWORLD.elf.dir/UserApp/main.cpp.obj
- .debug_line    0x0003d20a       0xbc CMakeFiles/HEllOWORLD.elf.dir/startup/startup_stm32f407xx.s.obj
+ .debug_line    0x0003c6fc      0xb0c CMakeFiles/HEllOWORLD.elf.dir/UserApp/main.cpp.obj
+ .debug_line    0x0003d208       0xbc CMakeFiles/HEllOWORLD.elf.dir/startup/startup_stm32f407xx.s.obj
 
 .debug_str      0x00000000     0xc1e6
  .debug_str     0x00000000     0x1363 CMakeFiles/HEllOWORLD.elf.dir/ARM_DSP/Source/CommonTables/CommonTables.c.obj
@@ -7481,7 +7521,7 @@ LOAD c:/mingw/gcc-arm-none-eabi-10.3-2021.10/bin/../lib/gcc/arm-none-eabi/10.3.1
  .debug_str     0x0000be19       0xa4 CMakeFiles/HEllOWORLD.elf.dir/UserApp/init.cpp.obj
                                0x1231 (size before relaxing)
  .debug_str     0x0000bebd      0x2bf CMakeFiles/HEllOWORLD.elf.dir/UserApp/main.cpp.obj
-                               0x207a (size before relaxing)
+                               0x2061 (size before relaxing)
  .debug_str     0x0000c17c       0x6a CMakeFiles/HEllOWORLD.elf.dir/startup/startup_stm32f407xx.s.obj
                                  0xbc (size before relaxing)
 

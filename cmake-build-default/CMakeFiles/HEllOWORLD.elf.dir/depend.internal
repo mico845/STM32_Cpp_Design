@@ -1122,8 +1122,10 @@ CMakeFiles/HEllOWORLD.elf.dir/Core/Src/main.c.obj
  ../Platform/Config.h
  ../Platform/Dac/My_Dac.h
  ../Platform/EmbeddedSystem.h
+ ../Platform/Gpio/Gpio.h
  ../Platform/Peripheral/BasePeripheral.h
  ../Platform/Peripheral/SignalPeripheral.h
+ ../Platform/Platform.h
  ../Platform/Pwm/My_Pwm.h
  ../Platform/SignalProcess/AdvancedMeasure/AdvancedMeasure.h
  ../Platform/SignalProcess/BasicMeasure/BasicMeasure.h
@@ -2784,6 +2786,51 @@ CMakeFiles/HEllOWORLD.elf.dir/Platform/Dac/My_Dac.cpp.obj
  ../System/sys/sys.h
  C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Platform/Dac/My_Dac.cpp
  C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Platform/Dac/My_Dac.h
+CMakeFiles/HEllOWORLD.elf.dir/Platform/Gpio/Gpio.cpp.obj
+ ../Core/Inc/main.h
+ ../Core/Inc/stm32f4xx_hal_conf.h
+ ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h
+ ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h
+ ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h
+ ../Drivers/CMSIS/Include/cmsis_armcc.h
+ ../Drivers/CMSIS/Include/cmsis_armclang.h
+ ../Drivers/CMSIS/Include/cmsis_compiler.h
+ ../Drivers/CMSIS/Include/cmsis_gcc.h
+ ../Drivers/CMSIS/Include/cmsis_iccarm.h
+ ../Drivers/CMSIS/Include/cmsis_version.h
+ ../Drivers/CMSIS/Include/core_cm4.h
+ ../Drivers/CMSIS/Include/mpu_armv7.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac_ex.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h
+ ../Platform/EmbeddedSystem.h
+ ../Platform/Peripheral/BasePeripheral.h
+ ../System/sys/sys.h
+ C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Platform/Gpio/Gpio.cpp
+ C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Platform/Gpio/Gpio.h
 CMakeFiles/HEllOWORLD.elf.dir/Platform/Peripheral/SignalPeripheral.cpp.obj
  ../Core/Inc/main.h
  ../Core/Inc/stm32f4xx_hal_conf.h
@@ -3449,8 +3496,10 @@ CMakeFiles/HEllOWORLD.elf.dir/UserApp/init.cpp.obj
  ../Platform/Config.h
  ../Platform/Dac/My_Dac.h
  ../Platform/EmbeddedSystem.h
+ ../Platform/Gpio/Gpio.h
  ../Platform/Peripheral/BasePeripheral.h
  ../Platform/Peripheral/SignalPeripheral.h
+ ../Platform/Platform.h
  ../Platform/Pwm/My_Pwm.h
  ../Platform/SignalProcess/AdvancedMeasure/AdvancedMeasure.h
  ../Platform/SignalProcess/BasicMeasure/BasicMeasure.h
@@ -3537,8 +3586,10 @@ CMakeFiles/HEllOWORLD.elf.dir/UserApp/main.cpp.obj
  ../Platform/Config.h
  ../Platform/Dac/My_Dac.h
  ../Platform/EmbeddedSystem.h
+ ../Platform/Gpio/Gpio.h
  ../Platform/Peripheral/BasePeripheral.h
  ../Platform/Peripheral/SignalPeripheral.h
+ ../Platform/Platform.h
  ../Platform/Pwm/My_Pwm.h
  ../Platform/SignalProcess/AdvancedMeasure/AdvancedMeasure.h
  ../Platform/SignalProcess/BasicMeasure/BasicMeasure.h
@@ -3625,8 +3676,10 @@ CMakeFiles/HEllOWORLD.elf.dir/UserApp/usart_receive.cpp.obj
  ../Platform/Config.h
  ../Platform/Dac/My_Dac.h
  ../Platform/EmbeddedSystem.h
+ ../Platform/Gpio/Gpio.h
  ../Platform/Peripheral/BasePeripheral.h
  ../Platform/Peripheral/SignalPeripheral.h
+ ../Platform/Platform.h
  ../Platform/Pwm/My_Pwm.h
  ../Platform/SignalProcess/AdvancedMeasure/AdvancedMeasure.h
  ../Platform/SignalProcess/BasicMeasure/BasicMeasure.h
