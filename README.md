@@ -481,6 +481,7 @@ void Main()
 
     led.set();
 
+
     for (;;) {
         led.toggle();
         delay_ms(1000);
@@ -488,26 +489,4 @@ void Main()
 
     ...
 }
-
-
-
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+```
