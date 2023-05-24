@@ -151,9 +151,9 @@ void Main()
 {
     ...
 
-   WaveformProperties wave (Waveform_Sine, 3300, 0);    //正弦
+   WaveformProperties wave (Waveform_Sine, 3300, 0);    //正弦波，3300mv，相位为0
    Dac.init(2000, 144000000, wave).start();
-   wave.set_type(Waveform_Triangle);
+   wave.set_type(Waveform_Triangle);                    //三角波，3300mv，相位为0
    Dac2.init(1000, 144000000, wave).start();
 
     for (;;) {
