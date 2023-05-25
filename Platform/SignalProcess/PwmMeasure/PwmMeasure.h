@@ -14,10 +14,9 @@ extern "C" {
 #ifdef __cplusplus
 }
 /*---------------------------- C++ Scope ---------------------------*/
-typedef enum {
-    Pwm_Continuous_Capture = 0,
-    Pwm_Single_Capture ,
-}Pwm_Capture_Mode;
+
+void HAL_TIM_IC_CaptureCallback(TIM_HandleTypeDef *htim);
+void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim);
 
 class PwmMeasure: public SignalPeripheral{
 public:
@@ -26,18 +25,26 @@ public:
     ~PwmMeasure() = default;
     PwmMeasure& init(uint32_t f_out, uint64_t f_in) override;
 
-    void start(Pwm_Capture_Mode mode);
+    void start() override;
     void stop() override;
-
+    bool is_finished();
+    uint32_t get_time_high();
+    uint32_t get_cycle_high();
+    float32_t get_duty();
+    float32_t get_freq();
 private:
+    bool pwm_is_finished = false;
     uint32_t high;
     uint32_t cycle;
     float32_t duty;
     float32_t freq;
-    void start() override { };
     void calc_tim_arr_psc() override;
     uint8_t _channel = TIM_CHANNEL_1;
     void debug();
+
+public:
+    friend void HAL_TIM_IC_CaptureCallback(TIM_HandleTypeDef *htim);
+    friend void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim);
 };
 
 

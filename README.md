@@ -7,9 +7,13 @@
 ```cpp
 #include "Platform.h"
 ```
-并添加库文件`Platform`（以及包含头文件路径）
+（该头文件包含了该库其他外设的头文件）
 
-底层驱动库`ARM_DSP`、`adc`、`dac`、`dma`、`tim`、`gpio`
+并添加库文件`Platform`
+
+以及底层驱动库`ARM_DSP`、`adc`、`dac`、`dma`、`tim`、`gpio`
+
+**注意：请记住添加头文件包含路径**
 
 ### 2. 图形化配置
 使用STM32CubeMX进行图形化配置。
@@ -40,7 +44,7 @@ for (;;) {
     }
 }
 ```
-这里，`Adc.is_finished()()`是一个ADC查询，当ADC读取完成时，会被设置为`true`。
+这里，`Adc.is_finished()`是一个ADC查询，当ADC读取完成时，会被设置为`true`。
 
 ## My_Adc 类
 `My_Adc`类是一个用于控制STM32的ADC（模数转换器）的类，它继承自`SignalPeripheral`类， 通过继承`SignalPeripheral`类，可以实现定时器的控制。
@@ -382,74 +386,32 @@ void Main()
 4. `stop()`
    停止PWM测量。
    
-### `start()`的实现
-该函数利用循环轮询查看`TIM_CAPTURE_STA`的值，该值由中断进行修改，我们只需留意四个测量结果：`high`、`cycle`、`duty`、`freq`。
-分别是：
-1. `high`：高电平时间 单位为us
-2. `cycle`：周期时间时间 单位为us
-3. `duty`：占空比
-4. `freq`：PWM频率 单位为Hz
-在`start()`中添加实现代码，并在程序运行的循环区域调用`start()`即可。
-```cpp
-void PwmMeasure::start(Pwm_Capture_Mode mode) {
-   switch (TIM_CAPTURE_STA)
-   {
-   case 0:
-   {
-      calc_tim_arr_psc();
-      TIM_TIMEOUT_COUNT = 0;
-      __HAL_TIM_SET_COUNTER(_htim, 0);										// 清除定时器2现有计数
-      memset(TIM_CAPTURE_BUF, 0, sizeof(TIM_CAPTURE_BUF));						        // 清除捕获计数
-      __HAL_TIM_SET_CAPTUREPOLARITY(_htim, _channel, TIM_INPUTCHANNELPOLARITY_RISING);	// 设置为上升沿触发
-      HAL_TIM_Base_Start_IT(_htim);												        // 启动定时器更新中断
-      HAL_TIM_IC_Start_IT(_htim, _channel);									            // 启动捕获中断
-      TIM_CAPTURE_STA++;
-      break;
-   }
-   
-   case 4:
-   {
-      high  = TIM_CAPTURE_BUF[1] - TIM_CAPTURE_BUF[0];
-      cycle = TIM_CAPTURE_BUF[2] - TIM_CAPTURE_BUF[0];
-      duty = (float32_t)high/(float32_t)cycle;
-      freq = 1.0 / (((float32_t)cycle) / 1000000.0);
-      
-      ... // 添加自己的代码
-      
-      #ifdef PWM_DEBUG
-      debug();
-      #endif
-      
-      if (mode == Pwm_Single_Capture)
-      TIM_CAPTURE_STA = 5;
-      else
-      TIM_CAPTURE_STA = 0;
-      break;
-    }
-    default:
-        break;
-    }
-}
-```
+5. `is_finished()`
+   判断PWM是否读取完成一个脉冲，如果完成，将会置位为`ture`。
 
 ### 使用案例
 ```cpp
 #include "Pwm/PwmMeasure.h"
+#include "Pwm/My_Pwm.h"
 
+My_Pwm Pwm(&htim3, TIM_CHANNEL_1);
 PwmMeasure pm(&htim9, TIM_CHANNEL_1);
 
 void Main()
 {
     ...
-
-    pm.init(1000000, 144000000);
+    Pwm.init(1000, 72000000).start();
+    pm.init(1000000, 144000000).start();
 
     for (;;) {
-        pm.start();
+      if (pm.is_finished())
+      {
+         printf("freq: %f Hz\n", pm.get_freq());
+         delay_ms(1000);
+         pm.start();
+      }
         ...
     }
-
-    ...
 }
 ```
 
