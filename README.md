@@ -7,6 +7,10 @@
 ```cpp
 #include "Platform.h"
 ```
+并添加库文件`Platform`（以及包含头文件路径）
+
+底层驱动库`ARM_DSP`、`adc`、`dac`、`dma`、`tim`、`gpio`
+
 ### 2. 图形化配置
 使用STM32CubeMX进行图形化配置。
 **注意，这个库是针对STM32微控制器编写的，使用之前需要先用STM32CubeMX进行硬件配置。**
