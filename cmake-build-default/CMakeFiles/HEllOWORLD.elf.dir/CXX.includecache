@@ -758,22 +758,6 @@ sys/stat.h
 stdio.h
 -
 
-C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Platform/SignalProcess/PwmMeasure/PwmMeasure.cpp
-PwmMeasure.h
-C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Platform/SignalProcess/PwmMeasure/PwmMeasure.h
-string.h
--
-retarget.h
-C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Platform/SignalProcess/PwmMeasure/retarget.h
-
-C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Platform/SignalProcess/PwmMeasure/PwmMeasure.h
-delay.h
-C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Platform/SignalProcess/PwmMeasure/delay.h
-SignalPeripheral.h
-C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Platform/SignalProcess/PwmMeasure/SignalPeripheral.h
-arm_math.h
-C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Platform/SignalProcess/PwmMeasure/arm_math.h
-
 C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/UserApp/common_inc.h
 stdint-gcc.h
 C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/UserApp/stdint-gcc.h
@@ -800,15 +784,7 @@ C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/UserApp/key.h
 Platform.h
 C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/UserApp/Platform.h
 
-C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/UserApp/init.cpp
-common_inc.h
-C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/UserApp/common_inc.h
-
 C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/UserApp/main.cpp
-common_inc.h
-C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/UserApp/common_inc.h
-
-C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/UserApp/usart_receive.cpp
 common_inc.h
 C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/UserApp/common_inc.h
 

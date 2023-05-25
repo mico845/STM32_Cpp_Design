@@ -103,6 +103,8 @@ int main(void)
   MX_FSMC_Init();
   MX_TIM3_Init();
   MX_TIM9_Init();
+  MX_ADC2_Init();
+  MX_ADC3_Init();
   /* USER CODE BEGIN 2 */
     Main();
   /* USER CODE END 2 */

@@ -1,4 +1,4 @@
-set(CMAKE_CXX_COMPILER "C:/MinGW/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-g++.exe")
+set(CMAKE_CXX_COMPILER "C:/MinGW/gcc-arm-none-eabi/bin/arm-none-eabi-g++.exe")
 set(CMAKE_CXX_COMPILER_ARG1 "")
 set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_CXX_COMPILER_VERSION "10.3.1")
@@ -20,10 +20,10 @@ set(CMAKE_CXX_SIMULATE_VERSION "")
 
 
 set(CMAKE_AR "arm-none-eabi-ar")
-set(CMAKE_CXX_COMPILER_AR "C:/MinGW/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc-ar.exe")
-set(CMAKE_RANLIB "C:/MinGW/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-ranlib.exe")
-set(CMAKE_CXX_COMPILER_RANLIB "C:/MinGW/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc-ranlib.exe")
-set(CMAKE_LINKER "C:/MinGW/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-ld.exe")
+set(CMAKE_CXX_COMPILER_AR "C:/MinGW/gcc-arm-none-eabi/bin/arm-none-eabi-gcc-ar.exe")
+set(CMAKE_RANLIB "C:/MinGW/bin/ranlib.exe")
+set(CMAKE_CXX_COMPILER_RANLIB "C:/MinGW/gcc-arm-none-eabi/bin/arm-none-eabi-gcc-ranlib.exe")
+set(CMAKE_LINKER "C:/MinGW/bin/ld.exe")
 set(CMAKE_MT "")
 set(CMAKE_COMPILER_IS_GNUCXX 1)
 set(CMAKE_CXX_COMPILER_LOADED 1)
@@ -82,7 +82,7 @@ endif()
 
 
 
-set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "C:/MinGW/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/c++/10.3.1;C:/MinGW/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/c++/10.3.1/arm-none-eabi;C:/MinGW/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include/c++/10.3.1/backward;C:/MinGW/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include;C:/MinGW/gcc-arm-none-eabi-10.3-2021.10/lib/gcc/arm-none-eabi/10.3.1/include-fixed;C:/MinGW/gcc-arm-none-eabi-10.3-2021.10/arm-none-eabi/include")
+set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "C:/MinGW/gcc-arm-none-eabi/arm-none-eabi/include/c++/10.3.1;C:/MinGW/gcc-arm-none-eabi/arm-none-eabi/include/c++/10.3.1/arm-none-eabi;C:/MinGW/gcc-arm-none-eabi/arm-none-eabi/include/c++/10.3.1/backward;C:/MinGW/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1/include;C:/MinGW/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/10.3.1/include-fixed;C:/MinGW/gcc-arm-none-eabi/arm-none-eabi/include")
 set(CMAKE_CXX_IMPLICIT_LINK_LIBRARIES "")
 set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "")
 set(CMAKE_CXX_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")

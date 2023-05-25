@@ -57,12 +57,12 @@
 					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/ARM_DSP/Include/dsp"/>
 					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/ARM_DSP/Include"/>
 					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/ARM_DSP/PrivateInclude"/>
-					<Add directory="c:\mingw\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
-					<Add directory="c:\mingw\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
-					<Add directory="c:\mingw\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
-					<Add directory="c:\mingw\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
-					<Add directory="c:\mingw\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
-					<Add directory="c:\mingw\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+					<Add directory="c:\mingw\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="c:\mingw\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="c:\mingw\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="c:\mingw\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="c:\mingw\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="c:\mingw\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/cmake-build-default/Makefile&quot;  VERBOSE=1 HEllOWORLD.elf"/>
@@ -111,12 +111,12 @@
 					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/ARM_DSP/Include/dsp"/>
 					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/ARM_DSP/Include"/>
 					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/ARM_DSP/PrivateInclude"/>
-					<Add directory="c:\mingw\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
-					<Add directory="c:\mingw\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
-					<Add directory="c:\mingw\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
-					<Add directory="c:\mingw\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
-					<Add directory="c:\mingw\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
-					<Add directory="c:\mingw\gcc-arm-none-eabi-10.3-2021.10\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
+					<Add directory="c:\mingw\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1"/>
+					<Add directory="c:\mingw\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/arm-none-eabi"/>
+					<Add directory="c:\mingw\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include/c++/10.3.1/backward"/>
+					<Add directory="c:\mingw\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/include"/>
+					<Add directory="c:\mingw\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/include-fixed"/>
+					<Add directory="c:\mingw\gcc-arm-none-eabi\bin\../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"/>
 				</Compiler>
 				<MakeCommands>
 					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/cmake-build-default/Makefile&quot;  VERBOSE=1 HEllOWORLD.elf/fast"/>

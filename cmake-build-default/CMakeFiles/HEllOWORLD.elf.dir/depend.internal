@@ -2669,7 +2669,8 @@ CMakeFiles/HEllOWORLD.elf.dir/System/usart/retarget.c.obj
  ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h
  ../System/usart/retarget.h
  C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/System/usart/retarget.c
-CMakeFiles/HEllOWORLD.elf.dir/Platform/ADC/My_Adc.cpp.obj
+CMakeFiles/HEllOWORLD.elf.dir/Platform/Adc/My_Adc.cpp.obj
+ ../Core/Inc/adc.h
  ../Core/Inc/main.h
  ../Core/Inc/stm32f4xx_hal_conf.h
  ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h

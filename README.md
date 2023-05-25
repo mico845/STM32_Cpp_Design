@@ -33,14 +33,14 @@ Adc.init(102400, 72000000);
 ```cpp
 Adc.start();
 for (;;) {
-    if (adc_finished) {
+    if (Adc.is_finish()) {
         Adc.read();
         adc_finished = false;
         Adc.start();
     }
 }
 ```
-这里，`adc_finished`是一个全局标志，当ADC读取完成时，会被设置为`true`。
+这里，`Adc.is_finished()()`是一个ADC查询，当ADC读取完成时，会被设置为`true`。
 
 ## My_Adc 类
 `My_Adc`类是一个用于控制STM32的ADC（模数转换器）的类，它继承自`SignalPeripheral`类， 通过继承`SignalPeripheral`类，可以实现定时器的控制。
@@ -59,6 +59,9 @@ for (;;) {
 
 5. `read()`
    读取ADC的数据，并打印到控制台。
+
+6. `is_finished()`
+   判断ADC是否读取完成，如果完成，将会置位为`ture`。
 ### 使用案例
 ```cpp
 #include "Adc/My_Adc.h"
@@ -73,7 +76,7 @@ void Main()
 
     for (;;) {
 
-        if (adc_finished)
+        if (Adc.is_finished())
         {
             Adc.read();
             adc_finished = false;
@@ -247,7 +250,7 @@ void Main()
     Adc.init(102400, 72000000).start();
     
     for (;;) {
-        if (adc_finished)
+        if (Adc.is_finished())
         {
             Adc.read();
             signal_process_base.init(Adc);
@@ -297,7 +300,7 @@ void Main()
     Adc.init(102400, 72000000).start();
 
     for (;;) {
-        if (adc_finished)
+        if (Adc.is_finished())
         {
             Adc.read();
             basic_measure.init(Adc);
@@ -349,7 +352,7 @@ void Main()
     Adc.init(102400, 72000000).start();
 
     for (;;) {
-        if (adc_finished)
+        if (Adc.is_finished())
         {
             Adc.read();
             advanced_measure.init(Adc).filter(FIR);

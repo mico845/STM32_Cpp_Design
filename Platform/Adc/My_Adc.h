@@ -9,7 +9,10 @@
 #include <stdbool.h>
 #include "Config.h"
 
+
 class SignalProcessBase;
+
+void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef *hadc);
 
 class My_Adc: public SignalPeripheral {
 public:
@@ -21,14 +24,15 @@ public:
     void stop() override;
 
     void read();
-
+    bool is_finished();
 private:
+    bool adc_finished = false;
     ADC_HandleTypeDef *_hadc;
     u32 adc_buf[ADC_BUFF_SIZE] = {0};
 public:
     friend class SignalProcessBase;
+    friend void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef *hadc);
 };
 
-extern bool adc_finished;
 
 #endif //HELLOWORLD_MY_ADC_H
