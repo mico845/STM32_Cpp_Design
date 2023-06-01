@@ -32,6 +32,7 @@ void Main();
 }
 /*---------------------------- C++ Scope ---------------------------*/
 #include "Platform.h"
+#include "Screen.h"
 void Init();
 
 

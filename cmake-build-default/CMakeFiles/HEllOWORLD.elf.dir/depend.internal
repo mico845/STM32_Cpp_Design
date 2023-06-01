@@ -1132,6 +1132,11 @@ CMakeFiles/HEllOWORLD.elf.dir/Core/Src/main.c.obj
  ../Platform/SignalProcess/PwmMeasure/PwmMeasure.h
  ../Platform/SignalProcess/SignalProcessBase.h
  ../Platform/SignalSystem.h
+ ../Screen/GraphWindows.h
+ ../Screen/InfoWindows.h
+ ../Screen/Screen.h
+ ../Screen/ScreenBase/ScreenBase.h
+ ../Screen/ScreenBase/ScreenWindows.h
  ../System/delay/delay.h
  ../System/sys/sys.h
  ../System/usart/Module_UART.h
@@ -3417,6 +3422,299 @@ CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/Windows/Windows.cpp.obj
  ../Platform/SignalProcess/SignalProcessBase.h
  ../System/sys/sys.h
  C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Platform/SignalProcess/Windows/Windows.cpp
+CMakeFiles/HEllOWORLD.elf.dir/Screen/GraphWindows.cpp.obj
+ ../ARM_DSP/Include/arm_math.h
+ ../ARM_DSP/Include/arm_math_memory.h
+ ../ARM_DSP/Include/arm_math_types.h
+ ../ARM_DSP/Include/dsp/basic_math_functions.h
+ ../ARM_DSP/Include/dsp/bayes_functions.h
+ ../ARM_DSP/Include/dsp/complex_math_functions.h
+ ../ARM_DSP/Include/dsp/controller_functions.h
+ ../ARM_DSP/Include/dsp/distance_functions.h
+ ../ARM_DSP/Include/dsp/fast_math_functions.h
+ ../ARM_DSP/Include/dsp/filtering_functions.h
+ ../ARM_DSP/Include/dsp/interpolation_functions.h
+ ../ARM_DSP/Include/dsp/matrix_functions.h
+ ../ARM_DSP/Include/dsp/none.h
+ ../ARM_DSP/Include/dsp/quaternion_math_functions.h
+ ../ARM_DSP/Include/dsp/statistics_functions.h
+ ../ARM_DSP/Include/dsp/support_functions.h
+ ../ARM_DSP/Include/dsp/svm_defines.h
+ ../ARM_DSP/Include/dsp/svm_functions.h
+ ../ARM_DSP/Include/dsp/transform_functions.h
+ ../ARM_DSP/Include/dsp/utils.h
+ ../ARM_DSP/Include/dsp/window_functions.h
+ ../Core/Inc/main.h
+ ../Core/Inc/stm32f4xx_hal_conf.h
+ ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h
+ ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h
+ ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h
+ ../Drivers/CMSIS/Include/cmsis_armcc.h
+ ../Drivers/CMSIS/Include/cmsis_armclang.h
+ ../Drivers/CMSIS/Include/cmsis_compiler.h
+ ../Drivers/CMSIS/Include/cmsis_gcc.h
+ ../Drivers/CMSIS/Include/cmsis_iccarm.h
+ ../Drivers/CMSIS/Include/cmsis_version.h
+ ../Drivers/CMSIS/Include/core_cm4.h
+ ../Drivers/CMSIS/Include/mpu_armv7.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac_ex.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h
+ ../HardWare/lcd/lcd.h
+ ../HardWare/lcd/lcd_color.h
+ ../Platform/Adc/My_Adc.h
+ ../Platform/Config.h
+ ../Platform/Dac/My_Dac.h
+ ../Platform/EmbeddedSystem.h
+ ../Platform/Gpio/Gpio.h
+ ../Platform/Peripheral/BasePeripheral.h
+ ../Platform/Peripheral/SignalPeripheral.h
+ ../Platform/Platform.h
+ ../Platform/Pwm/My_Pwm.h
+ ../Platform/SignalProcess/AdvancedMeasure/AdvancedMeasure.h
+ ../Platform/SignalProcess/BasicMeasure/BasicMeasure.h
+ ../Platform/SignalProcess/PwmMeasure/PwmMeasure.h
+ ../Platform/SignalProcess/SignalProcessBase.h
+ ../Platform/SignalSystem.h
+ ../Screen/ScreenBase/ScreenBase.h
+ ../System/delay/delay.h
+ ../System/sys/sys.h
+ C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Screen/GraphWindows.cpp
+ C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Screen/GraphWindows.h
+ C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Screen/ScreenBase/ScreenWindows.h
+CMakeFiles/HEllOWORLD.elf.dir/Screen/InfoWindows.cpp.obj
+ ../ARM_DSP/Include/arm_math.h
+ ../ARM_DSP/Include/arm_math_memory.h
+ ../ARM_DSP/Include/arm_math_types.h
+ ../ARM_DSP/Include/dsp/basic_math_functions.h
+ ../ARM_DSP/Include/dsp/bayes_functions.h
+ ../ARM_DSP/Include/dsp/complex_math_functions.h
+ ../ARM_DSP/Include/dsp/controller_functions.h
+ ../ARM_DSP/Include/dsp/distance_functions.h
+ ../ARM_DSP/Include/dsp/fast_math_functions.h
+ ../ARM_DSP/Include/dsp/filtering_functions.h
+ ../ARM_DSP/Include/dsp/interpolation_functions.h
+ ../ARM_DSP/Include/dsp/matrix_functions.h
+ ../ARM_DSP/Include/dsp/none.h
+ ../ARM_DSP/Include/dsp/quaternion_math_functions.h
+ ../ARM_DSP/Include/dsp/statistics_functions.h
+ ../ARM_DSP/Include/dsp/support_functions.h
+ ../ARM_DSP/Include/dsp/svm_defines.h
+ ../ARM_DSP/Include/dsp/svm_functions.h
+ ../ARM_DSP/Include/dsp/transform_functions.h
+ ../ARM_DSP/Include/dsp/utils.h
+ ../ARM_DSP/Include/dsp/window_functions.h
+ ../Core/Inc/main.h
+ ../Core/Inc/stm32f4xx_hal_conf.h
+ ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h
+ ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h
+ ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h
+ ../Drivers/CMSIS/Include/cmsis_armcc.h
+ ../Drivers/CMSIS/Include/cmsis_armclang.h
+ ../Drivers/CMSIS/Include/cmsis_compiler.h
+ ../Drivers/CMSIS/Include/cmsis_gcc.h
+ ../Drivers/CMSIS/Include/cmsis_iccarm.h
+ ../Drivers/CMSIS/Include/cmsis_version.h
+ ../Drivers/CMSIS/Include/core_cm4.h
+ ../Drivers/CMSIS/Include/mpu_armv7.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac_ex.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h
+ ../HardWare/lcd/lcd.h
+ ../HardWare/lcd/lcd_color.h
+ ../Platform/Adc/My_Adc.h
+ ../Platform/Config.h
+ ../Platform/Dac/My_Dac.h
+ ../Platform/EmbeddedSystem.h
+ ../Platform/Gpio/Gpio.h
+ ../Platform/Peripheral/BasePeripheral.h
+ ../Platform/Peripheral/SignalPeripheral.h
+ ../Platform/Platform.h
+ ../Platform/Pwm/My_Pwm.h
+ ../Platform/SignalProcess/AdvancedMeasure/AdvancedMeasure.h
+ ../Platform/SignalProcess/BasicMeasure/BasicMeasure.h
+ ../Platform/SignalProcess/PwmMeasure/PwmMeasure.h
+ ../Platform/SignalProcess/SignalProcessBase.h
+ ../Platform/SignalSystem.h
+ ../Screen/ScreenBase/ScreenBase.h
+ ../System/delay/delay.h
+ ../System/sys/sys.h
+ C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Screen/InfoWindows.cpp
+ C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Screen/InfoWindows.h
+ C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Screen/ScreenBase/ScreenWindows.h
+CMakeFiles/HEllOWORLD.elf.dir/Screen/ScreenBase/ScreenBase.cpp.obj
+ ../Core/Inc/main.h
+ ../Core/Inc/stm32f4xx_hal_conf.h
+ ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h
+ ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h
+ ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h
+ ../Drivers/CMSIS/Include/cmsis_armcc.h
+ ../Drivers/CMSIS/Include/cmsis_armclang.h
+ ../Drivers/CMSIS/Include/cmsis_compiler.h
+ ../Drivers/CMSIS/Include/cmsis_gcc.h
+ ../Drivers/CMSIS/Include/cmsis_iccarm.h
+ ../Drivers/CMSIS/Include/cmsis_version.h
+ ../Drivers/CMSIS/Include/core_cm4.h
+ ../Drivers/CMSIS/Include/mpu_armv7.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac_ex.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h
+ ../HardWare/lcd/lcd.h
+ ../HardWare/lcd/lcd_color.h
+ ../System/sys/sys.h
+ C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Screen/ScreenBase/ScreenBase.cpp
+ C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Screen/ScreenBase/ScreenBase.h
+CMakeFiles/HEllOWORLD.elf.dir/Screen/ScreenBase/ScreenWindows.cpp.obj
+ ../ARM_DSP/Include/arm_math.h
+ ../ARM_DSP/Include/arm_math_memory.h
+ ../ARM_DSP/Include/arm_math_types.h
+ ../ARM_DSP/Include/dsp/basic_math_functions.h
+ ../ARM_DSP/Include/dsp/bayes_functions.h
+ ../ARM_DSP/Include/dsp/complex_math_functions.h
+ ../ARM_DSP/Include/dsp/controller_functions.h
+ ../ARM_DSP/Include/dsp/distance_functions.h
+ ../ARM_DSP/Include/dsp/fast_math_functions.h
+ ../ARM_DSP/Include/dsp/filtering_functions.h
+ ../ARM_DSP/Include/dsp/interpolation_functions.h
+ ../ARM_DSP/Include/dsp/matrix_functions.h
+ ../ARM_DSP/Include/dsp/none.h
+ ../ARM_DSP/Include/dsp/quaternion_math_functions.h
+ ../ARM_DSP/Include/dsp/statistics_functions.h
+ ../ARM_DSP/Include/dsp/support_functions.h
+ ../ARM_DSP/Include/dsp/svm_defines.h
+ ../ARM_DSP/Include/dsp/svm_functions.h
+ ../ARM_DSP/Include/dsp/transform_functions.h
+ ../ARM_DSP/Include/dsp/utils.h
+ ../ARM_DSP/Include/dsp/window_functions.h
+ ../Core/Inc/main.h
+ ../Core/Inc/stm32f4xx_hal_conf.h
+ ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h
+ ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h
+ ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h
+ ../Drivers/CMSIS/Include/cmsis_armcc.h
+ ../Drivers/CMSIS/Include/cmsis_armclang.h
+ ../Drivers/CMSIS/Include/cmsis_compiler.h
+ ../Drivers/CMSIS/Include/cmsis_gcc.h
+ ../Drivers/CMSIS/Include/cmsis_iccarm.h
+ ../Drivers/CMSIS/Include/cmsis_version.h
+ ../Drivers/CMSIS/Include/core_cm4.h
+ ../Drivers/CMSIS/Include/mpu_armv7.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_adc_ex.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dac_ex.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_sram.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h
+ ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h
+ ../HardWare/lcd/lcd.h
+ ../HardWare/lcd/lcd_color.h
+ ../Platform/Adc/My_Adc.h
+ ../Platform/Config.h
+ ../Platform/Dac/My_Dac.h
+ ../Platform/EmbeddedSystem.h
+ ../Platform/Gpio/Gpio.h
+ ../Platform/Peripheral/BasePeripheral.h
+ ../Platform/Peripheral/SignalPeripheral.h
+ ../Platform/Platform.h
+ ../Platform/Pwm/My_Pwm.h
+ ../Platform/SignalProcess/AdvancedMeasure/AdvancedMeasure.h
+ ../Platform/SignalProcess/BasicMeasure/BasicMeasure.h
+ ../Platform/SignalProcess/PwmMeasure/PwmMeasure.h
+ ../Platform/SignalProcess/SignalProcessBase.h
+ ../Platform/SignalSystem.h
+ ../Screen/ScreenBase/ScreenBase.h
+ ../System/delay/delay.h
+ ../System/sys/sys.h
+ C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Screen/ScreenBase/ScreenWindows.cpp
+ C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Screen/ScreenBase/ScreenWindows.h
 CMakeFiles/HEllOWORLD.elf.dir/UserApp/init.cpp.obj
  ../ARM_DSP/Include/arm_math.h
  ../ARM_DSP/Include/arm_math_memory.h
@@ -3501,6 +3799,11 @@ CMakeFiles/HEllOWORLD.elf.dir/UserApp/init.cpp.obj
  ../Platform/SignalProcess/PwmMeasure/PwmMeasure.h
  ../Platform/SignalProcess/SignalProcessBase.h
  ../Platform/SignalSystem.h
+ ../Screen/GraphWindows.h
+ ../Screen/InfoWindows.h
+ ../Screen/Screen.h
+ ../Screen/ScreenBase/ScreenBase.h
+ ../Screen/ScreenBase/ScreenWindows.h
  ../System/delay/delay.h
  ../System/sys/sys.h
  ../System/usart/Module_UART.h
@@ -3591,6 +3894,11 @@ CMakeFiles/HEllOWORLD.elf.dir/UserApp/main.cpp.obj
  ../Platform/SignalProcess/PwmMeasure/PwmMeasure.h
  ../Platform/SignalProcess/SignalProcessBase.h
  ../Platform/SignalSystem.h
+ ../Screen/GraphWindows.h
+ ../Screen/InfoWindows.h
+ ../Screen/Screen.h
+ ../Screen/ScreenBase/ScreenBase.h
+ ../Screen/ScreenBase/ScreenWindows.h
  ../System/delay/delay.h
  ../System/sys/sys.h
  ../System/usart/Module_UART.h
@@ -3681,6 +3989,11 @@ CMakeFiles/HEllOWORLD.elf.dir/UserApp/usart_receive.cpp.obj
  ../Platform/SignalProcess/PwmMeasure/PwmMeasure.h
  ../Platform/SignalProcess/SignalProcessBase.h
  ../Platform/SignalSystem.h
+ ../Screen/GraphWindows.h
+ ../Screen/InfoWindows.h
+ ../Screen/Screen.h
+ ../Screen/ScreenBase/ScreenBase.h
+ ../Screen/ScreenBase/ScreenWindows.h
  ../System/delay/delay.h
  ../System/sys/sys.h
  ../System/usart/Module_UART.h

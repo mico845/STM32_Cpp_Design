@@ -44,6 +44,7 @@ My_Adc& My_Adc::init(uint32_t f_out, uint64_t f_in)
 }
 
 void My_Adc::start() {
+    stop();
     calc_tim_arr_psc();
     HAL_ADC_Start_DMA(_hadc, (uint32_t *)adc_buf, ADC_BUFF_SIZE);
     HAL_TIM_Base_Start(_htim);
@@ -70,4 +71,9 @@ bool My_Adc::is_finished() {
     else
         return false;
 
+}
+
+My_Adc& My_Adc::set_samplerate(uint32_t sample_rate) {
+    _f_out = sample_rate;
+    return *this;
 }

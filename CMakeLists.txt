@@ -69,8 +69,10 @@ include_directories(
         Platform/SignalProcess/Filter/fdacoefs
         Platform/SignalProcess/PwmMeasure
 
+        Screen/ScreenBase
+        Screen
+
         HardWare/lcd
-        GUI
         HardWare/key
         #       HardWare/matrix_key
         #       HardWare/dac8563
@@ -94,7 +96,7 @@ file(
         "System/*.*"
         "Platform/*.*"
         "HardWare/lcd/*"
-        "GUI/*"
+        "Screen/*.*"
         "HardWare/key/*"
         # "HardWare/matrix_key/*"
         #  "HardWare/oled/*"

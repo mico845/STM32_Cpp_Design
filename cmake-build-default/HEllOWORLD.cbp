@@ -51,8 +51,9 @@
 					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Platform/SignalProcess/Filter"/>
 					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Platform/SignalProcess/Filter/fdacoefs"/>
 					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Platform/SignalProcess/PwmMeasure"/>
+					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Screen/ScreenBase"/>
+					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Screen"/>
 					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/HardWare/lcd"/>
-					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/GUI"/>
 					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/HardWare/key"/>
 					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/ARM_DSP/Include/dsp"/>
 					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/ARM_DSP/Include"/>
@@ -105,8 +106,9 @@
 					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Platform/SignalProcess/Filter"/>
 					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Platform/SignalProcess/Filter/fdacoefs"/>
 					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Platform/SignalProcess/PwmMeasure"/>
+					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Screen/ScreenBase"/>
+					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Screen"/>
 					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/HardWare/lcd"/>
-					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/GUI"/>
 					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/HardWare/key"/>
 					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/ARM_DSP/Include/dsp"/>
 					<Add directory="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/ARM_DSP/Include"/>
@@ -603,6 +605,33 @@
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/STM32F407VETx_FLASH.ld">
+			<Option target="HEllOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Screen/GraphWindows.cpp">
+			<Option target="HEllOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Screen/GraphWindows.h">
+			<Option target="HEllOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Screen/InfoWindows.cpp">
+			<Option target="HEllOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Screen/InfoWindows.h">
+			<Option target="HEllOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Screen/Screen.h">
+			<Option target="HEllOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Screen/ScreenBase/ScreenBase.cpp">
+			<Option target="HEllOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Screen/ScreenBase/ScreenBase.h">
+			<Option target="HEllOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Screen/ScreenBase/ScreenWindows.cpp">
+			<Option target="HEllOWORLD.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/Screen/ScreenBase/ScreenWindows.h">
 			<Option target="HEllOWORLD.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/System/delay/delay.c">

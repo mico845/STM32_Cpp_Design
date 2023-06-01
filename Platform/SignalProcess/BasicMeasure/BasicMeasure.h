@@ -9,8 +9,8 @@
 class BasicMeasure : public SignalProcessBase
 {
 public:
-    float32_t get_max();
-    float32_t get_min();
+    float32_t get_max() override;
+    float32_t get_min() override;
     float32_t get_peak_to_peak();
     float32_t get_rms();
     float32_t get_average(u32 n);

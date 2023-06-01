@@ -1978,6 +1978,114 @@ Platform/SignalProcess/Windows/Windows.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/Windows/Windows.cpp.s
 .PHONY : Platform/SignalProcess/Windows/Windows.cpp.s
 
+Screen/GraphWindows.obj: Screen/GraphWindows.cpp.obj
+
+.PHONY : Screen/GraphWindows.obj
+
+# target to build an object file
+Screen/GraphWindows.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/Screen/GraphWindows.cpp.obj
+.PHONY : Screen/GraphWindows.cpp.obj
+
+Screen/GraphWindows.i: Screen/GraphWindows.cpp.i
+
+.PHONY : Screen/GraphWindows.i
+
+# target to preprocess a source file
+Screen/GraphWindows.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/Screen/GraphWindows.cpp.i
+.PHONY : Screen/GraphWindows.cpp.i
+
+Screen/GraphWindows.s: Screen/GraphWindows.cpp.s
+
+.PHONY : Screen/GraphWindows.s
+
+# target to generate assembly for a file
+Screen/GraphWindows.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/Screen/GraphWindows.cpp.s
+.PHONY : Screen/GraphWindows.cpp.s
+
+Screen/InfoWindows.obj: Screen/InfoWindows.cpp.obj
+
+.PHONY : Screen/InfoWindows.obj
+
+# target to build an object file
+Screen/InfoWindows.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/Screen/InfoWindows.cpp.obj
+.PHONY : Screen/InfoWindows.cpp.obj
+
+Screen/InfoWindows.i: Screen/InfoWindows.cpp.i
+
+.PHONY : Screen/InfoWindows.i
+
+# target to preprocess a source file
+Screen/InfoWindows.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/Screen/InfoWindows.cpp.i
+.PHONY : Screen/InfoWindows.cpp.i
+
+Screen/InfoWindows.s: Screen/InfoWindows.cpp.s
+
+.PHONY : Screen/InfoWindows.s
+
+# target to generate assembly for a file
+Screen/InfoWindows.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/Screen/InfoWindows.cpp.s
+.PHONY : Screen/InfoWindows.cpp.s
+
+Screen/ScreenBase/ScreenBase.obj: Screen/ScreenBase/ScreenBase.cpp.obj
+
+.PHONY : Screen/ScreenBase/ScreenBase.obj
+
+# target to build an object file
+Screen/ScreenBase/ScreenBase.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/Screen/ScreenBase/ScreenBase.cpp.obj
+.PHONY : Screen/ScreenBase/ScreenBase.cpp.obj
+
+Screen/ScreenBase/ScreenBase.i: Screen/ScreenBase/ScreenBase.cpp.i
+
+.PHONY : Screen/ScreenBase/ScreenBase.i
+
+# target to preprocess a source file
+Screen/ScreenBase/ScreenBase.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/Screen/ScreenBase/ScreenBase.cpp.i
+.PHONY : Screen/ScreenBase/ScreenBase.cpp.i
+
+Screen/ScreenBase/ScreenBase.s: Screen/ScreenBase/ScreenBase.cpp.s
+
+.PHONY : Screen/ScreenBase/ScreenBase.s
+
+# target to generate assembly for a file
+Screen/ScreenBase/ScreenBase.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/Screen/ScreenBase/ScreenBase.cpp.s
+.PHONY : Screen/ScreenBase/ScreenBase.cpp.s
+
+Screen/ScreenBase/ScreenWindows.obj: Screen/ScreenBase/ScreenWindows.cpp.obj
+
+.PHONY : Screen/ScreenBase/ScreenWindows.obj
+
+# target to build an object file
+Screen/ScreenBase/ScreenWindows.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/Screen/ScreenBase/ScreenWindows.cpp.obj
+.PHONY : Screen/ScreenBase/ScreenWindows.cpp.obj
+
+Screen/ScreenBase/ScreenWindows.i: Screen/ScreenBase/ScreenWindows.cpp.i
+
+.PHONY : Screen/ScreenBase/ScreenWindows.i
+
+# target to preprocess a source file
+Screen/ScreenBase/ScreenWindows.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/Screen/ScreenBase/ScreenWindows.cpp.i
+.PHONY : Screen/ScreenBase/ScreenWindows.cpp.i
+
+Screen/ScreenBase/ScreenWindows.s: Screen/ScreenBase/ScreenWindows.cpp.s
+
+.PHONY : Screen/ScreenBase/ScreenWindows.s
+
+# target to generate assembly for a file
+Screen/ScreenBase/ScreenWindows.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\HEllOWORLD.elf.dir\build.make CMakeFiles/HEllOWORLD.elf.dir/Screen/ScreenBase/ScreenWindows.cpp.s
+.PHONY : Screen/ScreenBase/ScreenWindows.cpp.s
+
 System/delay/delay.obj: System/delay/delay.c.obj
 
 .PHONY : System/delay/delay.obj
@@ -2389,6 +2497,18 @@ help:
 	@echo ... Platform/SignalProcess/Windows/Windows.obj
 	@echo ... Platform/SignalProcess/Windows/Windows.i
 	@echo ... Platform/SignalProcess/Windows/Windows.s
+	@echo ... Screen/GraphWindows.obj
+	@echo ... Screen/GraphWindows.i
+	@echo ... Screen/GraphWindows.s
+	@echo ... Screen/InfoWindows.obj
+	@echo ... Screen/InfoWindows.i
+	@echo ... Screen/InfoWindows.s
+	@echo ... Screen/ScreenBase/ScreenBase.obj
+	@echo ... Screen/ScreenBase/ScreenBase.i
+	@echo ... Screen/ScreenBase/ScreenBase.s
+	@echo ... Screen/ScreenBase/ScreenWindows.obj
+	@echo ... Screen/ScreenBase/ScreenWindows.i
+	@echo ... Screen/ScreenBase/ScreenWindows.s
 	@echo ... System/delay/delay.obj
 	@echo ... System/delay/delay.i
 	@echo ... System/delay/delay.s

@@ -960,9 +960,61 @@ CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/Windows/Windows.cpp.s: cmak
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/Windows/Windows.cpp.s"
 	C:\MinGW\gcc-arm-none-eabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Platform\SignalProcess\Windows\Windows.cpp -o CMakeFiles\HEllOWORLD.elf.dir\Platform\SignalProcess\Windows\Windows.cpp.s
 
+CMakeFiles/HEllOWORLD.elf.dir/Screen/GraphWindows.cpp.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
+CMakeFiles/HEllOWORLD.elf.dir/Screen/GraphWindows.cpp.obj: ../Screen/GraphWindows.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object CMakeFiles/HEllOWORLD.elf.dir/Screen/GraphWindows.cpp.obj"
+	C:\MinGW\gcc-arm-none-eabi\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\Screen\GraphWindows.cpp.obj -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Screen\GraphWindows.cpp
+
+CMakeFiles/HEllOWORLD.elf.dir/Screen/GraphWindows.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HEllOWORLD.elf.dir/Screen/GraphWindows.cpp.i"
+	C:\MinGW\gcc-arm-none-eabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Screen\GraphWindows.cpp > CMakeFiles\HEllOWORLD.elf.dir\Screen\GraphWindows.cpp.i
+
+CMakeFiles/HEllOWORLD.elf.dir/Screen/GraphWindows.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HEllOWORLD.elf.dir/Screen/GraphWindows.cpp.s"
+	C:\MinGW\gcc-arm-none-eabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Screen\GraphWindows.cpp -o CMakeFiles\HEllOWORLD.elf.dir\Screen\GraphWindows.cpp.s
+
+CMakeFiles/HEllOWORLD.elf.dir/Screen/InfoWindows.cpp.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
+CMakeFiles/HEllOWORLD.elf.dir/Screen/InfoWindows.cpp.obj: ../Screen/InfoWindows.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object CMakeFiles/HEllOWORLD.elf.dir/Screen/InfoWindows.cpp.obj"
+	C:\MinGW\gcc-arm-none-eabi\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\Screen\InfoWindows.cpp.obj -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Screen\InfoWindows.cpp
+
+CMakeFiles/HEllOWORLD.elf.dir/Screen/InfoWindows.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HEllOWORLD.elf.dir/Screen/InfoWindows.cpp.i"
+	C:\MinGW\gcc-arm-none-eabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Screen\InfoWindows.cpp > CMakeFiles\HEllOWORLD.elf.dir\Screen\InfoWindows.cpp.i
+
+CMakeFiles/HEllOWORLD.elf.dir/Screen/InfoWindows.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HEllOWORLD.elf.dir/Screen/InfoWindows.cpp.s"
+	C:\MinGW\gcc-arm-none-eabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Screen\InfoWindows.cpp -o CMakeFiles\HEllOWORLD.elf.dir\Screen\InfoWindows.cpp.s
+
+CMakeFiles/HEllOWORLD.elf.dir/Screen/ScreenBase/ScreenBase.cpp.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
+CMakeFiles/HEllOWORLD.elf.dir/Screen/ScreenBase/ScreenBase.cpp.obj: ../Screen/ScreenBase/ScreenBase.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object CMakeFiles/HEllOWORLD.elf.dir/Screen/ScreenBase/ScreenBase.cpp.obj"
+	C:\MinGW\gcc-arm-none-eabi\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\Screen\ScreenBase\ScreenBase.cpp.obj -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Screen\ScreenBase\ScreenBase.cpp
+
+CMakeFiles/HEllOWORLD.elf.dir/Screen/ScreenBase/ScreenBase.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HEllOWORLD.elf.dir/Screen/ScreenBase/ScreenBase.cpp.i"
+	C:\MinGW\gcc-arm-none-eabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Screen\ScreenBase\ScreenBase.cpp > CMakeFiles\HEllOWORLD.elf.dir\Screen\ScreenBase\ScreenBase.cpp.i
+
+CMakeFiles/HEllOWORLD.elf.dir/Screen/ScreenBase/ScreenBase.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HEllOWORLD.elf.dir/Screen/ScreenBase/ScreenBase.cpp.s"
+	C:\MinGW\gcc-arm-none-eabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Screen\ScreenBase\ScreenBase.cpp -o CMakeFiles\HEllOWORLD.elf.dir\Screen\ScreenBase\ScreenBase.cpp.s
+
+CMakeFiles/HEllOWORLD.elf.dir/Screen/ScreenBase/ScreenWindows.cpp.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
+CMakeFiles/HEllOWORLD.elf.dir/Screen/ScreenBase/ScreenWindows.cpp.obj: ../Screen/ScreenBase/ScreenWindows.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object CMakeFiles/HEllOWORLD.elf.dir/Screen/ScreenBase/ScreenWindows.cpp.obj"
+	C:\MinGW\gcc-arm-none-eabi\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\Screen\ScreenBase\ScreenWindows.cpp.obj -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Screen\ScreenBase\ScreenWindows.cpp
+
+CMakeFiles/HEllOWORLD.elf.dir/Screen/ScreenBase/ScreenWindows.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/HEllOWORLD.elf.dir/Screen/ScreenBase/ScreenWindows.cpp.i"
+	C:\MinGW\gcc-arm-none-eabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Screen\ScreenBase\ScreenWindows.cpp > CMakeFiles\HEllOWORLD.elf.dir\Screen\ScreenBase\ScreenWindows.cpp.i
+
+CMakeFiles/HEllOWORLD.elf.dir/Screen/ScreenBase/ScreenWindows.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/HEllOWORLD.elf.dir/Screen/ScreenBase/ScreenWindows.cpp.s"
+	C:\MinGW\gcc-arm-none-eabi\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Screen\ScreenBase\ScreenWindows.cpp -o CMakeFiles\HEllOWORLD.elf.dir\Screen\ScreenBase\ScreenWindows.cpp.s
+
 CMakeFiles/HEllOWORLD.elf.dir/System/delay/delay.c.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
 CMakeFiles/HEllOWORLD.elf.dir/System/delay/delay.c.obj: ../System/delay/delay.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/HEllOWORLD.elf.dir/System/delay/delay.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/HEllOWORLD.elf.dir/System/delay/delay.c.obj"
 	C:\MinGW\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\System\delay\delay.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\System\delay\delay.c
 
 CMakeFiles/HEllOWORLD.elf.dir/System/delay/delay.c.i: cmake_force
@@ -975,7 +1027,7 @@ CMakeFiles/HEllOWORLD.elf.dir/System/delay/delay.c.s: cmake_force
 
 CMakeFiles/HEllOWORLD.elf.dir/System/sys/sys.c.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
 CMakeFiles/HEllOWORLD.elf.dir/System/sys/sys.c.obj: ../System/sys/sys.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/HEllOWORLD.elf.dir/System/sys/sys.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/HEllOWORLD.elf.dir/System/sys/sys.c.obj"
 	C:\MinGW\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\System\sys\sys.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\System\sys\sys.c
 
 CMakeFiles/HEllOWORLD.elf.dir/System/sys/sys.c.i: cmake_force
@@ -988,7 +1040,7 @@ CMakeFiles/HEllOWORLD.elf.dir/System/sys/sys.c.s: cmake_force
 
 CMakeFiles/HEllOWORLD.elf.dir/System/usart/Module_UART.c.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
 CMakeFiles/HEllOWORLD.elf.dir/System/usart/Module_UART.c.obj: ../System/usart/Module_UART.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/HEllOWORLD.elf.dir/System/usart/Module_UART.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/HEllOWORLD.elf.dir/System/usart/Module_UART.c.obj"
 	C:\MinGW\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\System\usart\Module_UART.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\System\usart\Module_UART.c
 
 CMakeFiles/HEllOWORLD.elf.dir/System/usart/Module_UART.c.i: cmake_force
@@ -1001,7 +1053,7 @@ CMakeFiles/HEllOWORLD.elf.dir/System/usart/Module_UART.c.s: cmake_force
 
 CMakeFiles/HEllOWORLD.elf.dir/System/usart/retarget.c.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
 CMakeFiles/HEllOWORLD.elf.dir/System/usart/retarget.c.obj: ../System/usart/retarget.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/HEllOWORLD.elf.dir/System/usart/retarget.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/HEllOWORLD.elf.dir/System/usart/retarget.c.obj"
 	C:\MinGW\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\System\usart\retarget.c.obj   -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\System\usart\retarget.c
 
 CMakeFiles/HEllOWORLD.elf.dir/System/usart/retarget.c.i: cmake_force
@@ -1014,7 +1066,7 @@ CMakeFiles/HEllOWORLD.elf.dir/System/usart/retarget.c.s: cmake_force
 
 CMakeFiles/HEllOWORLD.elf.dir/UserApp/init.cpp.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
 CMakeFiles/HEllOWORLD.elf.dir/UserApp/init.cpp.obj: ../UserApp/init.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object CMakeFiles/HEllOWORLD.elf.dir/UserApp/init.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object CMakeFiles/HEllOWORLD.elf.dir/UserApp/init.cpp.obj"
 	C:\MinGW\gcc-arm-none-eabi\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\UserApp\init.cpp.obj -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\UserApp\init.cpp
 
 CMakeFiles/HEllOWORLD.elf.dir/UserApp/init.cpp.i: cmake_force
@@ -1027,7 +1079,7 @@ CMakeFiles/HEllOWORLD.elf.dir/UserApp/init.cpp.s: cmake_force
 
 CMakeFiles/HEllOWORLD.elf.dir/UserApp/main.cpp.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
 CMakeFiles/HEllOWORLD.elf.dir/UserApp/main.cpp.obj: ../UserApp/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object CMakeFiles/HEllOWORLD.elf.dir/UserApp/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object CMakeFiles/HEllOWORLD.elf.dir/UserApp/main.cpp.obj"
 	C:\MinGW\gcc-arm-none-eabi\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\UserApp\main.cpp.obj -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\UserApp\main.cpp
 
 CMakeFiles/HEllOWORLD.elf.dir/UserApp/main.cpp.i: cmake_force
@@ -1040,7 +1092,7 @@ CMakeFiles/HEllOWORLD.elf.dir/UserApp/main.cpp.s: cmake_force
 
 CMakeFiles/HEllOWORLD.elf.dir/UserApp/usart_receive.cpp.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
 CMakeFiles/HEllOWORLD.elf.dir/UserApp/usart_receive.cpp.obj: ../UserApp/usart_receive.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object CMakeFiles/HEllOWORLD.elf.dir/UserApp/usart_receive.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object CMakeFiles/HEllOWORLD.elf.dir/UserApp/usart_receive.cpp.obj"
 	C:\MinGW\gcc-arm-none-eabi\bin\arm-none-eabi-g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\UserApp\usart_receive.cpp.obj -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\UserApp\usart_receive.cpp
 
 CMakeFiles/HEllOWORLD.elf.dir/UserApp/usart_receive.cpp.i: cmake_force
@@ -1053,7 +1105,7 @@ CMakeFiles/HEllOWORLD.elf.dir/UserApp/usart_receive.cpp.s: cmake_force
 
 CMakeFiles/HEllOWORLD.elf.dir/startup/startup_stm32f407xx.s.obj: CMakeFiles/HEllOWORLD.elf.dir/flags.make
 CMakeFiles/HEllOWORLD.elf.dir/startup/startup_stm32f407xx.s.obj: ../startup/startup_stm32f407xx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building ASM object CMakeFiles/HEllOWORLD.elf.dir/startup/startup_stm32f407xx.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building ASM object CMakeFiles/HEllOWORLD.elf.dir/startup/startup_stm32f407xx.s.obj"
 	C:\MinGW\gcc-arm-none-eabi\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\HEllOWORLD.elf.dir\startup\startup_stm32f407xx.s.obj -c C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\startup\startup_stm32f407xx.s
 
 # Object files for target HEllOWORLD.elf
@@ -1126,6 +1178,10 @@ HEllOWORLD_elf_OBJECTS = \
 "CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/PwmMeasure/PwmMeasure.cpp.obj" \
 "CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/SignalProcessBase.cpp.obj" \
 "CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/Windows/Windows.cpp.obj" \
+"CMakeFiles/HEllOWORLD.elf.dir/Screen/GraphWindows.cpp.obj" \
+"CMakeFiles/HEllOWORLD.elf.dir/Screen/InfoWindows.cpp.obj" \
+"CMakeFiles/HEllOWORLD.elf.dir/Screen/ScreenBase/ScreenBase.cpp.obj" \
+"CMakeFiles/HEllOWORLD.elf.dir/Screen/ScreenBase/ScreenWindows.cpp.obj" \
 "CMakeFiles/HEllOWORLD.elf.dir/System/delay/delay.c.obj" \
 "CMakeFiles/HEllOWORLD.elf.dir/System/sys/sys.c.obj" \
 "CMakeFiles/HEllOWORLD.elf.dir/System/usart/Module_UART.c.obj" \
@@ -1206,6 +1262,10 @@ HEllOWORLD.elf: CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/Filter/Filt
 HEllOWORLD.elf: CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/PwmMeasure/PwmMeasure.cpp.obj
 HEllOWORLD.elf: CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/SignalProcessBase.cpp.obj
 HEllOWORLD.elf: CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/Windows/Windows.cpp.obj
+HEllOWORLD.elf: CMakeFiles/HEllOWORLD.elf.dir/Screen/GraphWindows.cpp.obj
+HEllOWORLD.elf: CMakeFiles/HEllOWORLD.elf.dir/Screen/InfoWindows.cpp.obj
+HEllOWORLD.elf: CMakeFiles/HEllOWORLD.elf.dir/Screen/ScreenBase/ScreenBase.cpp.obj
+HEllOWORLD.elf: CMakeFiles/HEllOWORLD.elf.dir/Screen/ScreenBase/ScreenWindows.cpp.obj
 HEllOWORLD.elf: CMakeFiles/HEllOWORLD.elf.dir/System/delay/delay.c.obj
 HEllOWORLD.elf: CMakeFiles/HEllOWORLD.elf.dir/System/sys/sys.c.obj
 HEllOWORLD.elf: CMakeFiles/HEllOWORLD.elf.dir/System/usart/Module_UART.c.obj
@@ -1217,7 +1277,7 @@ HEllOWORLD.elf: CMakeFiles/HEllOWORLD.elf.dir/startup/startup_stm32f407xx.s.obj
 HEllOWORLD.elf: CMakeFiles/HEllOWORLD.elf.dir/build.make
 HEllOWORLD.elf: CMakeFiles/HEllOWORLD.elf.dir/objects1.rsp
 HEllOWORLD.elf: CMakeFiles/HEllOWORLD.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Linking CXX executable HEllOWORLD.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\cmake-build-default\CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Linking CXX executable HEllOWORLD.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\HEllOWORLD.elf.dir\link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/cmake-build-default/HEllOWORLD.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building C:/Users/Whisky/MYProjects/Project_STM32/STM32_F407_VET6/main/cmake-build-default/HEllOWORLD.bin"

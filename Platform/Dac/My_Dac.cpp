@@ -17,8 +17,6 @@ My_Dac& My_Dac::init(uint32_t f_out, uint64_t f_in, WaveformProperties &wave) {
     return *this;
 }
 
-
-
 void My_Dac::start() {
     calc_tim_arr_psc();
     stop();
@@ -26,6 +24,7 @@ void My_Dac::start() {
         HAL_DAC_Start_DMA(_hdac, DAC_CHANNEL_1, (uint32_t *)buf[Dac_Channel_1], DAC_BUFF_SIZE, DAC_ALIGN_12B_R);
     else if (_channel == Dac_Channel_2)
         HAL_DAC_Start_DMA(_hdac, DAC_CHANNEL_2, (uint32_t *)buf[Dac_Channel_2], DAC_BUFF_SIZE, DAC_ALIGN_12B_R);
+
     HAL_TIM_Base_Start(_htim);
 }
 

@@ -40,6 +40,7 @@ float32_t AdvancedMeasure::get_freq() {
     }
     // 计算最大值所在的频率
     float32_t freq = (float32_t)(max_index * samplerate/SIGNAL_BUFF_SIZE );
+    _freq = freq;
     return freq;
 }
 
@@ -143,5 +144,9 @@ Waveform_Type AdvancedMeasure::fft_recognize_wave(u8 range) {
 
 Waveform_Type AdvancedMeasure::fft_recognize_wave() {
     return fft_recognize_wave(5);
+}
+
+float32_t AdvancedMeasure::read_freq() {
+    return _freq;
 }
 

@@ -11,6 +11,7 @@
 
 
 class SignalProcessBase;
+class GraphWindows;
 
 void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef *hadc);
 
@@ -25,12 +26,15 @@ public:
 
     void read();
     bool is_finished();
+
+    My_Adc& set_samplerate(uint32_t sample_rate);
 private:
     bool adc_finished = false;
     ADC_HandleTypeDef *_hadc;
     u32 adc_buf[ADC_BUFF_SIZE] = {0};
 public:
     friend class SignalProcessBase;
+    friend class GraphWindows;
     friend void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef *hadc);
 };
 

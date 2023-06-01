@@ -24,7 +24,10 @@ public:
 
     Waveform_Type fft_recognize_wave(u8 range);
     Waveform_Type fft_recognize_wave();
+
+    float32_t read_freq();
 private:
+    float32_t _freq = 0;
 };
 
 

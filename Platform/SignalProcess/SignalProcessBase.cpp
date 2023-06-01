@@ -25,6 +25,18 @@ void SignalProcessBase::read() {
     debug();
 }
 
+float32_t SignalProcessBase::get_max() {
+    float32_t _max = 0.0f;
+    arm_max_f32(signal, SIGNAL_BUFF_SIZE, &_max, NULL);
+    return _max;
+}
+
+float32_t SignalProcessBase::get_min() {
+    float32_t _min = 0.0f;
+    arm_min_f32(signal, SIGNAL_BUFF_SIZE, &_min, NULL);
+    return _min;
+}
+
 u32 convert_to_analog_mv(float32_t num) {
     u32 volt = 3300 * num;
     volt = volt >> 12;

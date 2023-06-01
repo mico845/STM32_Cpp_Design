@@ -18,7 +18,7 @@
 /**********************************/
 //ADC
 /**********************************/
-#define ADC_BUFF_SIZE 4096
+#define ADC_BUFF_SIZE (8192)
 
 /**********************************/
 //DAC
@@ -29,11 +29,11 @@
 /**********************************/
 //SIGNAL_PROCESS
 /**********************************/
-#define SIGNAL_BUFF_SIZE ADC_BUFF_SIZE
+#define SIGNAL_BUFF_SIZE (ADC_BUFF_SIZE/2)
 
 /**********************************/
 //FILTER
 /**********************************/
-#define FILTER_LENGTH_SAMPLES   SIGNAL_BUFF_SIZE        /* 采样点数 */
+#define FILTER_LENGTH_SAMPLES   SIGNAL_BUFF_SIZE
 
 #endif //HELLOWORLD_CONFIG_H

@@ -14,6 +14,8 @@ typedef enum
     IIR,
 }Filter_Type;
 
+class GraphWindows;
+
 class SignalProcessBase : public EmbeddedSystem
 {
 public:
@@ -24,14 +26,17 @@ public:
     virtual SignalProcessBase& apply_windows();
     virtual SignalProcessBase& fft();
     virtual SignalProcessBase& filter(Filter_Type type);
+    virtual float32_t get_max();
+    virtual float32_t get_min();
 
     void read();
 protected:
     float32_t signal[SIGNAL_BUFF_SIZE] = {0};
     float32_t samplerate;
     virtual void debug();
-private:
 
+public:
+    friend class GraphWindows;
 };
 
 u32 convert_to_analog_mv(float32_t num);
