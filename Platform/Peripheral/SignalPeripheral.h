@@ -6,10 +6,12 @@
 #define HELLOWORLD_SIGNALPERIPHERAL_H
 
 #include "BasePeripheral.h"
+#include "Config.h"
 
 class SignalPeripheral : public BasePeripheral {
 public:
     SignalPeripheral(TIM_HandleTypeDef *htim) : _htim(htim) { }
+
     ~SignalPeripheral() = default;
 
     virtual SignalPeripheral& init(uint32_t f_out, uint64_t f_in){

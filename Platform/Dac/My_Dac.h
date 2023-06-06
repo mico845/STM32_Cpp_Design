@@ -17,6 +17,7 @@ typedef enum
 }Dac_Channel;
 
 struct WaveformProperties;
+class Dac_Hrtim;
 
 class My_Dac: public SignalPeripheral {
 
@@ -38,6 +39,7 @@ private:
 struct WaveformProperties {
 public:
     friend class My_Dac;
+    friend class Dac_Hrtim;
 public:
     // Add a constructor with default values
     WaveformProperties( Waveform_Type type = Waveform_Sine,
@@ -53,5 +55,9 @@ private:
     u16 _maxval;
     float _phase;
 };
+
+
+void dac_creat_sin_buf(u16 *buf, u16 maxval, u32 samples, float phase_degrees);
+void dac_creat_tri_buf(u16 *buf, u16 maxval, u32 samples, u16 phase_time);
 
 #endif //HELLOWORLD_MY_DAC_H

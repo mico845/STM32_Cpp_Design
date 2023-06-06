@@ -24,10 +24,16 @@ public:
 
     virtual SignalProcessBase& init(My_Adc& Adc);
     virtual SignalProcessBase& apply_windows();
+    virtual SignalProcessBase& release_windows();
     virtual SignalProcessBase& fft();
     virtual SignalProcessBase& filter(Filter_Type type);
+    virtual SignalProcessBase& convert_to_mv();
+    virtual SignalProcessBase& normalize(uint32_t max_value = 4096);
+    virtual SignalProcessBase& deal_DC();
     virtual float32_t get_max();
     virtual float32_t get_min();
+
+    virtual float32_t get_samplerate();
 
     void read();
 protected:

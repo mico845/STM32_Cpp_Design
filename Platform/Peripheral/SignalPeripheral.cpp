@@ -6,30 +6,27 @@
 #include "math.h"
 #include "retarget.h"
 
+
 void SignalPeripheral::calc_tim_arr_psc()
 {
-    double target = (double)_f_in / _f_out;  // target arr*psc value
-    double min_diff = target;  // initialize with a large value
-    uint32_t psc_min = 1, psc_max = 65536;
-    uint16_t arr, psc = 0;
-    // binary search for the best psc value
-    while (psc_min <= psc_max) {
-        uint32_t psc_mid = (psc_min + psc_max) / 2;
-        double arr_candidate = target / psc_mid - 1;
-        if (arr_candidate > 65535) {
-            psc_min = psc_mid + 1;
-        } else {
-            if (arr_candidate < 0) arr_candidate = 0;
-            double diff = fabs(round(arr_candidate) + 1 - target / psc_mid);  // calculate difference
-            if (diff < min_diff) {  // if better solution is found
-                min_diff = diff;
-                arr = round(arr_candidate);
-                psc = psc_mid - 1;
-            }
-            psc_max = psc_mid - 1;
+    if (_f_in < _f_out) {
+        // Handle this error case according to your requirements.
+        return;
+    }
+    // Start with arr = psc = 0
+    unsigned int arr = 0;
+    unsigned int psc = 0;
+    // First, try to increase arr while keeping psc constant
+    while (_f_in / (arr + 1) > _f_out && arr < 65535) {
+        arr++;
+    }
+    // If arr has reached its max value and we still don't meet the requirement,
+    // then start to increase psc
+    if (_f_in / ((arr + 1) * (psc + 1)) > _f_out) {
+        while (_f_in / ((arr + 1) * (psc + 1)) > _f_out && psc < 65535) {
+            psc++;
         }
     }
-
     _htim->Instance->CNT = 0;
     _htim->Instance->ARR = arr;
     _htim->Instance->PSC = psc;

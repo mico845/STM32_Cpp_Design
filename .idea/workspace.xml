@@ -12,62 +12,49 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8badb5f1-5c46-4956-9f55-13e5aa07b959" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Screen/GraphWindows.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screen/GraphWindows.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screen/InfoWindows.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screen/InfoWindows.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screen/Screen.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screen/ScreenBase/ScreenBase.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screen/ScreenBase/ScreenBase.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screen/ScreenBase/ScreenWindows.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Screen/ScreenBase/ScreenWindows.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Platform/Hrtim/Dac_Hrtim.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Platform/Hrtim/Dac_Hrtim.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Platform/Adc/My_Adc.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Platform/Adc/My_Adc.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Platform/Adc/My_Adc.h" beforeDir="false" afterPath="$PROJECT_DIR$/Platform/Adc/My_Adc.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Platform/Config.h" beforeDir="false" afterPath="$PROJECT_DIR$/Platform/Config.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Platform/Dac/My_Dac.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Platform/Dac/My_Dac.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Platform/Dac/My_Dac.h" beforeDir="false" afterPath="$PROJECT_DIR$/Platform/Dac/My_Dac.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Platform/Peripheral/SignalPeripheral.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Platform/Peripheral/SignalPeripheral.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Platform/Peripheral/SignalPeripheral.h" beforeDir="false" afterPath="$PROJECT_DIR$/Platform/Peripheral/SignalPeripheral.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Platform/Platform.h" beforeDir="false" afterPath="$PROJECT_DIR$/Platform/Platform.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Platform/SignalProcess/AdvancedMeasure/AdvancedMeasure.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Platform/SignalProcess/AdvancedMeasure/AdvancedMeasure.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Platform/SignalProcess/AdvancedMeasure/AdvancedMeasure.h" beforeDir="false" afterPath="$PROJECT_DIR$/Platform/SignalProcess/AdvancedMeasure/AdvancedMeasure.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Platform/SignalProcess/BasicMeasure/BasicMeasure.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Platform/SignalProcess/BasicMeasure/BasicMeasure.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Platform/SignalProcess/BasicMeasure/BasicMeasure.h" beforeDir="false" afterPath="$PROJECT_DIR$/Platform/SignalProcess/BasicMeasure/BasicMeasure.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Platform/SignalProcess/SignalProcessBase.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Platform/SignalProcess/SignalProcessBase.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Platform/SignalProcess/SignalProcessBase.h" beforeDir="false" afterPath="$PROJECT_DIR$/Platform/SignalProcess/SignalProcessBase.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserApp/common_inc.h" beforeDir="false" afterPath="$PROJECT_DIR$/UserApp/common_inc.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserApp/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/UserApp/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Platform/SignalProcess/Windows/Windows.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Platform/SignalProcess/Windows/Windows.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/3.17.5/CMakeASMCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/3.17.5/CMakeASMCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/3.17.5/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/3.17.5/CMakeCCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/3.17.5/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/3.17.5/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/3.17.5/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/3.17.5/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/3.17.5/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/3.17.5/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/CMakeError.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/CMakeError.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/CMakeOutput.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/C.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/C.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/Platform/ADC/My_Adc.cpp.obj" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/Platform/Dac/My_Dac.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/Platform/Dac/My_Dac.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/Platform/Peripheral/SignalPeripheral.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/Platform/Peripheral/SignalPeripheral.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/Platform/Pwm/My_Pwm.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/Platform/Pwm/My_Pwm.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/AdvancedMeasure/AdvancedMeasure.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/AdvancedMeasure/AdvancedMeasure.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/BasicMeasure/BasicMeasure.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/BasicMeasure/BasicMeasure.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/FFT/Fft.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/FFT/Fft.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/Filter/Filter.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/Filter/Filter.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/PwmMeasure/PwmMeasure.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/PwmMeasure/PwmMeasure.cpp.obj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/SignalProcessBase.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/SignalProcessBase.cpp.obj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/UserApp/main.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/UserApp/main.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/Windows/Windows.cpp.obj" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/Windows/Windows.cpp.obj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/UserApp/init.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/UserApp/main.cpp.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/UserApp/usart_receive.cpp.obj" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/build.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/cmake_clean.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/flags.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/objects1.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/objects1.rsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/HEllOWORLD.elf.dir/progress.make" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/clion-log.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-default/HELLOWORLD.map" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/HELLOWORLD.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-default/HEllOWORLD.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/HEllOWORLD.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-default/HEllOWORLD.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/HEllOWORLD.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-default/HEllOWORLD.elf" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/HEllOWORLD.elf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-default/HEllOWORLD.hex" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/HEllOWORLD.hex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-default/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-default/Makefile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -126,17 +113,17 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="CMake" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Platform/SignalProcess/Filter" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.cidr.embedded.config" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main" />
       <recent name="C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Platform\SignalProcess\Filter" />
       <recent name="C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\oscilloscope\System" />
       <recent name="C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\SignalProcess" />
       <recent name="C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main\Core\Src" />
-      <recent name="C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\main" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Whisky\MYProjects\Project_STM32\STM32_F407_VET6\dsp\main\Screen\ScreenBase" />
@@ -147,12 +134,12 @@
     </key>
   </component>
   <component name="RunManager" selected="OpenOCD Download &amp; Run.OCD HELLOWORLD">
-    <configuration name="HEllOWORLD.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="HEllOWORLD" TARGET_NAME="HEllOWORLD.elf" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="HEllOWORLD" RUN_TARGET_NAME="HEllOWORLD.elf">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="HEllOWORLD.elf" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="HEllOWORLD" TARGET_NAME="HEllOWORLD.elf" CONFIG_NAME="Default" RUN_TARGET_PROJECT_NAME="HEllOWORLD" RUN_TARGET_NAME="HEllOWORLD.elf">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -252,7 +239,8 @@
       <workItem from="1684985570824" duration="10377000" />
       <workItem from="1685031300511" duration="628000" />
       <workItem from="1685606219082" duration="11491000" />
-      <workItem from="1685620796016" duration="7257000" />
+      <workItem from="1685620796016" duration="7314000" />
+      <workItem from="1686042294389" duration="729000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1684221337198</created>
@@ -317,7 +305,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685010381861</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="version 1.8.3：&#10;1.增加屏幕窗口类">
+      <created>1685635409366</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1685635409366</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -340,6 +335,7 @@
     <MESSAGE value="version 1.8" />
     <MESSAGE value="version 1.8.1：&#10;1.修复只能使用单一ADC的BUG" />
     <MESSAGE value="version 1.8.2：&#10;1.修复只能使用单一ADC的BUG&#10;2.PWM测量模块的加深抽象" />
-    <option name="LAST_COMMIT_MESSAGE" value="version 1.8.2：&#10;1.修复只能使用单一ADC的BUG&#10;2.PWM测量模块的加深抽象" />
+    <MESSAGE value="version 1.8.3：&#10;1.增加屏幕窗口类" />
+    <option name="LAST_COMMIT_MESSAGE" value="version 1.8.3：&#10;1.增加屏幕窗口类" />
   </component>
 </project>

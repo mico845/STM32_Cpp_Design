@@ -123,6 +123,15 @@ file(
 
 )
 
+# 排除Platform/Hrtim文件夹及其子文件夹中的文件
+file(
+        GLOB_RECURSE EXCLUDED_SOURCES
+        "Platform/Hrtim/*.*"
+)
+
+# 从SOURCES中移除排除的文件
+list(REMOVE_ITEM SOURCES ${EXCLUDED_SOURCES})
+
 set(LINKER_SCRIPT ${CMAKE_SOURCE_DIR}/STM32F407VETx_FLASH.ld)
 
 add_link_options(-Wl,-gc-sections,--print-memory-usage,-Map=${PROJECT_BINARY_DIR}/${PROJECT_NAME}.map)

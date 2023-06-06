@@ -2876,6 +2876,7 @@ CMakeFiles/HEllOWORLD.elf.dir/Platform/Peripheral/SignalPeripheral.cpp.obj: ../D
 CMakeFiles/HEllOWORLD.elf.dir/Platform/Peripheral/SignalPeripheral.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 CMakeFiles/HEllOWORLD.elf.dir/Platform/Peripheral/SignalPeripheral.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h
 CMakeFiles/HEllOWORLD.elf.dir/Platform/Peripheral/SignalPeripheral.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h
+CMakeFiles/HEllOWORLD.elf.dir/Platform/Peripheral/SignalPeripheral.cpp.obj: ../Platform/Config.h
 CMakeFiles/HEllOWORLD.elf.dir/Platform/Peripheral/SignalPeripheral.cpp.obj: ../Platform/EmbeddedSystem.h
 CMakeFiles/HEllOWORLD.elf.dir/Platform/Peripheral/SignalPeripheral.cpp.obj: ../System/sys/sys.h
 CMakeFiles/HEllOWORLD.elf.dir/Platform/Peripheral/SignalPeripheral.cpp.obj: ../System/usart/retarget.h
@@ -2922,6 +2923,7 @@ CMakeFiles/HEllOWORLD.elf.dir/Platform/Pwm/My_Pwm.cpp.obj: ../Drivers/STM32F4xx_
 CMakeFiles/HEllOWORLD.elf.dir/Platform/Pwm/My_Pwm.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 CMakeFiles/HEllOWORLD.elf.dir/Platform/Pwm/My_Pwm.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h
 CMakeFiles/HEllOWORLD.elf.dir/Platform/Pwm/My_Pwm.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h
+CMakeFiles/HEllOWORLD.elf.dir/Platform/Pwm/My_Pwm.cpp.obj: ../Platform/Config.h
 CMakeFiles/HEllOWORLD.elf.dir/Platform/Pwm/My_Pwm.cpp.obj: ../Platform/EmbeddedSystem.h
 CMakeFiles/HEllOWORLD.elf.dir/Platform/Pwm/My_Pwm.cpp.obj: ../Platform/Peripheral/BasePeripheral.h
 CMakeFiles/HEllOWORLD.elf.dir/Platform/Pwm/My_Pwm.cpp.obj: ../Platform/Peripheral/SignalPeripheral.h
@@ -3274,6 +3276,7 @@ CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/PwmMeasure/PwmMeasure.cpp.o
 CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/PwmMeasure/PwmMeasure.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/PwmMeasure/PwmMeasure.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_adc.h
 CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/PwmMeasure/PwmMeasure.cpp.obj: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_ll_fsmc.h
+CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/PwmMeasure/PwmMeasure.cpp.obj: ../Platform/Config.h
 CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/PwmMeasure/PwmMeasure.cpp.obj: ../Platform/EmbeddedSystem.h
 CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/PwmMeasure/PwmMeasure.cpp.obj: ../Platform/Peripheral/BasePeripheral.h
 CMakeFiles/HEllOWORLD.elf.dir/Platform/SignalProcess/PwmMeasure/PwmMeasure.cpp.obj: ../Platform/Peripheral/SignalPeripheral.h

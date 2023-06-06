@@ -6,6 +6,7 @@
 
 AdvancedMeasure &AdvancedMeasure::init(My_Adc &Adc) {
     SignalProcessBase::init(Adc);
+    _samplerate = samplerate;
     return *this;
 }
 
@@ -24,29 +25,25 @@ AdvancedMeasure &AdvancedMeasure::filter(Filter_Type type) {
     return *this;
 }
 
-
-
 float32_t AdvancedMeasure::get_freq() {
     float32_t max_value = 0;
-    u32 max_index;
     // 寻找缓冲区中最大值及其位置
     for (u32 i = 2; i <  SIGNAL_BUFF_SIZE / 2; i++) {
 
         if (fabs(signal[i]) > max_value) {
 
             max_value = fabs(signal[i]);
-            max_index = i;
+            _max_index = i;
         }
     }
     // 计算最大值所在的频率
-    float32_t freq = (float32_t)(max_index * samplerate/SIGNAL_BUFF_SIZE );
+    float32_t freq = (float32_t)( _max_index * samplerate/SIGNAL_BUFF_SIZE );
     _freq = freq;
     return freq;
 }
 
 float32_t AdvancedMeasure::get_THD(u8 range) {
     float32_t max_value = 0;
-    u32 max_index;
     u32 max_index_3th;
     u32 max_index_5th;
     // 寻找缓冲区中最大值及其位置
@@ -55,12 +52,12 @@ float32_t AdvancedMeasure::get_THD(u8 range) {
         if (fabs(signal[i]) > max_value) {
 
             max_value = fabs(signal[i]);
-            max_index = i;
+            _max_index = i;
         }
     }
     // 计算最大值所在的频率
-    max_index_3th = max_index * 3;
-    max_index_5th = max_index * 5;
+    max_index_3th =  _max_index * 3;
+    max_index_5th =  _max_index * 5;
 
     float64_t sum_1th = 0;
     float64_t sum_3th = 0;
@@ -68,9 +65,9 @@ float32_t AdvancedMeasure::get_THD(u8 range) {
 
     // 计算3次谐波和5次谐波分量的幅度和
     for (int i = -range/2; i <= range/2; i++) {
-        if (max_index + i >= 0 && max_index + i <= SIGNAL_BUFF_SIZE)
+        if ( _max_index + i >= 0 &&  _max_index + i <= SIGNAL_BUFF_SIZE)
         {
-            sum_1th += signal[max_index + i];
+            sum_1th += signal[ _max_index + i];
         }
         if (max_index_3th + i >= 0 && max_index_3th + i <= SIGNAL_BUFF_SIZE)
         {
@@ -93,7 +90,6 @@ float32_t AdvancedMeasure::get_THD()
 Waveform_Type AdvancedMeasure::fft_recognize_wave(u8 range) {
 
     float32_t max_value = 0;
-    u32 max_index;
     u32 max_index_3th;
 
 // 寻找缓冲区中最大值及其位置
@@ -102,11 +98,11 @@ Waveform_Type AdvancedMeasure::fft_recognize_wave(u8 range) {
         if (fabs(signal[i]) > max_value) {
 
             max_value = fabs(signal[i]);
-            max_index = i;
+            _max_index = i;
         }
     }
 // 计算最大值所在的频率
-    max_index_3th = max_index * 3;
+    max_index_3th =  _max_index * 3;
 
     float64_t sum_1th = 0;
     float64_t sum_3th = 0;
@@ -114,9 +110,9 @@ Waveform_Type AdvancedMeasure::fft_recognize_wave(u8 range) {
 // 能量泄漏范围为 range， 例如range = 5， 即将一个坐标周围即本身（-2到2）一共5个点求和
     // 计算3次谐波
     for (int i = -range/2; i <= range/2; i++) {
-        if (max_index + i >= 0 && max_index + i <= SIGNAL_BUFF_SIZE)
+        if ( _max_index + i >= 0 &&  _max_index + i <= SIGNAL_BUFF_SIZE)
         {
-            sum_1th += signal[max_index + i];
+            sum_1th += signal[ _max_index + i];
         }
         if (max_index_3th + i >= 0 && max_index_3th + i <= SIGNAL_BUFF_SIZE)
         {
@@ -149,4 +145,93 @@ Waveform_Type AdvancedMeasure::fft_recognize_wave() {
 float32_t AdvancedMeasure::read_freq() {
     return _freq;
 }
+
+AdvancedMeasure& AdvancedMeasure::convert_amplitude() {
+    signal[0] = signal[0]/SIGNAL_BUFF_SIZE * (float32_t)(2.0);
+
+    for (uint32_t i = 1; i <= SIGNAL_BUFF_SIZE; ++i) {
+        signal[i] = signal[i]/SIGNAL_BUFF_SIZE * (float32_t)(4.0);
+    }
+
+    return *this;
+}
+
+float32_t AdvancedMeasure::get_amplitude() {
+    float32_t max_value = 0;
+    // 寻找缓冲区中最大值及其位置
+    for (u32 i = 2; i <  SIGNAL_BUFF_SIZE / 2; i++) {
+
+        if (fabs(signal[i]) > max_value) {
+
+            max_value = fabs(signal[i]);
+            _max_index = i;
+        }
+    }
+
+    return max_value;
+}
+
+float32_t AdvancedMeasure::find(uint32_t index, uint8_t range) {
+    float32_t sum = signal[index];
+    if (index - range >= 0 && index + range < SIGNAL_BUFF_SIZE)
+    {
+        for (uint32_t i = index - range; i <= index + range; ++i)
+            sum += pow(signal[i], 2) ;
+        sum = sqrt(sum);
+    }
+    return sum;
+}
+
+uint32_t AdvancedMeasure::read_max_index() {
+    return _max_index;
+}
+
+AdvancedMeasure &AdvancedMeasure::release_windows() {
+    SignalProcessBase::release_windows();
+    return *this;
+}
+
+AdvancedMeasure &AdvancedMeasure::convert_to_mv() {
+    SignalProcessBase::convert_to_mv();
+    return *this;
+}
+
+AdvancedMeasure &AdvancedMeasure::normalize(uint32_t max_value) {
+    SignalProcessBase::normalize(max_value);
+    return *this;
+}
+
+AdvancedMeasure &AdvancedMeasure::deal_DC() {
+    SignalProcessBase::deal_DC();
+    return *this;
+}
+
+uint32_t AdvancedMeasure::get_second_freq(uint32_t interval) {
+    float32_t max_value = 0;
+    // 寻找缓冲区中最大值及其位置
+    for (uint32_t i = 2 ; i <  SIGNAL_BUFF_SIZE / 2; ++i) {
+        if (i > _max_index -interval && i < _max_index + interval)
+            continue;
+
+        if (fabs(signal[i]) > max_value) {
+            max_value = fabs(signal[i]);
+            _second_index = i;
+        }
+
+    }
+    float32_t freq = (float32_t)( _second_index * _samplerate/SIGNAL_BUFF_SIZE );
+    return freq;
+}
+
+uint32_t AdvancedMeasure::read_second_index() {
+    return _second_index;
+}
+
+float32_t AdvancedMeasure::get_samplerate() {
+    return _samplerate;
+}
+
+
+
+
 

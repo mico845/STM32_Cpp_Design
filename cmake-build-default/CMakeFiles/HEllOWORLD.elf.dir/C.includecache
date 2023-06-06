@@ -683,6 +683,8 @@ EmbeddedSystem.h
 ../Platform/Peripheral/SignalPeripheral.h
 BasePeripheral.h
 ../Platform/Peripheral/BasePeripheral.h
+Config.h
+../Platform/Peripheral/Config.h
 
 ../Platform/Platform.h
 Gpio/Gpio.h

@@ -5,11 +5,8 @@
 #include "My_Dac.h"
 #include <string.h>
 
-void dac_creat_sin_buf(u16 *buf, u16 maxval, u32 samples, float phase_degrees);
-void dac_creat_tri_buf(u16 *buf, u16 maxval, u32 samples, u16 phase_time);
-
 My_Dac& My_Dac::init(uint32_t f_out, uint64_t f_in, WaveformProperties &wave) {
-    SignalPeripheral::init(f_out, round((float)f_in/DAC_BUFF_SIZE));
+    SignalPeripheral::init(f_out, round((float32_t)f_in/DAC_BUFF_SIZE));
     if (_channel == Dac_Channel_1)
         select_wave(wave);
     else if (_channel == Dac_Channel_2)

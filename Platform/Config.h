@@ -18,18 +18,19 @@
 /**********************************/
 //ADC
 /**********************************/
-#define ADC_BUFF_SIZE (8192)
+#define ADC_BUFF_SIZE (4096)
 
 /**********************************/
 //DAC
 /**********************************/
-#define DAC_BUFF_SIZE 144
+#define DAC_BUFF_SIZE_MAX (4096)
+#define DAC_BUFF_SIZE 136
 #define MAX_VOL 3300
 
 /**********************************/
 //SIGNAL_PROCESS
 /**********************************/
-#define SIGNAL_BUFF_SIZE (ADC_BUFF_SIZE/2)
+#define SIGNAL_BUFF_SIZE (ADC_BUFF_SIZE)
 
 /**********************************/
 //FILTER
